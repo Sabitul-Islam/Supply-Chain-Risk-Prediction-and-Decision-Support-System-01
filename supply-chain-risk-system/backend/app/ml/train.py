@@ -74,7 +74,8 @@ def fit_both(name, X_train, y_train, X_test, y_test, categorical, numeric, rf_pa
         "random_forest": Pipeline([("prep", preprocessor(categorical, numeric, scale=False)),
                                    ("model", RandomForestClassifier(random_state=RANDOM_STATE, n_jobs=-1, **rf_params))]),
         "logistic_regression": Pipeline([("prep", preprocessor(categorical, numeric, scale=True)),
-                                         ("model", LogisticRegression(max_iter=2000, class_weight="balanced"))]),
+                                         ("model", LogisticRegression(max_iter=2000, class_weight="balanced",
+                                                                      random_state=RANDOM_STATE))]),
     }
     for key, pipe in candidates.items():
         t = time.time()
@@ -110,7 +111,8 @@ def train_machine_model() -> dict:
     test["machine_code"] = codes_test.values
     test["actual_failure"] = y_test.values
     seed = pd.concat([test[test.actual_failure == 1].head(15),
-                      test[test.actual_failure == 0].sample(45, random_state=RANDOM_STATE)])
+                      test[test.actual_failure == 0].sample(
+                          min(45, len(test[test.actual_failure == 0])), random_state=RANDOM_STATE)])
     seed.sample(frac=1, random_state=RANDOM_STATE)[["machine_code"] + list(AI4I_RAW_TO_API.values()) + ["actual_failure"]] \
         .to_csv(OPERATIONAL_DIR / "machines.csv", index=False)
 
@@ -126,7 +128,7 @@ def train_machine_model() -> dict:
 
 
 def train_shipment_model(df: pd.DataFrame) -> dict:
-    missing = [c for c in list(DATACO_RAW_TO_API) + [DATACO_TARGET, "Order Id"] if c not in df.columns]
+    missing = [c for c in list(DATACO_RAW_TO_API) + [DATACO_TARGET, "Order Id", "order_date"] if c not in df.columns]
     if missing:
         raise ValueError(f"DataCoSupplyChainDataset.csv is missing columns: {missing}")
     df = df.dropna(subset=[DATACO_TARGET]).drop(columns=[c for c in DATACO_LEAKAGE if c in df.columns])
@@ -144,7 +146,7 @@ def train_shipment_model(df: pd.DataFrame) -> dict:
     joblib.dump(models["logistic_regression"], MODELS_DIR / "late_delivery_lr.joblib", compress=3)
 
     test = api.iloc[test_idx]
-    seed = test.sample(800, random_state=RANDOM_STATE).copy()
+    seed = test.sample(min(800, len(test)), random_state=RANDOM_STATE).copy()
     seed["order_id"] = seed["Order Id"].astype(str)
     seed["product_id"] = seed["Product Card Id"]
     seed["actual_late"] = seed[DATACO_TARGET]
