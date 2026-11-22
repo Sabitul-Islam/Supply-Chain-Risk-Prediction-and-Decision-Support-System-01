@@ -1,0 +1,854 @@
+category,month,quantity,sales
+Accessories,2015-01,154,3848.46
+Accessories,2015-02,145,3623.55
+Accessories,2015-03,169,4223.31
+Accessories,2015-04,152,3798.48
+Accessories,2015-05,229,5722.71
+Accessories,2015-06,188,4698.12
+Accessories,2015-07,182,4548.18
+Accessories,2015-08,203,5072.97
+Accessories,2015-09,169,4223.31
+Accessories,2015-10,209,5222.91
+Accessories,2015-11,195,4873.05
+Accessories,2015-12,179,4473.21
+Accessories,2016-01,182,4548.18
+Accessories,2016-02,166,4148.34
+Accessories,2016-03,172,4298.28
+Accessories,2016-04,222,5547.78
+Accessories,2016-05,202,5047.98
+Accessories,2016-06,167,4173.33
+Accessories,2016-07,157,3923.43
+Accessories,2016-08,146,3648.54
+Accessories,2016-09,191,4773.09
+Accessories,2016-10,227,5672.73
+Accessories,2016-11,211,5272.89
+Accessories,2016-12,228,5697.72
+Accessories,2017-01,164,4098.36
+Accessories,2017-02,171,4273.29
+Accessories,2017-03,206,5147.94
+Accessories,2017-04,139,3473.61
+As Seen on  TV!,2017-04,9,899.91
+As Seen on  TV!,2017-05,47,4699.53
+As Seen on  TV!,2017-06,28,2799.72
+As Seen on  TV!,2017-07,57,5699.43
+As Seen on  TV!,2017-08,45,4499.55
+As Seen on  TV!,2017-09,13,1299.87
+Baby ,2017-10,80,4726.4
+Baby ,2017-12,118,6971.44
+Baseball & Softball,2015-01,68,3629.32
+Baseball & Softball,2015-02,43,2079.57
+Baseball & Softball,2015-03,65,3574.35
+Baseball & Softball,2015-04,63,3054.37
+Baseball & Softball,2015-05,55,2674.45
+Baseball & Softball,2015-06,44,2364.56
+Baseball & Softball,2015-07,70,3449.3
+Baseball & Softball,2015-08,41,1959.59
+Baseball & Softball,2015-09,70,3424.3
+Baseball & Softball,2015-10,39,2139.61
+Baseball & Softball,2015-11,52,2019.48
+Baseball & Softball,2015-12,76,3584.24
+Baseball & Softball,2016-01,38,1804.62
+Baseball & Softball,2016-02,68,3279.32
+Baseball & Softball,2016-03,59,2939.41
+Baseball & Softball,2016-04,78,3729.22
+Baseball & Softball,2016-05,69,3539.31
+Baseball & Softball,2016-06,30,1324.7
+Baseball & Softball,2016-07,103,4878.97
+Baseball & Softball,2016-08,40,1899.6
+Baseball & Softball,2016-09,60,3224.4
+Baseball & Softball,2016-10,60,2924.4
+Baseball & Softball,2016-11,59,2689.41
+Baseball & Softball,2016-12,59,2939.41
+Baseball & Softball,2017-01,64,2989.36
+Baseball & Softball,2017-02,45,1999.55
+Baseball & Softball,2017-03,84,3839.16
+Baseball & Softball,2017-04,54,3289.46
+Baseball & Softball,2017-05,15,2399.85
+Baseball & Softball,2017-06,11,1759.89
+Baseball & Softball,2017-07,14,2239.86
+Baseball & Softball,2017-08,13,2079.87
+Baseball & Softball,2017-09,5,799.95
+Basketball,2017-09,56,18199.44
+Basketball,2017-10,8,7999.92
+Books ,2017-10,303,9417.24
+Books ,2017-12,88,2735.04
+Boxing & MMA,2015-01,24,1319.28
+Boxing & MMA,2015-02,9,494.73
+Boxing & MMA,2015-03,37,2033.89
+Boxing & MMA,2015-04,35,1923.95
+Boxing & MMA,2015-05,32,1759.04
+Boxing & MMA,2015-06,22,1209.34
+Boxing & MMA,2015-07,13,714.61
+Boxing & MMA,2015-08,15,824.55
+Boxing & MMA,2015-09,31,1704.07
+Boxing & MMA,2015-10,34,1868.98
+Boxing & MMA,2015-11,26,1429.22
+Boxing & MMA,2015-12,32,1759.04
+Boxing & MMA,2016-01,28,1539.16
+Boxing & MMA,2016-02,29,1594.13
+Boxing & MMA,2016-03,20,1099.4
+Boxing & MMA,2016-04,14,769.58
+Boxing & MMA,2016-05,37,2033.89
+Boxing & MMA,2016-06,25,1374.25
+Boxing & MMA,2016-07,37,2033.89
+Boxing & MMA,2016-08,43,2363.71
+Boxing & MMA,2016-09,25,1374.25
+Boxing & MMA,2016-10,37,2033.89
+Boxing & MMA,2016-11,61,3353.17
+Boxing & MMA,2016-12,28,1539.16
+Boxing & MMA,2017-01,27,1484.19
+Boxing & MMA,2017-02,29,1594.13
+Boxing & MMA,2017-03,28,1539.16
+Boxing & MMA,2017-04,49,3548.99
+Boxing & MMA,2017-05,69,6339.31
+Boxing & MMA,2017-06,90,8274.1
+Boxing & MMA,2017-07,75,6959.25
+Boxing & MMA,2017-08,102,9463.98
+Boxing & MMA,2017-09,47,4374.53
+CDs ,2017-10,130,1467.7
+CDs ,2017-12,133,1501.57
+Cameras ,2017-10,545,246361.8
+Cameras ,2017-12,17,7684.68
+Camping & Hiking,2015-01,402,120591.96
+Camping & Hiking,2015-02,376,112792.48
+Camping & Hiking,2015-03,393,117892.14
+Camping & Hiking,2015-04,399,119692.02
+Camping & Hiking,2015-05,370,110992.6
+Camping & Hiking,2015-06,390,116992.2
+Camping & Hiking,2015-07,399,119692.02
+Camping & Hiking,2015-08,393,117892.14
+Camping & Hiking,2015-09,423,126891.54
+Camping & Hiking,2015-10,411,123291.78
+Camping & Hiking,2015-11,412,123591.76
+Camping & Hiking,2015-12,371,111292.58
+Camping & Hiking,2016-01,398,119392.04
+Camping & Hiking,2016-02,371,111292.58
+Camping & Hiking,2016-03,420,125991.6
+Camping & Hiking,2016-04,372,111592.56
+Camping & Hiking,2016-05,404,121191.92
+Camping & Hiking,2016-06,406,121791.88
+Camping & Hiking,2016-07,390,116992.2
+Camping & Hiking,2016-08,402,120591.96
+Camping & Hiking,2016-09,371,111292.58
+Camping & Hiking,2016-10,413,123891.74
+Camping & Hiking,2016-11,404,121191.92
+Camping & Hiking,2016-12,383,114892.34
+Camping & Hiking,2017-01,415,124491.7
+Camping & Hiking,2017-02,400,119992.0
+Camping & Hiking,2017-03,433,129891.34
+Camping & Hiking,2017-04,407,122091.86
+Camping & Hiking,2017-05,420,125991.6
+Camping & Hiking,2017-06,394,118192.12
+Camping & Hiking,2017-07,407,122091.86
+Camping & Hiking,2017-08,376,112792.48
+Camping & Hiking,2017-09,417,125091.66
+Camping & Hiking,2017-10,15,4499.7
+Cardio Equipment,2015-01,1154,111888.96
+Cardio Equipment,2015-02,922,90231.06
+Cardio Equipment,2015-03,1101,108339.24
+Cardio Equipment,2015-04,1023,99980.1
+Cardio Equipment,2015-05,1334,130867.02
+Cardio Equipment,2015-06,1207,118588.23
+Cardio Equipment,2015-07,1076,104999.61
+Cardio Equipment,2015-08,1113,109119.18
+Cardio Equipment,2015-09,1087,106239.48
+Cardio Equipment,2015-10,1205,118108.29
+Cardio Equipment,2015-11,1068,105809.46
+Cardio Equipment,2015-12,1094,107709.3
+Cardio Equipment,2016-01,1164,114288.66
+Cardio Equipment,2016-02,995,96900.42
+Cardio Equipment,2016-03,1042,102369.84
+Cardio Equipment,2016-04,1046,103329.72
+Cardio Equipment,2016-05,918,90111.06
+Cardio Equipment,2016-06,1035,101319.96
+Cardio Equipment,2016-07,1073,105539.52
+Cardio Equipment,2016-08,1132,111228.96
+Cardio Equipment,2016-09,1008,99530.1
+Cardio Equipment,2016-10,1046,100250.16
+Cardio Equipment,2016-11,1150,113378.73
+Cardio Equipment,2016-12,1153,113468.73
+Cardio Equipment,2017-01,1212,118248.3
+Cardio Equipment,2017-02,1196,118748.16
+Cardio Equipment,2017-03,1057,101630.01
+Cardio Equipment,2017-04,1087,107219.34
+Cardio Equipment,2017-05,1002,100189.98
+Cardio Equipment,2017-06,941,94090.59
+Cardio Equipment,2017-07,1085,108489.15
+Cardio Equipment,2017-08,1097,109689.03
+Cardio Equipment,2017-09,1050,104989.5
+Cardio Equipment,2017-10,64,6399.36
+Children's Clothing,2017-10,497,177478.7
+Children's Clothing,2017-12,125,44637.5
+Cleats,2015-01,2281,136837.19
+Cleats,2015-02,1899,113921.01
+Cleats,2015-03,2288,137257.12
+Cleats,2015-04,2062,123699.38
+Cleats,2015-05,2138,128258.62
+Cleats,2015-06,2050,122979.5
+Cleats,2015-07,2202,132097.98
+Cleats,2015-08,2298,137857.02
+Cleats,2015-09,2089,125319.11
+Cleats,2015-10,2067,123999.33
+Cleats,2015-11,2116,126938.84
+Cleats,2015-12,2107,126398.93
+Cleats,2016-01,2104,126218.96
+Cleats,2016-02,1940,116380.6
+Cleats,2016-03,2327,139596.73
+Cleats,2016-04,2099,125919.01
+Cleats,2016-05,2332,139896.68
+Cleats,2016-06,2110,126578.9
+Cleats,2016-07,2101,126038.99
+Cleats,2016-08,2262,135697.38
+Cleats,2016-09,2168,130058.32
+Cleats,2016-10,2188,131258.12
+Cleats,2016-11,2156,129338.44
+Cleats,2016-12,2240,134377.6
+Cleats,2017-01,2164,129818.36
+Cleats,2017-02,2042,122499.58
+Cleats,2017-03,2144,128618.56
+Cleats,2017-04,2139,128318.61
+Cleats,2017-05,2147,128798.53
+Cleats,2017-06,1822,109301.78
+Cleats,2017-07,2199,131918.01
+Cleats,2017-08,2215,132877.85
+Cleats,2017-09,1995,128320.05
+Cleats,2017-10,120,7198.8
+Computers,2017-10,338,507000.0
+Computers,2017-12,87,130500.0
+Consumer Electronics,2017-10,47,11885.36
+Consumer Electronics,2017-11,225,56898.0
+Consumer Electronics,2017-12,137,34644.56
+Crafts,2017-11,217,100141.16
+Crafts,2017-12,241,111216.68
+DVDs,2017-11,348,57204.24
+DVDs,2017-12,104,17095.52
+DVDs,2018-01,7,1150.66
+Electronics,2015-01,358,14391.42
+Electronics,2015-02,321,12979.79
+Electronics,2015-03,340,13600.6
+Electronics,2015-04,267,10250.33
+Electronics,2015-05,348,14083.52
+Electronics,2015-06,317,12621.83
+Electronics,2015-07,347,13397.53
+Electronics,2015-08,358,13602.42
+Electronics,2015-09,333,13234.67
+Electronics,2015-10,300,11333.0
+Electronics,2015-11,381,15235.19
+Electronics,2015-12,395,15629.05
+Electronics,2016-01,317,12199.83
+Electronics,2016-02,323,12452.77
+Electronics,2016-03,292,11046.08
+Electronics,2016-04,243,9378.57
+Electronics,2016-05,325,12488.75
+Electronics,2016-06,330,12901.7
+Electronics,2016-07,296,11798.04
+Electronics,2016-08,362,14432.38
+Electronics,2016-09,349,13930.51
+Electronics,2016-10,393,15381.07
+Electronics,2016-11,317,12573.83
+Electronics,2016-12,319,12445.81
+Electronics,2017-01,297,12235.03
+Electronics,2017-02,287,11495.13
+Electronics,2017-03,344,13992.56
+Electronics,2017-04,202,7724.98
+Fishing,2015-01,520,207989.61
+Fishing,2015-02,426,170391.48
+Fishing,2015-03,506,202389.89
+Fishing,2015-04,504,201589.93
+Fishing,2015-05,487,194790.27
+Fishing,2015-06,512,204789.77
+Fishing,2015-07,500,199990.01
+Fishing,2015-08,485,193990.31
+Fishing,2015-09,490,195990.21
+Fishing,2015-10,499,199590.03
+Fishing,2015-11,520,207989.61
+Fishing,2015-12,541,216389.19
+Fishing,2016-01,533,213189.35
+Fishing,2016-02,497,198790.07
+Fishing,2016-03,509,203589.83
+Fishing,2016-04,497,198790.07
+Fishing,2016-05,473,189190.55
+Fishing,2016-06,521,208389.59
+Fishing,2016-07,502,200789.97
+Fishing,2016-08,519,207589.63
+Fishing,2016-09,486,194390.29
+Fishing,2016-10,490,195990.21
+Fishing,2016-11,528,211189.45
+Fishing,2016-12,504,201589.93
+Fishing,2017-01,482,192790.37
+Fishing,2017-02,463,185190.75
+Fishing,2017-03,496,198390.09
+Fishing,2017-04,490,195990.21
+Fishing,2017-05,511,204389.79
+Fishing,2017-06,502,200789.97
+Fishing,2017-07,519,207589.63
+Fishing,2017-08,528,211189.45
+Fishing,2017-09,540,215989.21
+Fishing,2017-10,15,5999.7
+Fitness Accessories,2015-01,34,1189.66
+Fitness Accessories,2015-02,13,454.87
+Fitness Accessories,2015-03,18,629.82
+Fitness Accessories,2015-04,66,2309.34
+Fitness Accessories,2015-05,27,944.73
+Fitness Accessories,2015-06,37,1294.63
+Fitness Accessories,2015-07,23,804.77
+Fitness Accessories,2015-08,31,1084.69
+Fitness Accessories,2015-09,29,1014.71
+Fitness Accessories,2015-10,46,1609.54
+Fitness Accessories,2015-11,37,1294.63
+Fitness Accessories,2015-12,26,909.74
+Fitness Accessories,2016-01,27,944.73
+Fitness Accessories,2016-02,16,559.84
+Fitness Accessories,2016-03,20,699.8
+Fitness Accessories,2016-04,30,1049.7
+Fitness Accessories,2016-05,42,1469.58
+Fitness Accessories,2016-06,16,559.84
+Fitness Accessories,2016-07,27,944.73
+Fitness Accessories,2016-08,41,1434.59
+Fitness Accessories,2016-09,25,874.75
+Fitness Accessories,2016-10,20,699.8
+Fitness Accessories,2016-11,25,874.75
+Fitness Accessories,2016-12,38,1329.62
+Fitness Accessories,2017-01,29,1014.71
+Fitness Accessories,2017-02,24,839.76
+Fitness Accessories,2017-03,39,1364.61
+Fitness Accessories,2017-04,8,279.92
+Fitness Accessories,2017-09,7,4199.93
+Fitness Accessories,2017-10,3,1799.97
+Garden,2017-11,374,199184.93
+Garden,2018-01,92,48997.36
+Girls' Apparel,2015-01,122,5634.78
+Girls' Apparel,2015-02,139,5709.51
+Girls' Apparel,2015-03,138,5619.63
+Girls' Apparel,2015-04,123,4864.75
+Girls' Apparel,2015-05,131,5364.65
+Girls' Apparel,2015-06,143,6184.56
+Girls' Apparel,2015-07,122,4529.66
+Girls' Apparel,2015-08,117,4754.47
+Girls' Apparel,2015-09,115,5079.67
+Girls' Apparel,2015-10,163,6954.53
+Girls' Apparel,2015-11,106,4444.81
+Girls' Apparel,2015-12,127,5814.72
+Girls' Apparel,2016-01,79,3244.79
+Girls' Apparel,2016-02,156,6879.81
+Girls' Apparel,2016-03,142,5779.79
+Girls' Apparel,2016-04,129,5314.69
+Girls' Apparel,2016-05,123,4494.68
+Girls' Apparel,2016-06,127,5204.66
+Girls' Apparel,2016-07,131,5374.74
+Girls' Apparel,2016-08,138,5399.66
+Girls' Apparel,2016-09,105,4914.86
+Girls' Apparel,2016-10,134,5684.7
+Girls' Apparel,2016-11,85,3714.81
+Girls' Apparel,2016-12,110,4684.69
+Girls' Apparel,2017-01,81,3144.86
+Girls' Apparel,2017-02,116,4839.65
+Girls' Apparel,2017-03,107,4849.7
+Girls' Apparel,2017-04,105,4504.78
+Golf Apparel,2015-01,15,299.85
+Golf Apparel,2015-02,32,639.68
+Golf Apparel,2015-03,10,199.9
+Golf Apparel,2015-04,39,779.61
+Golf Apparel,2015-05,28,559.72
+Golf Apparel,2015-06,41,819.59
+Golf Apparel,2015-07,47,939.53
+Golf Apparel,2015-08,46,919.54
+Golf Apparel,2015-09,19,379.81
+Golf Apparel,2015-10,23,459.77
+Golf Apparel,2015-11,36,719.64
+Golf Apparel,2015-12,28,559.72
+Golf Apparel,2016-01,19,379.81
+Golf Apparel,2016-02,28,559.72
+Golf Apparel,2016-03,25,499.75
+Golf Apparel,2016-04,36,719.64
+Golf Apparel,2016-05,42,839.58
+Golf Apparel,2016-06,23,459.77
+Golf Apparel,2016-07,39,779.61
+Golf Apparel,2016-08,49,979.51
+Golf Apparel,2016-09,42,839.58
+Golf Apparel,2016-10,25,499.75
+Golf Apparel,2016-11,35,699.65
+Golf Apparel,2016-12,32,639.68
+Golf Apparel,2017-01,27,539.73
+Golf Apparel,2017-02,29,579.71
+Golf Apparel,2017-03,22,439.78
+Golf Apparel,2017-04,40,2039.6
+Golf Apparel,2017-05,19,2379.81
+Golf Apparel,2017-06,29,3619.71
+Golf Apparel,2017-07,26,3199.74
+Golf Apparel,2017-08,40,5049.6
+Golf Apparel,2017-09,7,879.93
+Golf Bags & Carts,2017-04,4,679.96
+Golf Bags & Carts,2017-05,18,3059.82
+Golf Bags & Carts,2017-06,11,1869.89
+Golf Bags & Carts,2017-07,12,2039.88
+Golf Bags & Carts,2017-08,16,2719.84
+Golf Balls,2015-01,144,2549.56
+Golf Balls,2015-02,120,2118.8
+Golf Balls,2015-03,206,3592.94
+Golf Balls,2015-04,174,2989.26
+Golf Balls,2015-05,194,3461.06
+Golf Balls,2015-06,122,2164.78
+Golf Balls,2015-07,137,2426.63
+Golf Balls,2015-08,169,2970.31
+Golf Balls,2015-09,137,2449.63
+Golf Balls,2015-10,182,3107.18
+Golf Balls,2015-11,162,2897.38
+Golf Balls,2015-12,163,2914.37
+Golf Balls,2016-01,179,3171.21
+Golf Balls,2016-02,161,2919.39
+Golf Balls,2016-03,97,1624.03
+Golf Balls,2016-04,126,2150.74
+Golf Balls,2016-05,140,2464.6
+Golf Balls,2016-06,155,2668.45
+Golf Balls,2016-07,153,2618.47
+Golf Balls,2016-08,113,1962.87
+Golf Balls,2016-09,183,3252.17
+Golf Balls,2016-10,129,2237.71
+Golf Balls,2016-11,131,2322.69
+Golf Balls,2016-12,163,2891.37
+Golf Balls,2017-01,162,2896.38
+Golf Balls,2017-02,143,2535.57
+Golf Balls,2017-03,134,2328.66
+Golf Balls,2017-04,80,1432.2
+Golf Gloves,2015-01,94,2244.06
+Golf Gloves,2015-02,74,1414.26
+Golf Gloves,2015-03,95,2374.05
+Golf Gloves,2015-04,94,2169.06
+Golf Gloves,2015-05,142,3578.58
+Golf Gloves,2015-06,88,1989.12
+Golf Gloves,2015-07,87,2489.13
+Golf Gloves,2015-08,64,1659.36
+Golf Gloves,2015-09,77,1549.23
+Golf Gloves,2015-10,72,2129.28
+Golf Gloves,2015-11,140,3333.6
+Golf Gloves,2015-12,88,2199.12
+Golf Gloves,2016-01,68,1834.32
+Golf Gloves,2016-02,74,2059.26
+Golf Gloves,2016-03,87,2219.13
+Golf Gloves,2016-04,78,1859.22
+Golf Gloves,2016-05,109,2813.91
+Golf Gloves,2016-06,83,2239.17
+Golf Gloves,2016-07,72,1949.28
+Golf Gloves,2016-08,104,2553.96
+Golf Gloves,2016-09,50,1204.5
+Golf Gloves,2016-10,99,2519.01
+Golf Gloves,2016-11,104,2568.96
+Golf Gloves,2016-12,106,2633.94
+Golf Gloves,2017-01,69,1724.31
+Golf Gloves,2017-02,77,1639.23
+Golf Gloves,2017-03,121,3323.79
+Golf Gloves,2017-04,72,2699.28
+Golf Gloves,2017-05,92,10289.08
+Golf Gloves,2017-06,58,8589.42
+Golf Gloves,2017-07,46,6339.54
+Golf Gloves,2017-08,77,9359.23
+Golf Gloves,2017-09,68,14359.32
+Golf Shoes,2015-01,34,2210.0
+Golf Shoes,2015-02,46,2990.0
+Golf Shoes,2015-03,30,1950.0
+Golf Shoes,2015-04,13,845.0
+Golf Shoes,2015-05,50,3250.0
+Golf Shoes,2015-06,47,3055.0
+Golf Shoes,2015-07,36,2340.0
+Golf Shoes,2015-08,35,2275.0
+Golf Shoes,2015-09,28,1820.0
+Golf Shoes,2015-10,29,1885.0
+Golf Shoes,2015-11,28,1820.0
+Golf Shoes,2015-12,36,2340.0
+Golf Shoes,2016-01,18,1170.0
+Golf Shoes,2016-02,36,2340.0
+Golf Shoes,2016-03,24,1560.0
+Golf Shoes,2016-04,50,3250.0
+Golf Shoes,2016-05,45,2925.0
+Golf Shoes,2016-06,33,2145.0
+Golf Shoes,2016-07,32,2080.0
+Golf Shoes,2016-08,27,1755.0
+Golf Shoes,2016-09,34,2210.0
+Golf Shoes,2016-10,24,1560.0
+Golf Shoes,2016-11,8,520.0
+Golf Shoes,2016-12,46,2990.0
+Golf Shoes,2017-01,27,1755.0
+Golf Shoes,2017-02,43,2795.0
+Golf Shoes,2017-03,20,1300.0
+Golf Shoes,2017-04,44,3564.0
+Golf Shoes,2017-05,89,8108.0
+Golf Shoes,2017-06,129,11992.0
+Golf Shoes,2017-07,101,9544.0
+Golf Shoes,2017-08,107,10012.0
+Golf Shoes,2017-09,35,3236.0
+Health and Beauty,2017-11,228,66813.12
+Health and Beauty,2018-01,118,34578.72
+Hockey,2015-01,68,1616.0
+Hockey,2015-02,70,1567.0
+Hockey,2015-03,40,940.0
+Hockey,2015-04,45,1077.0
+Hockey,2015-05,77,1802.0
+Hockey,2015-06,68,1583.0
+Hockey,2015-07,51,1221.0
+Hockey,2015-08,79,1831.0
+Hockey,2015-09,61,1438.0
+Hockey,2015-10,66,1548.0
+Hockey,2015-11,54,1254.0
+Hockey,2015-12,81,1905.0
+Hockey,2016-01,80,1853.0
+Hockey,2016-02,34,775.0
+Hockey,2016-03,54,1293.0
+Hockey,2016-04,38,908.0
+Hockey,2016-05,60,1380.0
+Hockey,2016-06,64,1510.0
+Hockey,2016-07,66,1569.0
+Hockey,2016-08,71,1676.0
+Hockey,2016-09,54,1305.0
+Hockey,2016-10,44,1016.0
+Hockey,2016-11,62,1460.0
+Hockey,2016-12,56,1283.0
+Hockey,2017-01,33,774.0
+Hockey,2017-02,61,1435.0
+Hockey,2017-03,52,1192.0
+Hockey,2017-04,27,645.0
+Hockey,2017-09,25,8249.75
+Hunting & Shooting,2015-01,48,1439.52
+Hunting & Shooting,2015-02,32,959.68
+Hunting & Shooting,2015-03,33,989.67
+Hunting & Shooting,2015-04,24,719.76
+Hunting & Shooting,2015-05,29,869.71
+Hunting & Shooting,2015-06,26,779.74
+Hunting & Shooting,2015-07,36,1079.64
+Hunting & Shooting,2015-08,61,1829.39
+Hunting & Shooting,2015-09,37,1109.63
+Hunting & Shooting,2015-10,20,599.8
+Hunting & Shooting,2015-11,46,1379.54
+Hunting & Shooting,2015-12,22,659.78
+Hunting & Shooting,2016-01,28,839.72
+Hunting & Shooting,2016-02,40,1199.6
+Hunting & Shooting,2016-03,32,959.68
+Hunting & Shooting,2016-04,42,1259.58
+Hunting & Shooting,2016-05,18,539.82
+Hunting & Shooting,2016-06,34,1019.66
+Hunting & Shooting,2016-07,29,869.71
+Hunting & Shooting,2016-08,33,989.67
+Hunting & Shooting,2016-09,60,1799.4
+Hunting & Shooting,2016-10,26,779.74
+Hunting & Shooting,2016-11,40,1199.6
+Hunting & Shooting,2016-12,28,839.72
+Hunting & Shooting,2017-01,31,929.69
+Hunting & Shooting,2017-02,24,719.76
+Hunting & Shooting,2017-03,35,1049.65
+Hunting & Shooting,2017-04,78,4508.43
+Hunting & Shooting,2017-05,34,4130.85
+Hunting & Shooting,2017-06,43,4613.93
+Hunting & Shooting,2017-07,57,6203.89
+Hunting & Shooting,2017-08,54,6212.83
+Hunting & Shooting,2017-09,15,1586.98
+Indoor/Outdoor Games,2015-01,1788,89364.24
+Indoor/Outdoor Games,2015-02,1520,75969.6
+Indoor/Outdoor Games,2015-03,1835,91713.3
+Indoor/Outdoor Games,2015-04,1693,84616.14
+Indoor/Outdoor Games,2015-05,1596,79768.08
+Indoor/Outdoor Games,2015-06,1653,82616.94
+Indoor/Outdoor Games,2015-07,1749,87415.02
+Indoor/Outdoor Games,2015-08,1487,74320.26
+Indoor/Outdoor Games,2015-09,1750,87465.0
+Indoor/Outdoor Games,2015-10,1729,86415.42
+Indoor/Outdoor Games,2015-11,1705,85215.9
+Indoor/Outdoor Games,2015-12,1782,89064.36
+Indoor/Outdoor Games,2016-01,1769,88414.62
+Indoor/Outdoor Games,2016-02,1702,85065.96
+Indoor/Outdoor Games,2016-03,1615,80717.7
+Indoor/Outdoor Games,2016-04,1587,79318.26
+Indoor/Outdoor Games,2016-05,1706,85265.88
+Indoor/Outdoor Games,2016-06,1509,75419.82
+Indoor/Outdoor Games,2016-07,1745,87215.1
+Indoor/Outdoor Games,2016-08,1554,77668.92
+Indoor/Outdoor Games,2016-09,1685,84216.3
+Indoor/Outdoor Games,2016-10,1905,95211.9
+Indoor/Outdoor Games,2016-11,1696,84766.08
+Indoor/Outdoor Games,2016-12,1815,90713.7
+Indoor/Outdoor Games,2017-01,1690,84466.2
+Indoor/Outdoor Games,2017-02,1690,84466.2
+Indoor/Outdoor Games,2017-03,1643,82117.14
+Indoor/Outdoor Games,2017-04,1739,86915.22
+Indoor/Outdoor Games,2017-05,1647,82317.06
+Indoor/Outdoor Games,2017-06,1498,74870.04
+Indoor/Outdoor Games,2017-07,1652,82566.96
+Indoor/Outdoor Games,2017-08,1629,81417.42
+Indoor/Outdoor Games,2017-09,1502,75069.96
+Indoor/Outdoor Games,2017-10,68,3398.64
+Kids' Golf Clubs,2017-04,26,3266.29
+Kids' Golf Clubs,2017-05,116,14269.26
+Kids' Golf Clubs,2017-06,120,13775.4
+Kids' Golf Clubs,2017-07,97,12652.1
+Kids' Golf Clubs,2017-08,126,14336.44
+Kids' Golf Clubs,2017-09,117,30641.06
+Kids' Golf Clubs,2017-10,4,2399.96
+Lacrosse,2015-01,31,774.69
+Lacrosse,2015-02,20,499.8
+Lacrosse,2015-03,28,699.72
+Lacrosse,2015-04,24,599.76
+Lacrosse,2015-05,48,1199.52
+Lacrosse,2015-06,19,474.81
+Lacrosse,2015-07,36,899.64
+Lacrosse,2015-08,31,774.69
+Lacrosse,2015-09,19,474.81
+Lacrosse,2015-10,29,724.71
+Lacrosse,2015-11,14,349.86
+Lacrosse,2015-12,29,724.71
+Lacrosse,2016-01,18,449.82
+Lacrosse,2016-02,26,649.74
+Lacrosse,2016-03,31,774.69
+Lacrosse,2016-04,32,799.68
+Lacrosse,2016-05,21,524.79
+Lacrosse,2016-06,34,849.66
+Lacrosse,2016-07,25,624.75
+Lacrosse,2016-08,16,399.84
+Lacrosse,2016-09,23,574.77
+Lacrosse,2016-10,23,574.77
+Lacrosse,2016-11,38,949.62
+Lacrosse,2016-12,48,1199.52
+Lacrosse,2017-01,44,1099.56
+Lacrosse,2017-02,41,1024.59
+Lacrosse,2017-03,35,874.65
+Lacrosse,2017-04,24,1349.76
+Lacrosse,2017-05,42,4199.58
+Lacrosse,2017-06,43,4299.57
+Lacrosse,2017-07,37,3699.63
+Lacrosse,2017-08,33,3299.67
+Lacrosse,2017-09,16,1599.84
+Men's Clothing,2017-11,168,35422.8
+Men's Clothing,2018-01,30,6325.5
+Men's Footwear,2015-01,590,76694.1
+Men's Footwear,2015-02,602,78253.98
+Men's Footwear,2015-03,596,77474.04
+Men's Footwear,2015-04,635,82543.65
+Men's Footwear,2015-05,616,80073.84
+Men's Footwear,2015-06,633,82283.67
+Men's Footwear,2015-07,645,83843.55
+Men's Footwear,2015-08,659,85663.41
+Men's Footwear,2015-09,633,82283.67
+Men's Footwear,2015-10,659,85663.41
+Men's Footwear,2015-11,629,81763.71
+Men's Footwear,2015-12,700,90993.0
+Men's Footwear,2016-01,653,84883.47
+Men's Footwear,2016-02,614,79813.86
+Men's Footwear,2016-03,647,84103.53
+Men's Footwear,2016-04,654,85013.46
+Men's Footwear,2016-05,633,82283.67
+Men's Footwear,2016-06,639,83063.61
+Men's Footwear,2016-07,642,83453.58
+Men's Footwear,2016-08,703,91382.97
+Men's Footwear,2016-09,660,85793.4
+Men's Footwear,2016-10,695,90343.05
+Men's Footwear,2016-11,619,80463.81
+Men's Footwear,2016-12,664,86313.36
+Men's Footwear,2017-01,636,82673.64
+Men's Footwear,2017-02,540,70194.6
+Men's Footwear,2017-03,696,90473.04
+Men's Footwear,2017-04,633,82283.67
+Men's Footwear,2017-05,701,91122.99
+Men's Footwear,2017-06,652,84753.48
+Men's Footwear,2017-07,674,87613.26
+Men's Footwear,2017-08,650,84493.5
+Men's Footwear,2017-09,631,82023.69
+Men's Footwear,2017-10,30,3899.7
+Men's Golf Clubs,2017-04,18,2034.82
+Men's Golf Clubs,2017-05,97,11004.03
+Men's Golf Clubs,2017-06,82,9109.18
+Men's Golf Clubs,2017-07,99,10919.01
+Men's Golf Clubs,2017-08,72,8254.28
+Men's Golf Clubs,2017-09,43,4569.57
+Music,2017-11,282,73503.3
+Music,2018-01,135,35187.75
+Pet Supplies,2017-11,114,9621.6
+Pet Supplies,2017-12,117,9874.8
+Pet Supplies,2018-01,241,20340.4
+Shop By Sport,2015-01,1032,40989.96
+Shop By Sport,2015-02,901,35841.18
+Shop By Sport,2015-03,1071,42579.54
+Shop By Sport,2015-04,912,36091.26
+Shop By Sport,2015-05,967,38360.64
+Shop By Sport,2015-06,899,35741.22
+Shop By Sport,2015-07,947,37670.73
+Shop By Sport,2015-08,999,39310.65
+Shop By Sport,2015-09,997,39560.34
+Shop By Sport,2015-10,936,37110.96
+Shop By Sport,2015-11,1006,39870.3
+Shop By Sport,2015-12,990,39310.38
+Shop By Sport,2016-01,909,36221.04
+Shop By Sport,2016-02,833,33091.89
+Shop By Sport,2016-03,934,36981.03
+Shop By Sport,2016-04,1016,40200.27
+Shop By Sport,2016-05,914,36161.25
+Shop By Sport,2016-06,923,36471.21
+Shop By Sport,2016-07,871,34551.57
+Shop By Sport,2016-08,1007,40010.19
+Shop By Sport,2016-09,924,36830.88
+Shop By Sport,2016-10,978,38740.59
+Shop By Sport,2016-11,901,35501.52
+Shop By Sport,2016-12,929,36771.09
+Shop By Sport,2017-01,1060,42129.66
+Shop By Sport,2017-02,779,30832.53
+Shop By Sport,2017-03,995,39360.48
+Shop By Sport,2017-04,991,39870.33
+Shop By Sport,2017-05,977,41790.23
+Shop By Sport,2017-06,877,37471.23
+Shop By Sport,2017-07,979,39950.21
+Shop By Sport,2017-08,918,39430.82
+Shop By Sport,2017-09,932,37590.68
+Shop By Sport,2017-10,25,999.75
+Soccer,2017-04,14,1209.86
+Soccer,2017-05,83,7224.17
+Soccer,2017-06,65,5784.35
+Soccer,2017-07,59,5349.41
+Soccer,2017-08,59,5484.41
+Soccer,2017-09,13,1219.87
+Sporting Goods,2017-12,137,44901.75
+Sporting Goods,2018-01,199,65222.25
+Strength Training,2017-04,4,756.0
+Strength Training,2017-05,7,1323.0
+Strength Training,2017-06,13,2457.0
+Strength Training,2017-07,14,2646.0
+Strength Training,2017-08,21,3969.0
+Strength Training,2017-09,41,25366.62
+Strength Training,2017-10,9,17999.91
+Tennis & Racquet,2015-01,44,1979.56
+Tennis & Racquet,2015-02,28,1259.72
+Tennis & Racquet,2015-03,43,1934.57
+Tennis & Racquet,2015-04,24,1079.76
+Tennis & Racquet,2015-05,20,899.8
+Tennis & Racquet,2015-06,26,1169.74
+Tennis & Racquet,2015-07,47,2114.53
+Tennis & Racquet,2015-08,39,1754.61
+Tennis & Racquet,2015-09,38,1709.62
+Tennis & Racquet,2015-10,26,1169.74
+Tennis & Racquet,2015-11,35,1574.65
+Tennis & Racquet,2015-12,36,1619.64
+Tennis & Racquet,2016-01,26,1169.74
+Tennis & Racquet,2016-02,21,944.79
+Tennis & Racquet,2016-03,37,1664.63
+Tennis & Racquet,2016-04,63,2834.37
+Tennis & Racquet,2016-05,30,1349.7
+Tennis & Racquet,2016-06,35,1574.65
+Tennis & Racquet,2016-07,40,1799.6
+Tennis & Racquet,2016-08,27,1214.73
+Tennis & Racquet,2016-09,40,1799.6
+Tennis & Racquet,2016-10,21,944.79
+Tennis & Racquet,2016-11,29,1304.71
+Tennis & Racquet,2016-12,42,1889.58
+Tennis & Racquet,2017-01,41,1844.59
+Tennis & Racquet,2017-02,43,1934.57
+Tennis & Racquet,2017-03,30,1349.7
+Tennis & Racquet,2017-04,23,1034.77
+Toys,2017-12,242,2792.68
+Toys,2018-01,265,3058.1
+Trade-In,2015-01,123,2326.77
+Trade-In,2015-02,71,1279.29
+Trade-In,2015-03,119,2154.81
+Trade-In,2015-04,109,1934.91
+Trade-In,2015-05,94,1737.06
+Trade-In,2015-06,82,1563.18
+Trade-In,2015-07,99,1709.01
+Trade-In,2015-08,93,1643.07
+Trade-In,2015-09,65,1111.35
+Trade-In,2015-10,80,1417.2
+Trade-In,2015-11,103,1850.97
+Trade-In,2015-12,102,1732.98
+Trade-In,2016-01,95,1753.05
+Trade-In,2016-02,85,1479.15
+Trade-In,2016-03,125,2316.75
+Trade-In,2016-04,115,2072.85
+Trade-In,2016-05,93,1637.07
+Trade-In,2016-06,59,1093.41
+Trade-In,2016-07,111,2086.89
+Trade-In,2016-08,97,1641.03
+Trade-In,2016-09,112,2096.88
+Trade-In,2016-10,102,1738.98
+Trade-In,2016-11,71,1315.29
+Trade-In,2016-12,89,1603.11
+Trade-In,2017-01,84,1625.16
+Trade-In,2017-02,67,1167.33
+Trade-In,2017-03,89,1627.11
+Trade-In,2017-04,79,2607.21
+Trade-In,2017-05,18,4499.82
+Trade-In,2017-06,8,1999.92
+Trade-In,2017-07,15,3749.85
+Trade-In,2017-08,24,5999.76
+Trade-In,2017-09,4,999.96
+Video Games,2017-12,218,8665.5
+Video Games,2018-01,586,23293.5
+Water Sports,2015-01,453,90595.47
+Water Sports,2015-02,407,81395.93
+Water Sports,2015-03,449,89795.51
+Water Sports,2015-04,468,93595.32
+Water Sports,2015-05,472,94395.28
+Water Sports,2015-06,444,88795.56
+Water Sports,2015-07,458,91595.42
+Water Sports,2015-08,461,92195.39
+Water Sports,2015-09,410,81995.9
+Water Sports,2015-10,467,93395.33
+Water Sports,2015-11,443,88595.57
+Water Sports,2015-12,478,95595.22
+Water Sports,2016-01,438,87595.62
+Water Sports,2016-02,412,82395.88
+Water Sports,2016-03,434,86795.66
+Water Sports,2016-04,415,82995.85
+Water Sports,2016-05,495,98995.05
+Water Sports,2016-06,393,78596.07
+Water Sports,2016-07,487,97395.13
+Water Sports,2016-08,449,89795.51
+Water Sports,2016-09,456,91195.44
+Water Sports,2016-10,475,94995.25
+Water Sports,2016-11,459,91795.41
+Water Sports,2016-12,422,84395.78
+Water Sports,2017-01,419,83795.81
+Water Sports,2017-02,427,85395.73
+Water Sports,2017-03,478,95595.22
+Water Sports,2017-04,461,92195.39
+Water Sports,2017-05,458,91595.42
+Water Sports,2017-06,435,86995.65
+Water Sports,2017-07,448,89595.52
+Water Sports,2017-08,498,99595.02
+Water Sports,2017-09,486,103195.14
+Water Sports,2017-10,25,4999.75
+Women's Apparel,2015-01,1769,88450.0
+Women's Apparel,2015-02,1696,84800.0
+Women's Apparel,2015-03,1916,95800.0
+Women's Apparel,2015-04,1842,92100.0
+Women's Apparel,2015-05,1830,91500.0
+Women's Apparel,2015-06,1692,84600.0
+Women's Apparel,2015-07,2096,104800.0
+Women's Apparel,2015-08,1812,90600.0
+Women's Apparel,2015-09,1783,89150.0
+Women's Apparel,2015-10,1890,94500.0
+Women's Apparel,2015-11,1697,84850.0
+Women's Apparel,2015-12,1794,89700.0
+Women's Apparel,2016-01,2014,100700.0
+Women's Apparel,2016-02,1656,82800.0
+Women's Apparel,2016-03,1780,89000.0
+Women's Apparel,2016-04,1740,87000.0
+Women's Apparel,2016-05,1836,91800.0
+Women's Apparel,2016-06,1813,90650.0
+Women's Apparel,2016-07,1846,92300.0
+Women's Apparel,2016-08,2002,100100.0
+Women's Apparel,2016-09,1771,88550.0
+Women's Apparel,2016-10,1952,97600.0
+Women's Apparel,2016-11,1762,88100.0
+Women's Apparel,2016-12,1769,88450.0
+Women's Apparel,2017-01,1917,95850.0
+Women's Apparel,2017-02,1837,91850.0
+Women's Apparel,2017-03,1952,97600.0
+Women's Apparel,2017-04,1643,82150.0
+Women's Apparel,2017-05,1765,88250.0
+Women's Apparel,2017-06,1816,90800.0
+Women's Apparel,2017-07,1743,87150.0
+Women's Apparel,2017-08,1869,93450.0
+Women's Apparel,2017-09,1854,92700.0
+Women's Apparel,2017-10,78,3900.0
+Women's Clothing,2017-12,267,57623.94
+Women's Clothing,2018-01,364,78558.48
+Women's Golf Clubs,2017-04,27,2949.73
+Women's Golf Clubs,2017-05,77,8669.23
+Women's Golf Clubs,2017-06,66,7559.34
+Women's Golf Clubs,2017-07,78,9169.22
+Women's Golf Clubs,2017-08,116,12008.84
+Women's Golf Clubs,2017-09,15,1719.85

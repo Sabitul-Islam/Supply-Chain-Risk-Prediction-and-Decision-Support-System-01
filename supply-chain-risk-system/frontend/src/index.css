@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #2a78d6;
+  --color-accent-dark: #1c5cab;
+  --color-accent-light: #eaf2fc;
+  --color-risk-low: #0ca30c;
+  --color-risk-medium: #ec835a;
+  --color-risk-high: #d03b3b;
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+html, body, #root { background: #ffffff; color: #1f2937; color-scheme: light; }
+body { font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }

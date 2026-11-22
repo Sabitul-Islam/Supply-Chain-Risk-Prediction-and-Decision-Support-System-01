@@ -1,0 +1,21 @@
+supplier_code,name,country,category,on_time_delivery_rate,defect_rate,avg_lead_time_days,lead_time_variability_days,fulfillment_rate,financial_stability
+SUP-001,Alpha Industrial Parts,Germany,Book Shop,94.5,0.38,15.4,1.7,95.0,4
+SUP-002,Blue Ridge Components,Indonesia,Discs Shop,76.2,5.84,15.7,6.4,84.7,2
+SUP-003,Cedar Line Manufacturing,Indonesia,Fan Shop,79.0,4.72,18.4,6.7,83.0,3
+SUP-004,Delta Textile Works,China,Fitness,94.0,1.46,24.2,3.6,97.8,5
+SUP-005,Evergreen Sports Supply,Germany,Footwear,88.4,2.33,29.2,6.4,93.9,3
+SUP-006,Falcon Electronics Ltd,Mexico,Golf,78.6,5.13,21.4,7.4,84.8,2
+SUP-007,Granite Outdoor Goods,Turkey,Health and Beauty ,80.1,4.46,21.7,7.8,86.7,1
+SUP-008,Harbor Apparel Co,Vietnam,Outdoors,89.9,1.51,15.9,4.0,93.1,5
+SUP-009,Ivory Footwear Group,United States,Pet Shop,87.6,3.39,23.9,6.7,90.0,3
+SUP-010,Juniper Fitness Gear,Turkey,Technology,72.2,4.03,14.6,4.7,85.1,2
+SUP-011,Keystone Tech Assembly,United States,Apparel,90.4,2.14,18.5,4.4,91.3,3
+SUP-012,Lakeside Home Goods,Bangladesh,Book Shop,74.0,5.18,22.8,9.6,82.7,2
+SUP-013,Meridian Optics,India,Discs Shop,82.3,2.37,13.9,2.9,85.8,2
+SUP-014,Northgate Toys & Games,Mexico,Fan Shop,94.3,1.91,22.2,2.6,98.7,4
+SUP-015,Orchard Kitchenware,Germany,Fitness,80.1,3.29,6.5,2.7,85.6,2
+SUP-016,Pioneer Cycle Parts,Brazil,Footwear,92.4,1.45,23.7,3.6,99.5,4
+SUP-017,Quarry Golf Equipment,Bangladesh,Golf,76.4,6.12,14.8,6.5,84.5,1
+SUP-018,Riverbend Packaging,China,Health and Beauty ,73.6,4.1,28.1,11.5,82.8,1
+SUP-019,Summit Camping Supply,China,Outdoors,89.5,5.39,24.4,7.2,87.2,2
+SUP-020,Trident Logistics Goods,China,Pet Shop,76.2,4.1,12.6,4.4,87.2,2

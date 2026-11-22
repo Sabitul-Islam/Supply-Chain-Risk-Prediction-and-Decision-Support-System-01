@@ -1,0 +1,243 @@
+{
+  "trained_at": "2026-11-22T13:00:58+00:00",
+  "sklearn_version": "1.7.2",
+  "machine_failure": {
+    "dataset": "ai4i2020.csv",
+    "target": "Machine failure",
+    "rows_raw": 10000,
+    "rows_used": 10000,
+    "positive_rate": 0.0339,
+    "train_rows": 8000,
+    "test_rows": 2000,
+    "split": "Stratified random 80/20 split (random_state=42)",
+    "features": [
+      "machine_type",
+      "air_temperature_k",
+      "process_temperature_k",
+      "rotational_speed_rpm",
+      "torque_nm",
+      "tool_wear_min",
+      "temp_diff_k (engineered)",
+      "power_w (engineered)"
+    ],
+    "excluded": {
+      "failure_mode_columns (leakage)": [
+        "TWF",
+        "HDF",
+        "PWF",
+        "OSF",
+        "RNF"
+      ],
+      "identifiers": [
+        "UDI",
+        "Product ID"
+      ]
+    },
+    "models": {
+      "random_forest": {
+        "accuracy": 0.9895,
+        "precision": 0.9123,
+        "recall": 0.7647,
+        "f1": 0.832,
+        "roc_auc": 0.9696,
+        "confusion_matrix": {
+          "tn": 1927,
+          "fp": 5,
+          "fn": 16,
+          "tp": 52
+        },
+        "train_seconds": 0.9
+      },
+      "logistic_regression": {
+        "accuracy": 0.8585,
+        "precision": 0.1772,
+        "recall": 0.8676,
+        "f1": 0.2943,
+        "roc_auc": 0.934,
+        "confusion_matrix": {
+          "tn": 1658,
+          "fp": 274,
+          "fn": 9,
+          "tp": 59
+        },
+        "train_seconds": 0.0
+      }
+    },
+    "selected_model": "random_forest",
+    "feature_importance": [
+      {
+        "feature": "torque_nm",
+        "importance": 0.2093
+      },
+      {
+        "feature": "tool_wear_min",
+        "importance": 0.2057
+      },
+      {
+        "feature": "rotational_speed_rpm",
+        "importance": 0.2022
+      },
+      {
+        "feature": "power_w",
+        "importance": 0.2002
+      },
+      {
+        "feature": "temp_diff_k",
+        "importance": 0.0876
+      },
+      {
+        "feature": "air_temperature_k",
+        "importance": 0.0472
+      },
+      {
+        "feature": "process_temperature_k",
+        "importance": 0.033
+      },
+      {
+        "feature": "machine_type_L",
+        "importance": 0.0067
+      },
+      {
+        "feature": "machine_type_M",
+        "importance": 0.0057
+      },
+      {
+        "feature": "machine_type_H",
+        "importance": 0.0025
+      }
+    ]
+  },
+  "late_delivery": {
+    "dataset": "DataCoSupplyChainDataset.csv",
+    "target": "Late_delivery_risk",
+    "rows_used": 180519,
+    "positive_rate": 0.5483,
+    "train_rows": 144650,
+    "test_rows": 35869,
+    "split": "80/20 GroupShuffleSplit by Order Id (random_state=42)",
+    "features": [
+      "payment_type",
+      "scheduled_shipping_days",
+      "shipping_mode",
+      "market",
+      "order_region",
+      "category_name",
+      "department_name",
+      "customer_segment",
+      "quantity",
+      "product_price",
+      "discount_rate",
+      "sales",
+      "order_month",
+      "order_weekday",
+      "order_hour (from order date)"
+    ],
+    "excluded": {
+      "post-shipment / leakage": [
+        "Days for shipping (real)",
+        "Delivery Status",
+        "shipping date (DateOrders)",
+        "Order Status",
+        "Benefit per order",
+        "Order Profit Per Order",
+        "Order Item Profit Ratio"
+      ],
+      "personal_information": [
+        "Customer Email",
+        "Customer Fname",
+        "Customer Lname",
+        "Customer Password",
+        "Customer Street",
+        "Customer Zipcode",
+        "Customer Id",
+        "Order Customer Id",
+        "Latitude",
+        "Longitude",
+        "Order Zipcode",
+        "Product Image",
+        "Product Description"
+      ]
+    },
+    "models": {
+      "random_forest": {
+        "accuracy": 0.7164,
+        "precision": 0.8521,
+        "recall": 0.5842,
+        "f1": 0.6932,
+        "roc_auc": 0.7679,
+        "confusion_matrix": {
+          "tn": 14206,
+          "fp": 1994,
+          "fn": 8178,
+          "tp": 11491
+        },
+        "train_seconds": 6.5
+      },
+      "logistic_regression": {
+        "accuracy": 0.6956,
+        "precision": 0.8457,
+        "recall": 0.5441,
+        "f1": 0.6621,
+        "roc_auc": 0.7412,
+        "confusion_matrix": {
+          "tn": 14248,
+          "fp": 1952,
+          "fn": 8968,
+          "tp": 10701
+        },
+        "train_seconds": 0.8
+      }
+    },
+    "selected_model": "random_forest",
+    "feature_importance": [
+      {
+        "feature": "scheduled_shipping_days",
+        "importance": 0.2971
+      },
+      {
+        "feature": "shipping_mode_Standard Class",
+        "importance": 0.224
+      },
+      {
+        "feature": "shipping_mode_First Class",
+        "importance": 0.1885
+      },
+      {
+        "feature": "order_hour",
+        "importance": 0.069
+      },
+      {
+        "feature": "shipping_mode_Second Class",
+        "importance": 0.0686
+      },
+      {
+        "feature": "shipping_mode_Same Day",
+        "importance": 0.0482
+      },
+      {
+        "feature": "payment_type_TRANSFER",
+        "importance": 0.0145
+      },
+      {
+        "feature": "order_month",
+        "importance": 0.0089
+      },
+      {
+        "feature": "order_weekday",
+        "importance": 0.0089
+      },
+      {
+        "feature": "discount_rate",
+        "importance": 0.0083
+      },
+      {
+        "feature": "sales",
+        "importance": 0.0067
+      },
+      {
+        "feature": "payment_type_DEBIT",
+        "importance": 0.0054
+      }
+    ]
+  }
+}

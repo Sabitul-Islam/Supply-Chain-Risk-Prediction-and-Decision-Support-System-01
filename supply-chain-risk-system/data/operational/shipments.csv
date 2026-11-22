@@ -1,0 +1,801 @@
+order_id,order_date,product_id,payment_type,scheduled_shipping_days,shipping_mode,market,order_region,category_name,department_name,customer_segment,quantity,product_price,discount_rate,sales,actual_late
+35082,2016-05-27 02:26,627,DEBIT,2,Second Class,USCA,East of USA,Shop By Sport,Golf,Consumer,5,39.99000168,0.159999996,199.9499969,1
+66791,2017-09-01 23:30,502,DEBIT,0,Same Day,Europe,Western Europe,Women's Apparel,Golf,Consumer,2,50.0,0.25,100.0,1
+3613,2015-02-22 17:26,1073,PAYMENT,4,Standard Class,LATAM,Central America,Water Sports,Fan Shop,Corporate,1,199.9900055,0.050000001,199.9900055,0
+11960,2015-06-24 13:46,502,DEBIT,4,Standard Class,Europe,Western Europe,Women's Apparel,Golf,Consumer,4,50.0,0.25,200.0,1
+52339,2017-02-03 00:19,365,TRANSFER,4,Standard Class,LATAM,Caribbean,Cleats,Apparel,Home Office,2,59.99000168,0.01,119.9800034,1
+41783,2016-09-01 22:05,703,DEBIT,2,Second Class,Europe,Eastern Europe,Golf Apparel,Outdoors,Consumer,4,19.98999977,0.050000001,79.95999908,1
+27340,2016-02-04 02:04,403,DEBIT,2,Second Class,Pacific Asia,Eastern Asia,Men's Footwear,Apparel,Consumer,1,129.9900055,0.159999996,129.9900055,1
+30832,2016-03-26 01:28,1014,TRANSFER,4,Standard Class,Pacific Asia,Oceania,Indoor/Outdoor Games,Fan Shop,Home Office,4,49.97999954,0.02,199.9199982,0
+29282,2016-03-03 10:26,1014,CASH,4,Standard Class,Pacific Asia,South Asia,Indoor/Outdoor Games,Fan Shop,Home Office,2,49.97999954,0.200000003,99.95999908,0
+49540,2016-12-24 03:43,1073,TRANSFER,4,Standard Class,Africa,West Africa,Water Sports,Fan Shop,Consumer,1,199.9900055,0.050000001,199.9900055,0
+31098,2016-03-29 22:39,403,TRANSFER,2,Second Class,Pacific Asia,Oceania,Men's Footwear,Apparel,Consumer,1,129.9900055,0.25,129.9900055,1
+12601,2015-07-03 22:20,191,TRANSFER,2,Second Class,Europe,Western Europe,Cardio Equipment,Footwear,Consumer,5,99.98999786,0.159999996,499.9500122,0
+8153,2015-04-30 00:00,502,DEBIT,4,Standard Class,LATAM,Central America,Women's Apparel,Golf,Home Office,2,50.0,0.029999999,100.0,0
+52759,2017-02-09 03:28,502,DEBIT,1,First Class,LATAM,South America,Women's Apparel,Golf,Corporate,4,50.0,0.01,200.0,1
+8415,2015-05-03 19:47,365,DEBIT,4,Standard Class,LATAM,South America,Cleats,Apparel,Corporate,4,59.99000168,0.01,239.9600067,1
+45983,2016-11-02 05:32,1073,TRANSFER,1,First Class,Africa,Southern Africa,Water Sports,Fan Shop,Consumer,1,199.9900055,0.050000001,199.9900055,0
+64299,2017-07-27 14:27,1014,CASH,4,Standard Class,Europe,Western Europe,Indoor/Outdoor Games,Fan Shop,Consumer,3,49.97999954,0.119999997,149.9400024,1
+58984,2017-05-11 00:22,403,PAYMENT,4,Standard Class,LATAM,Central America,Men's Footwear,Apparel,Consumer,1,129.9900055,0.25,129.9900055,1
+24103,2015-12-18 20:00,1073,TRANSFER,1,First Class,Pacific Asia,South Asia,Water Sports,Fan Shop,Home Office,1,199.9900055,0.059999999,199.9900055,1
+4590,2015-03-08 23:43,1004,DEBIT,4,Standard Class,LATAM,Caribbean,Fishing,Fan Shop,Consumer,1,399.980011,0.129999995,399.980011,1
+47092,2016-11-18 10:04,365,TRANSFER,4,Standard Class,Pacific Asia,West Asia,Cleats,Apparel,Consumer,5,59.99000168,0.150000006,299.9500122,0
+26519,2016-01-23 02:26,403,DEBIT,4,Standard Class,Pacific Asia,Eastern Asia,Men's Footwear,Apparel,Consumer,1,129.9900055,0.180000007,129.9900055,1
+39992,2016-08-06 18:37,1004,TRANSFER,4,Standard Class,USCA,West of USA ,Fishing,Fan Shop,Consumer,1,399.980011,0.07,399.980011,0
+23018,2015-12-02 23:52,1004,CASH,4,Standard Class,Pacific Asia,Southeast Asia,Fishing,Fan Shop,Home Office,1,399.980011,0.090000004,399.980011,0
+25684,2016-01-10 21:53,1004,CASH,2,Second Class,Pacific Asia,Oceania,Fishing,Fan Shop,Consumer,1,399.980011,0.119999997,399.980011,1
+58760,2017-05-07 17:53,365,TRANSFER,1,First Class,LATAM,South America,Cleats,Apparel,Consumer,5,59.99000168,0.07,299.9500122,1
+71836,2017-11-14 15:00,1355,DEBIT,4,Standard Class,Pacific Asia,Southeast Asia,Garden,Outdoors,Consumer,1,532.5800171,0.059999999,532.5800171,0
+50039,2016-12-31 10:32,1004,PAYMENT,4,Standard Class,Pacific Asia,West Asia,Fishing,Fan Shop,Consumer,1,399.980011,0.0,399.980011,1
+9880,2015-05-25 05:03,502,CASH,4,Standard Class,LATAM,Central America,Women's Apparel,Golf,Home Office,1,50.0,0.039999999,50.0,1
+56576,2017-04-05 20:44,1014,PAYMENT,4,Standard Class,LATAM,Caribbean,Indoor/Outdoor Games,Fan Shop,Corporate,2,49.97999954,0.170000002,99.95999908,0
+7965,2015-04-27 06:08,1014,DEBIT,4,Standard Class,LATAM,South America,Indoor/Outdoor Games,Fan Shop,Consumer,3,49.97999954,0.07,149.9400024,1
+48808,2016-12-13 11:15,1014,DEBIT,4,Standard Class,Africa,North Africa,Indoor/Outdoor Games,Fan Shop,Corporate,4,49.97999954,0.059999999,199.9199982,0
+23635,2015-12-12 00:02,627,TRANSFER,4,Standard Class,Pacific Asia,Eastern Asia,Shop By Sport,Golf,Consumer,2,39.99000168,0.25,79.98000336,1
+28265,2016-02-17 14:08,502,TRANSFER,4,Standard Class,Pacific Asia,South Asia,Women's Apparel,Golf,Consumer,2,50.0,0.170000002,100.0,0
+22380,2015-11-23 16:21,365,PAYMENT,4,Standard Class,Pacific Asia,Southeast Asia,Cleats,Apparel,Consumer,1,59.99000168,0.039999999,59.99000168,1
+1772,2015-01-26 20:27,1004,TRANSFER,2,Second Class,LATAM,Central America,Fishing,Fan Shop,Corporate,1,399.980011,0.029999999,399.980011,1
+54358,2017-03-04 11:40,365,DEBIT,4,Standard Class,LATAM,Central America,Cleats,Apparel,Consumer,4,59.99000168,0.150000006,239.9600067,0
+17943,2015-09-19 21:52,627,PAYMENT,1,First Class,Europe,Western Europe,Shop By Sport,Golf,Corporate,1,39.99000168,0.059999999,39.99000168,1
+37180,2016-06-26 17:27,627,PAYMENT,2,Second Class,USCA,West of USA ,Shop By Sport,Golf,Home Office,5,39.99000168,0.100000001,199.9499969,1
+58414,2017-05-02 16:40,957,TRANSFER,1,First Class,LATAM,Caribbean,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.150000006,299.980011,0
+28281,2016-02-17 19:44,502,CASH,2,Second Class,Pacific Asia,South Asia,Women's Apparel,Golf,Corporate,2,50.0,0.159999996,100.0,0
+185,2015-01-03 16:27,365,PAYMENT,4,Standard Class,LATAM,Caribbean,Cleats,Apparel,Corporate,3,59.99000168,0.059999999,179.9700012,1
+37684,2016-07-04 02:02,403,PAYMENT,4,Standard Class,USCA,US Center ,Men's Footwear,Apparel,Home Office,1,129.9900055,0.159999996,129.9900055,1
+28160,2016-02-16 01:21,502,DEBIT,4,Standard Class,Pacific Asia,South Asia,Women's Apparel,Golf,Corporate,3,50.0,0.029999999,150.0,1
+59633,2017-05-20 11:44,365,DEBIT,0,Same Day,LATAM,Central America,Cleats,Apparel,Corporate,4,59.99000168,0.180000007,239.9600067,0
+15472,2015-08-14 20:10,403,CASH,4,Standard Class,Europe,Western Europe,Men's Footwear,Apparel,Corporate,1,129.9900055,0.200000003,129.9900055,0
+30589,2016-03-22 12:20,502,TRANSFER,4,Standard Class,Pacific Asia,Oceania,Women's Apparel,Golf,Consumer,4,50.0,0.02,200.0,1
+68455,2017-09-26 06:29,627,TRANSFER,4,Standard Class,Europe,Western Europe,Shop By Sport,Golf,Home Office,3,39.99000168,0.200000003,119.9700012,1
+68193,2017-09-22 10:41,957,PAYMENT,4,Standard Class,Europe,Western Europe,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.180000007,299.980011,0
+47057,2016-11-17 21:48,1073,PAYMENT,4,Standard Class,Africa,Southern Africa,Water Sports,Fan Shop,Consumer,1,199.9900055,0.02,199.9900055,0
+63548,2017-07-16 15:20,365,PAYMENT,4,Standard Class,Europe,Southern Europe,Cleats,Apparel,Consumer,3,59.99000168,0.0,179.9700012,0
+32635,2016-04-21 09:08,403,DEBIT,2,Second Class,USCA,East of USA,Men's Footwear,Apparel,Consumer,1,129.9900055,0.029999999,129.9900055,1
+4075,2015-03-01 11:18,1073,CASH,4,Standard Class,LATAM,South America,Water Sports,Fan Shop,Consumer,1,199.9900055,0.119999997,199.9900055,1
+39628,2016-08-01 11:06,957,DEBIT,2,Second Class,USCA,East of USA,Camping & Hiking,Fan Shop,Corporate,1,299.980011,0.059999999,299.980011,1
+63150,2017-07-10 19:54,1004,PAYMENT,4,Standard Class,Europe,Southern Europe,Fishing,Fan Shop,Consumer,1,399.980011,0.090000004,399.980011,1
+5085,2015-03-16 05:09,191,TRANSFER,4,Standard Class,LATAM,Central America,Cardio Equipment,Footwear,Consumer,3,99.98999786,0.180000007,299.9700012,1
+56685,2017-04-07 10:55,1014,PAYMENT,4,Standard Class,LATAM,South America,Indoor/Outdoor Games,Fan Shop,Consumer,5,49.97999954,0.039999999,249.8999939,1
+29613,2016-03-08 06:24,403,PAYMENT,4,Standard Class,Pacific Asia,Eastern Asia,Men's Footwear,Apparel,Consumer,1,129.9900055,0.02,129.9900055,0
+52328,2017-02-02 20:28,365,DEBIT,4,Standard Class,LATAM,South America,Cleats,Apparel,Consumer,1,59.99000168,0.150000006,59.99000168,0
+35472,2016-06-01 19:04,1014,TRANSFER,4,Standard Class,USCA,West of USA ,Indoor/Outdoor Games,Fan Shop,Corporate,3,49.97999954,0.059999999,149.9400024,0
+58690,2017-05-06 17:22,502,PAYMENT,1,First Class,LATAM,Central America,Women's Apparel,Golf,Consumer,5,50.0,0.200000003,250.0,1
+61890,2017-06-22 10:28,502,CASH,4,Standard Class,Europe,Southern Europe,Women's Apparel,Golf,Consumer,3,50.0,0.050000001,150.0,1
+17199,2015-09-09 01:13,818,PAYMENT,4,Standard Class,Europe,Western Europe,Electronics,Outdoors,Consumer,5,47.99000168,0.119999997,239.9499969,1
+7691,2015-04-23 06:08,502,TRANSFER,4,Standard Class,LATAM,Caribbean,Women's Apparel,Golf,Consumer,1,50.0,0.039999999,50.0,0
+50898,2017-01-12 23:29,627,DEBIT,4,Standard Class,Europe,Eastern Europe,Shop By Sport,Golf,Corporate,5,39.99000168,0.170000002,199.9499969,0
+9942,2015-05-26 02:46,1004,CASH,4,Standard Class,LATAM,Central America,Fishing,Fan Shop,Consumer,1,399.980011,0.059999999,399.980011,0
+40902,2016-08-20 01:26,1014,PAYMENT,4,Standard Class,USCA,East of USA,Indoor/Outdoor Games,Fan Shop,Consumer,4,49.97999954,0.180000007,199.9199982,0
+73411,2017-12-07 14:47,1361,TRANSFER,1,First Class,Pacific Asia,Southeast Asia,Toys,Fan Shop,Home Office,1,11.53999996,0.029999999,11.53999996,0
+50499,2017-01-07 03:41,403,DEBIT,4,Standard Class,Pacific Asia,West Asia,Men's Footwear,Apparel,Consumer,1,129.9900055,0.01,129.9900055,1
+1063,2015-01-16 12:03,1004,TRANSFER,4,Standard Class,LATAM,South America,Fishing,Fan Shop,Corporate,1,399.980011,0.180000007,399.980011,0
+55820,2017-03-25 19:52,1004,CASH,2,Second Class,LATAM,Central America,Fishing,Fan Shop,Corporate,1,399.980011,0.050000001,399.980011,1
+10185,2015-05-29 15:54,957,DEBIT,2,Second Class,LATAM,South America,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.200000003,299.980011,1
+171,2015-01-03 11:33,191,DEBIT,2,Second Class,LATAM,Central America,Cardio Equipment,Footwear,Consumer,5,99.98999786,0.170000002,499.9500122,0
+49149,2016-12-18 10:44,365,CASH,4,Standard Class,USCA,Canada,Cleats,Apparel,Corporate,5,59.99000168,0.159999996,299.9500122,1
+41130,2016-08-23 09:19,403,CASH,2,Second Class,USCA,East of USA,Men's Footwear,Apparel,Consumer,1,129.9900055,0.050000001,129.9900055,1
+37360,2016-06-29 08:31,191,TRANSFER,4,Standard Class,USCA,West of USA ,Cardio Equipment,Footwear,Consumer,5,99.98999786,0.090000004,499.9500122,0
+45727,2016-10-29 11:51,957,CASH,2,Second Class,Pacific Asia,West Asia,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.059999999,299.980011,1
+62930,2017-07-07 14:49,403,PAYMENT,1,First Class,Europe,Western Europe,Men's Footwear,Apparel,Home Office,1,129.9900055,0.039999999,129.9900055,1
+3804,2015-02-25 12:21,627,TRANSFER,0,Same Day,LATAM,Caribbean,Shop By Sport,Golf,Consumer,5,39.99000168,0.180000007,199.9499969,1
+29665,2016-03-09 00:37,365,TRANSFER,2,Second Class,Pacific Asia,Southeast Asia,Cleats,Apparel,Consumer,3,59.99000168,0.039999999,179.9700012,1
+26421,2016-01-21 16:06,502,PAYMENT,2,Second Class,Pacific Asia,South Asia,Women's Apparel,Golf,Consumer,4,50.0,0.170000002,200.0,0
+39452,2016-07-29 21:26,502,PAYMENT,1,First Class,USCA,East of USA,Women's Apparel,Golf,Consumer,3,50.0,0.039999999,150.0,1
+4938,2015-03-14 01:39,957,TRANSFER,1,First Class,LATAM,Caribbean,Camping & Hiking,Fan Shop,Corporate,1,299.980011,0.200000003,299.980011,1
+15471,2015-08-14 19:49,1004,PAYMENT,4,Standard Class,Europe,Western Europe,Fishing,Fan Shop,Consumer,1,399.980011,0.170000002,399.980011,0
+25340,2016-01-05 21:22,191,TRANSFER,0,Same Day,Pacific Asia,Southeast Asia,Cardio Equipment,Footwear,Corporate,4,99.98999786,0.100000001,399.9599915,1
+67307,2017-09-09 12:17,403,PAYMENT,4,Standard Class,Europe,Western Europe,Men's Footwear,Apparel,Consumer,1,129.9900055,0.07,129.9900055,0
+10495,2015-06-03 04:30,502,PAYMENT,4,Standard Class,Europe,Northern Europe,Women's Apparel,Golf,Consumer,2,50.0,0.0,100.0,1
+69836,2017-10-16 10:18,1349,PAYMENT,4,Standard Class,Europe,Southern Europe,Cameras ,Technology,Corporate,1,452.0400085,0.150000006,452.0400085,0
+49986,2016-12-30 15:58,365,PAYMENT,4,Standard Class,Pacific Asia,West Asia,Cleats,Apparel,Home Office,2,59.99000168,0.059999999,119.9800034,0
+72931,2017-11-30 14:37,1359,PAYMENT,4,Standard Class,Pacific Asia,Southeast Asia,Pet Supplies,Pet Shop,Corporate,1,84.40000153,0.01,84.40000153,0
+7968,2015-04-27 07:11,627,TRANSFER,4,Standard Class,LATAM,South America,Shop By Sport,Golf,Corporate,5,39.99000168,0.090000004,199.9499969,0
+12779,2015-07-06 12:42,1014,DEBIT,0,Same Day,Europe,Southern Europe,Indoor/Outdoor Games,Fan Shop,Corporate,4,49.97999954,0.119999997,199.9199982,1
+37231,2016-06-27 11:19,191,TRANSFER,2,Second Class,USCA,East of USA,Cardio Equipment,Footwear,Corporate,3,99.98999786,0.100000001,299.9700012,0
+58984,2017-05-11 00:22,365,PAYMENT,4,Standard Class,LATAM,Central America,Cleats,Apparel,Consumer,4,59.99000168,0.25,239.9600067,1
+6120,2015-03-31 07:45,957,DEBIT,2,Second Class,LATAM,Central America,Camping & Hiking,Fan Shop,Corporate,1,299.980011,0.039999999,299.980011,1
+61351,2017-06-14 13:38,1004,DEBIT,4,Standard Class,LATAM,South America,Fishing,Fan Shop,Corporate,1,399.980011,0.25,399.980011,0
+42086,2016-09-06 08:15,365,CASH,2,Second Class,Africa,East Africa,Cleats,Apparel,Home Office,4,59.99000168,0.150000006,239.9600067,0
+2575,2015-02-07 13:47,627,PAYMENT,4,Standard Class,LATAM,Central America,Shop By Sport,Golf,Corporate,2,39.99000168,0.25,79.98000336,1
+48906,2016-12-14 21:35,1014,PAYMENT,4,Standard Class,Africa,West Africa,Indoor/Outdoor Games,Fan Shop,Consumer,3,49.97999954,0.07,149.9400024,0
+35689,2016-06-04 23:05,1004,DEBIT,2,Second Class,USCA,US Center ,Fishing,Fan Shop,Corporate,1,399.980011,0.180000007,399.980011,1
+20790,2015-10-31 11:18,1014,DEBIT,4,Standard Class,Pacific Asia,Eastern Asia,Indoor/Outdoor Games,Fan Shop,Consumer,1,49.97999954,0.02,49.97999954,1
+4586,2015-03-08 22:19,1014,PAYMENT,4,Standard Class,LATAM,Central America,Indoor/Outdoor Games,Fan Shop,Consumer,4,49.97999954,0.100000001,199.9199982,0
+19304,2015-10-09 18:42,627,CASH,4,Standard Class,Europe,Western Europe,Shop By Sport,Golf,Consumer,3,39.99000168,0.150000006,119.9700012,1
+12526,2015-07-02 20:03,1014,PAYMENT,2,Second Class,Europe,Western Europe,Indoor/Outdoor Games,Fan Shop,Consumer,2,49.97999954,0.170000002,99.95999908,0
+34747,2016-05-22 05:04,627,DEBIT,4,Standard Class,USCA,West of USA ,Shop By Sport,Golf,Consumer,4,39.99000168,0.25,159.9600067,0
+37230,2016-06-27 10:58,403,DEBIT,0,Same Day,USCA,East of USA,Men's Footwear,Apparel,Consumer,1,129.9900055,0.129999995,129.9900055,0
+55789,2017-03-25 09:01,1004,PAYMENT,2,Second Class,LATAM,Caribbean,Fishing,Fan Shop,Corporate,1,399.980011,0.07,399.980011,1
+16368,2015-08-27 22:05,627,DEBIT,4,Standard Class,Europe,Western Europe,Shop By Sport,Golf,Consumer,1,39.99000168,0.039999999,39.99000168,0
+42032,2016-09-05 13:19,365,TRANSFER,4,Standard Class,Pacific Asia,West Asia,Cleats,Apparel,Home Office,5,59.99000168,0.200000003,299.9500122,0
+75234,2018-01-03 05:28,1356,TRANSFER,2,Second Class,Pacific Asia,South Asia,Health and Beauty,Health and Beauty ,Consumer,1,293.0400085,0.050000001,293.0400085,1
+22890,2015-12-01 03:02,191,DEBIT,4,Standard Class,Pacific Asia,Oceania,Cardio Equipment,Footwear,Consumer,3,99.98999786,0.150000006,299.9700012,1
+7583,2015-04-21 16:18,191,TRANSFER,4,Standard Class,LATAM,Central America,Cardio Equipment,Footwear,Corporate,1,99.98999786,0.170000002,99.98999786,0
+52024,2017-01-29 09:58,1014,CASH,4,Standard Class,LATAM,Central America,Indoor/Outdoor Games,Fan Shop,Corporate,5,49.97999954,0.159999996,249.8999939,1
+46441,2016-11-08 22:00,627,DEBIT,4,Standard Class,Africa,West Africa,Shop By Sport,Golf,Consumer,3,39.99000168,0.02,119.9700012,0
+10386,2015-06-01 14:19,1073,PAYMENT,4,Standard Class,Europe,Northern Europe,Water Sports,Fan Shop,Corporate,1,199.9900055,0.0,199.9900055,0
+23311,2015-12-07 06:31,502,TRANSFER,4,Standard Class,Pacific Asia,Southeast Asia,Women's Apparel,Golf,Consumer,1,50.0,0.25,50.0,0
+32543,2016-04-20 00:54,1073,CASH,4,Standard Class,USCA,West of USA ,Water Sports,Fan Shop,Corporate,1,199.9900055,0.129999995,199.9900055,0
+11691,2015-06-20 15:31,365,CASH,4,Standard Class,Europe,Western Europe,Cleats,Apparel,Consumer,2,59.99000168,0.050000001,119.9800034,0
+41504,2016-08-28 20:20,365,PAYMENT,4,Standard Class,Africa,Southern Africa,Cleats,Apparel,Corporate,1,59.99000168,0.129999995,59.99000168,1
+57975,2017-04-26 06:52,627,DEBIT,2,Second Class,LATAM,South America,Shop By Sport,Golf,Consumer,1,39.99000168,0.129999995,39.99000168,1
+41717,2016-08-31 22:58,365,DEBIT,4,Standard Class,Europe,Western Europe,Cleats,Apparel,Consumer,3,59.99000168,0.170000002,179.9700012,0
+43001,2016-09-19 16:48,365,TRANSFER,0,Same Day,Pacific Asia,West Asia,Cleats,Apparel,Corporate,1,59.99000168,0.029999999,59.99000168,1
+70004,2017-10-18 21:10,1350,TRANSFER,4,Standard Class,Europe,Southern Europe,Children's Clothing,Apparel,Corporate,1,357.1000061,0.200000003,357.1000061,1
+76956,2018-01-28 08:45,1363,CASH,0,Same Day,Pacific Asia,Oceania,Women's Clothing,Apparel,Home Office,1,215.8200073,0.100000001,215.8200073,0
+9839,2015-05-24 14:41,1073,DEBIT,1,First Class,LATAM,South America,Water Sports,Fan Shop,Corporate,1,199.9900055,0.129999995,199.9900055,1
+74539,2017-12-24 01:58,1351,CASH,2,Second Class,Pacific Asia,Southeast Asia,Computers,Technology,Corporate,1,1500.0,0.100000001,1500.0,1
+12069,2015-06-26 03:57,957,TRANSFER,4,Standard Class,Europe,Southern Europe,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.150000006,299.980011,1
+29808,2016-03-11 02:43,1014,TRANSFER,2,Second Class,Pacific Asia,Oceania,Indoor/Outdoor Games,Fan Shop,Corporate,3,49.97999954,0.02,149.9400024,1
+46827,2016-11-14 13:14,191,TRANSFER,4,Standard Class,Africa,East Africa,Cardio Equipment,Footwear,Consumer,4,99.98999786,0.090000004,399.9599915,0
+28732,2016-02-24 09:44,703,DEBIT,2,Second Class,Pacific Asia,Oceania,Golf Apparel,Outdoors,Home Office,3,19.98999977,0.150000006,59.97000122,1
+25346,2016-01-05 23:28,502,PAYMENT,1,First Class,Pacific Asia,Eastern Asia,Women's Apparel,Golf,Corporate,1,50.0,0.119999997,50.0,1
+62891,2017-07-07 01:10,403,TRANSFER,1,First Class,Europe,Southern Europe,Men's Footwear,Apparel,Consumer,1,129.9900055,0.029999999,129.9900055,1
+6900,2015-04-11 17:01,365,DEBIT,4,Standard Class,LATAM,Central America,Cleats,Apparel,Corporate,1,59.99000168,0.07,59.99000168,1
+47336,2016-11-21 23:33,403,TRANSFER,2,Second Class,Europe,Southern Europe,Men's Footwear,Apparel,Consumer,1,129.9900055,0.0,129.9900055,0
+37311,2016-06-28 15:21,1073,TRANSFER,0,Same Day,USCA,West of USA ,Water Sports,Fan Shop,Consumer,1,199.9900055,0.029999999,199.9900055,1
+30706,2016-03-24 05:19,191,DEBIT,4,Standard Class,Pacific Asia,Oceania,Cardio Equipment,Footwear,Consumer,1,99.98999786,0.0,99.98999786,0
+10024,2015-05-27 07:30,1073,PAYMENT,4,Standard Class,LATAM,South America,Water Sports,Fan Shop,Corporate,1,199.9900055,0.200000003,199.9900055,1
+335,2015-01-05 21:00,365,TRANSFER,4,Standard Class,LATAM,Central America,Cleats,Apparel,Corporate,4,59.99000168,0.039999999,239.9600067,1
+31311,2016-04-02 01:17,957,TRANSFER,1,First Class,USCA,US Center ,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.129999995,299.980011,1
+38731,2016-07-19 08:50,365,PAYMENT,4,Standard Class,USCA,West of USA ,Cleats,Apparel,Corporate,2,59.99000168,0.050000001,119.9800034,0
+6864,2015-04-11 04:24,172,DEBIT,2,Second Class,LATAM,Central America,Cardio Equipment,Footwear,Corporate,3,30.0,0.150000006,90.0,1
+49467,2016-12-23 02:08,502,PAYMENT,4,Standard Class,Africa,Southern Africa,Women's Apparel,Golf,Consumer,2,50.0,0.029999999,100.0,0
+316,2015-01-05 14:21,403,TRANSFER,2,Second Class,LATAM,Central America,Men's Footwear,Apparel,Consumer,1,129.9900055,0.200000003,129.9900055,0
+68099,2017-09-21 01:45,191,PAYMENT,4,Standard Class,Europe,Western Europe,Cardio Equipment,Footwear,Corporate,5,99.98999786,0.07,499.9500122,1
+33016,2016-04-26 22:37,502,TRANSFER,2,Second Class,USCA,East of USA,Women's Apparel,Golf,Corporate,5,50.0,0.170000002,250.0,0
+21617,2015-11-12 13:02,1004,PAYMENT,4,Standard Class,Pacific Asia,Southeast Asia,Fishing,Fan Shop,Home Office,1,399.980011,0.059999999,399.980011,0
+46395,2016-11-08 05:53,502,DEBIT,4,Standard Class,Europe,Southern Europe,Women's Apparel,Golf,Consumer,3,50.0,0.0,150.0,1
+73841,2017-12-13 21:26,1363,PAYMENT,4,Standard Class,Pacific Asia,South Asia,Women's Clothing,Apparel,Consumer,1,215.8200073,0.050000001,215.8200073,0
+64203,2017-07-26 04:49,1014,CASH,4,Standard Class,Europe,Western Europe,Indoor/Outdoor Games,Fan Shop,Consumer,1,49.97999954,0.150000006,49.97999954,0
+34953,2016-05-25 05:14,1004,TRANSFER,2,Second Class,USCA,East of USA,Fishing,Fan Shop,Corporate,1,399.980011,0.039999999,399.980011,0
+59642,2017-05-20 14:53,403,DEBIT,1,First Class,LATAM,Central America,Men's Footwear,Apparel,Consumer,1,129.9900055,0.100000001,129.9900055,1
+142,2015-01-03 01:23,403,PAYMENT,2,Second Class,LATAM,Central America,Men's Footwear,Apparel,Consumer,1,129.9900055,0.129999995,129.9900055,1
+38406,2016-07-14 14:58,1004,PAYMENT,1,First Class,USCA,East of USA,Fishing,Fan Shop,Consumer,1,399.980011,0.180000007,399.980011,1
+18779,2015-10-02 02:46,365,TRANSFER,4,Standard Class,Europe,Western Europe,Cleats,Apparel,Consumer,5,59.99000168,0.200000003,299.9500122,1
+30037,2016-03-14 10:56,957,TRANSFER,4,Standard Class,Pacific Asia,Oceania,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.170000002,299.980011,0
+76122,2018-01-16 04:34,1361,TRANSFER,2,Second Class,Pacific Asia,Southeast Asia,Toys,Fan Shop,Consumer,1,11.53999996,0.100000001,11.53999996,1
+19983,2015-10-19 16:35,1014,TRANSFER,1,First Class,Europe,Western Europe,Indoor/Outdoor Games,Fan Shop,Consumer,3,49.97999954,0.090000004,149.9400024,0
+23805,2015-12-14 11:36,403,DEBIT,4,Standard Class,Pacific Asia,Oceania,Men's Footwear,Apparel,Consumer,1,129.9900055,0.159999996,129.9900055,1
+23326,2015-12-07 11:47,1073,PAYMENT,2,Second Class,Pacific Asia,South Asia,Water Sports,Fan Shop,Consumer,1,199.9900055,0.059999999,199.9900055,0
+9415,2015-05-18 10:08,1073,TRANSFER,1,First Class,LATAM,Central America,Water Sports,Fan Shop,Home Office,1,199.9900055,0.159999996,199.9900055,1
+50142,2017-01-01 22:37,191,TRANSFER,4,Standard Class,Africa,Central Africa,Cardio Equipment,Footwear,Consumer,3,99.98999786,0.090000004,299.9700012,0
+28242,2016-02-17 06:04,365,PAYMENT,4,Standard Class,Pacific Asia,Oceania,Cleats,Apparel,Home Office,1,59.99000168,0.180000007,59.99000168,0
+20804,2015-10-31 16:13,1073,PAYMENT,0,Same Day,Pacific Asia,Southeast Asia,Water Sports,Fan Shop,Home Office,1,199.9900055,0.25,199.9900055,1
+33098,2016-04-28 03:21,1073,DEBIT,4,Standard Class,USCA,West of USA ,Water Sports,Fan Shop,Corporate,1,199.9900055,0.090000004,199.9900055,0
+37936,2016-07-07 18:19,365,DEBIT,4,Standard Class,USCA,East of USA,Cleats,Apparel,Consumer,4,59.99000168,0.100000001,239.9600067,0
+65661,2017-08-16 11:37,1073,PAYMENT,4,Standard Class,Europe,Western Europe,Water Sports,Fan Shop,Home Office,1,199.9900055,0.150000006,199.9900055,0
+33782,2016-05-08 02:59,885,PAYMENT,2,Second Class,USCA,West of USA ,Accessories,Outdoors,Corporate,5,24.98999977,0.029999999,124.9499969,1
+40387,2016-08-12 13:00,191,DEBIT,4,Standard Class,USCA,South of  USA ,Cardio Equipment,Footwear,Corporate,5,99.98999786,0.029999999,499.9500122,0
+26695,2016-01-25 16:05,1073,DEBIT,2,Second Class,Pacific Asia,Southeast Asia,Water Sports,Fan Shop,Home Office,1,199.9900055,0.07,199.9900055,1
+40481,2016-08-13 21:56,1073,TRANSFER,4,Standard Class,USCA,West of USA ,Water Sports,Fan Shop,Consumer,1,199.9900055,0.170000002,199.9900055,0
+74213,2017-12-19 07:46,1348,TRANSFER,4,Standard Class,Pacific Asia,Eastern Asia,CDs ,Discs Shop,Home Office,1,11.28999996,0.0,11.28999996,0
+25175,2016-01-03 11:34,403,CASH,2,Second Class,Pacific Asia,Southeast Asia,Men's Footwear,Apparel,Home Office,1,129.9900055,0.170000002,129.9900055,1
+49361,2016-12-21 13:00,1073,TRANSFER,2,Second Class,Europe,Eastern Europe,Water Sports,Fan Shop,Consumer,1,199.9900055,0.119999997,199.9900055,0
+43319,2016-09-24 08:13,403,DEBIT,2,Second Class,Africa,Central Africa,Men's Footwear,Apparel,Consumer,1,129.9900055,0.100000001,129.9900055,1
+31003,2016-03-28 13:22,365,PAYMENT,4,Standard Class,Pacific Asia,Oceania,Cleats,Apparel,Consumer,2,59.99000168,0.090000004,119.9800034,0
+11569,2015-06-18 20:47,365,DEBIT,2,Second Class,Europe,Southern Europe,Cleats,Apparel,Corporate,1,59.99000168,0.0,59.99000168,1
+75875,2018-01-12 14:02,1360,PAYMENT,2,Second Class,Pacific Asia,Southeast Asia,Sporting Goods,Fitness,Consumer,1,327.75,0.180000007,327.75,1
+32537,2016-04-19 22:48,818,PAYMENT,4,Standard Class,USCA,West of USA ,Electronics,Outdoors,Consumer,5,47.99000168,0.180000007,239.9499969,0
+6457,2015-04-05 05:49,1014,PAYMENT,0,Same Day,LATAM,Caribbean,Indoor/Outdoor Games,Fan Shop,Consumer,3,49.97999954,0.180000007,149.9400024,0
+66696,2017-08-31 14:13,1073,DEBIT,4,Standard Class,Europe,Southern Europe,Water Sports,Fan Shop,Corporate,1,199.9900055,0.119999997,199.9900055,0
+53311,2017-02-17 04:52,1073,DEBIT,2,Second Class,LATAM,South America,Water Sports,Fan Shop,Consumer,1,199.9900055,0.090000004,199.9900055,0
+52155,2017-01-31 07:52,191,DEBIT,2,Second Class,LATAM,South America,Cardio Equipment,Footwear,Home Office,4,99.98999786,0.059999999,399.9599915,1
+65256,2017-08-10 13:43,627,DEBIT,4,Standard Class,Europe,Southern Europe,Shop By Sport,Golf,Corporate,5,39.99000168,0.159999996,199.9499969,0
+62207,2017-06-27 01:31,1004,PAYMENT,0,Same Day,Europe,Western Europe,Fishing,Fan Shop,Consumer,1,399.980011,0.170000002,399.980011,0
+4285,2015-03-04 12:52,627,DEBIT,4,Standard Class,LATAM,Caribbean,Shop By Sport,Golf,Consumer,5,39.99000168,0.090000004,199.9499969,1
+49545,2016-12-24 05:28,365,CASH,4,Standard Class,Pacific Asia,Central Asia,Cleats,Apparel,Consumer,4,59.99000168,0.029999999,239.9600067,1
+26060,2016-01-16 09:37,403,TRANSFER,4,Standard Class,Pacific Asia,Southeast Asia,Men's Footwear,Apparel,Home Office,1,129.9900055,0.059999999,129.9900055,0
+60718,2017-06-05 07:52,365,DEBIT,1,First Class,LATAM,Central America,Cleats,Apparel,Consumer,3,59.99000168,0.25,179.9700012,1
+32864,2016-04-24 17:22,905,PAYMENT,4,Standard Class,USCA,US Center ,Accessories,Outdoors,Consumer,4,24.98999977,0.0,99.95999908,1
+59404,2017-05-17 03:31,191,DEBIT,4,Standard Class,LATAM,South America,Cardio Equipment,Footwear,Consumer,2,99.98999786,0.0,199.9799957,1
+76474,2018-01-21 07:53,1362,PAYMENT,0,Same Day,Pacific Asia,South Asia,Video Games,Discs Shop,Corporate,1,39.75,0.0,39.75,0
+73461,2017-12-08 08:18,1361,TRANSFER,4,Standard Class,Pacific Asia,Eastern Asia,Toys,Fan Shop,Home Office,1,11.53999996,0.07,11.53999996,0
+26562,2016-01-23 17:30,191,PAYMENT,4,Standard Class,Pacific Asia,South Asia,Cardio Equipment,Footwear,Consumer,3,99.98999786,0.150000006,299.9700012,0
+41706,2016-08-31 19:07,403,DEBIT,4,Standard Class,Pacific Asia,West Asia,Men's Footwear,Apparel,Corporate,1,129.9900055,0.150000006,129.9900055,0
+73111,2017-12-03 05:41,1360,DEBIT,4,Standard Class,Pacific Asia,Southeast Asia,Sporting Goods,Fitness,Corporate,1,327.75,0.02,327.75,0
+9247,2015-05-15 23:17,403,TRANSFER,2,Second Class,LATAM,Central America,Men's Footwear,Apparel,Home Office,1,129.9900055,0.0,129.9900055,1
+35925,2016-06-08 09:46,1004,DEBIT,0,Same Day,USCA,East of USA,Fishing,Fan Shop,Consumer,1,399.980011,0.100000001,399.980011,0
+14646,2015-08-02 18:47,365,DEBIT,1,First Class,Europe,Western Europe,Cleats,Apparel,Corporate,1,59.99000168,0.0,59.99000168,1
+14323,2015-07-29 01:38,957,CASH,2,Second Class,Europe,Western Europe,Camping & Hiking,Fan Shop,Corporate,1,299.980011,0.050000001,299.980011,1
+63278,2017-07-12 16:45,957,TRANSFER,4,Standard Class,Europe,Southern Europe,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.100000001,299.980011,0
+42666,2016-09-14 19:27,627,CASH,4,Standard Class,Pacific Asia,West Asia,Shop By Sport,Golf,Home Office,4,39.99000168,0.02,159.9600067,0
+13246,2015-07-13 08:18,1014,CASH,4,Standard Class,Europe,Western Europe,Indoor/Outdoor Games,Fan Shop,Consumer,2,49.97999954,0.01,99.95999908,0
+36070,2016-06-10 12:34,365,DEBIT,4,Standard Class,USCA,US Center ,Cleats,Apparel,Corporate,5,59.99000168,0.029999999,299.9500122,1
+4548,2015-03-08 09:01,1014,PAYMENT,4,Standard Class,LATAM,Central America,Indoor/Outdoor Games,Fan Shop,Consumer,3,49.97999954,0.039999999,149.9400024,0
+12203,2015-06-28 02:54,403,CASH,4,Standard Class,Europe,Western Europe,Men's Footwear,Apparel,Corporate,1,129.9900055,0.25,129.9900055,0
+74571,2017-12-24 13:11,1351,TRANSFER,4,Standard Class,Pacific Asia,Eastern Asia,Computers,Technology,Consumer,1,1500.0,0.159999996,1500.0,0
+8671,2015-05-07 13:29,1014,TRANSFER,4,Standard Class,LATAM,Central America,Indoor/Outdoor Games,Fan Shop,Home Office,2,49.97999954,0.150000006,99.95999908,0
+61765,2017-06-20 14:40,1004,DEBIT,4,Standard Class,Europe,Western Europe,Fishing,Fan Shop,Corporate,1,399.980011,0.059999999,399.980011,1
+12215,2015-06-28 07:06,365,CASH,4,Standard Class,Europe,Northern Europe,Cleats,Apparel,Consumer,4,59.99000168,0.200000003,239.9600067,1
+11569,2015-06-18 20:47,502,DEBIT,2,Second Class,Europe,Southern Europe,Women's Apparel,Golf,Corporate,1,50.0,0.029999999,50.0,1
+43841,2016-10-01 23:06,502,DEBIT,1,First Class,Europe,Eastern Europe,Women's Apparel,Golf,Consumer,2,50.0,0.059999999,100.0,1
+71721,2017-11-12 22:42,1354,TRANSFER,4,Standard Class,Pacific Asia,Oceania,DVDs,Discs Shop,Consumer,1,164.3800049,0.150000006,164.3800049,0
+3305,2015-02-18 05:32,502,PAYMENT,4,Standard Class,LATAM,Central America,Women's Apparel,Golf,Consumer,5,50.0,0.02,250.0,1
+15158,2015-08-10 06:10,502,DEBIT,4,Standard Class,Europe,Western Europe,Women's Apparel,Golf,Corporate,3,50.0,0.02,150.0,0
+16340,2015-08-27 12:16,502,DEBIT,4,Standard Class,Europe,Northern Europe,Women's Apparel,Golf,Consumer,3,50.0,0.050000001,150.0,1
+9306,2015-05-16 19:57,957,DEBIT,2,Second Class,LATAM,Central America,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.039999999,299.980011,0
+37765,2016-07-05 06:24,365,DEBIT,2,Second Class,USCA,East of USA,Cleats,Apparel,Consumer,2,59.99000168,0.159999996,119.9800034,1
+6396,2015-04-04 08:27,502,TRANSFER,4,Standard Class,LATAM,Central America,Women's Apparel,Golf,Home Office,4,50.0,0.200000003,200.0,0
+25080,2016-01-02 02:17,1004,TRANSFER,4,Standard Class,Pacific Asia,Oceania,Fishing,Fan Shop,Corporate,1,399.980011,0.050000001,399.980011,1
+13415,2015-07-15 19:31,627,DEBIT,4,Standard Class,Europe,Western Europe,Shop By Sport,Golf,Consumer,2,39.99000168,0.01,79.98000336,1
+23033,2015-12-03 05:08,1073,CASH,0,Same Day,Pacific Asia,Oceania,Water Sports,Fan Shop,Corporate,1,199.9900055,0.159999996,199.9900055,0
+59641,2017-05-20 14:32,1004,TRANSFER,2,Second Class,LATAM,Central America,Fishing,Fan Shop,Corporate,1,399.980011,0.119999997,399.980011,0
+9415,2015-05-18 10:08,1004,TRANSFER,1,First Class,LATAM,Central America,Fishing,Fan Shop,Home Office,1,399.980011,0.159999996,399.980011,1
+21740,2015-11-14 08:08,502,CASH,4,Standard Class,Pacific Asia,Oceania,Women's Apparel,Golf,Consumer,4,50.0,0.180000007,200.0,1
+119,2015-01-02 17:20,403,PAYMENT,4,Standard Class,LATAM,South America,Men's Footwear,Apparel,Consumer,1,129.9900055,0.170000002,129.9900055,1
+62118,2017-06-25 18:21,502,DEBIT,4,Standard Class,Europe,Western Europe,Women's Apparel,Golf,Corporate,3,50.0,0.050000001,150.0,0
+51386,2017-01-20 02:27,365,CASH,4,Standard Class,LATAM,South America,Cleats,Apparel,Consumer,3,59.99000168,0.059999999,179.9700012,0
+41598,2016-08-30 05:16,235,DEBIT,4,Standard Class,Africa,North Africa,Fitness Accessories,Footwear,Consumer,1,34.99000168,0.119999997,34.99000168,0
+10847,2015-06-08 07:50,365,DEBIT,4,Standard Class,Europe,Southern Europe,Cleats,Apparel,Consumer,3,59.99000168,0.090000004,179.9700012,0
+52505,2017-02-05 10:29,1004,PAYMENT,4,Standard Class,LATAM,South America,Fishing,Fan Shop,Consumer,1,399.980011,0.090000004,399.980011,1
+55395,2017-03-19 14:59,191,DEBIT,1,First Class,LATAM,Central America,Cardio Equipment,Footwear,Consumer,2,99.98999786,0.059999999,199.9799957,1
+1610,2015-01-24 11:42,365,TRANSFER,4,Standard Class,LATAM,South America,Cleats,Apparel,Corporate,3,59.99000168,0.200000003,179.9700012,1
+59967,2017-05-25 08:45,1014,DEBIT,4,Standard Class,LATAM,Central America,Indoor/Outdoor Games,Fan Shop,Consumer,1,49.97999954,0.050000001,49.97999954,0
+43234,2016-09-23 02:26,1073,PAYMENT,4,Standard Class,Pacific Asia,West Asia,Water Sports,Fan Shop,Consumer,1,199.9900055,0.07,199.9900055,1
+2814,2015-02-11 01:31,1073,PAYMENT,2,Second Class,LATAM,Central America,Water Sports,Fan Shop,Consumer,1,199.9900055,0.059999999,199.9900055,1
+43474,2016-09-26 14:31,191,DEBIT,4,Standard Class,Europe,Southern Europe,Cardio Equipment,Footwear,Home Office,1,99.98999786,0.119999997,99.98999786,1
+52502,2017-02-05 09:26,1004,DEBIT,2,Second Class,LATAM,Caribbean,Fishing,Fan Shop,Home Office,1,399.980011,0.129999995,399.980011,1
+32362,2016-04-17 09:29,1004,PAYMENT,1,First Class,USCA,East of USA,Fishing,Fan Shop,Home Office,1,399.980011,0.129999995,399.980011,1
+24869,2015-12-30 00:22,365,PAYMENT,4,Standard Class,Pacific Asia,Eastern Asia,Cleats,Apparel,Consumer,3,59.99000168,0.02,179.9700012,1
+2852,2015-02-11 14:49,502,TRANSFER,4,Standard Class,LATAM,Central America,Women's Apparel,Golf,Consumer,5,50.0,0.119999997,250.0,0
+2453,2015-02-05 19:02,957,DEBIT,4,Standard Class,LATAM,Central America,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.170000002,299.980011,0
+45538,2016-10-26 17:38,1073,DEBIT,4,Standard Class,Pacific Asia,West Asia,Water Sports,Fan Shop,Consumer,1,199.9900055,0.059999999,199.9900055,0
+8986,2015-05-12 03:50,502,TRANSFER,2,Second Class,LATAM,Central America,Women's Apparel,Golf,Consumer,5,50.0,0.059999999,250.0,0
+20143,2015-10-22 00:38,403,DEBIT,2,Second Class,Europe,Western Europe,Men's Footwear,Apparel,Home Office,1,129.9900055,0.119999997,129.9900055,1
+25083,2016-01-02 03:20,1014,PAYMENT,4,Standard Class,Pacific Asia,Eastern Asia,Indoor/Outdoor Games,Fan Shop,Consumer,5,49.97999954,0.07,249.8999939,0
+42729,2016-09-15 17:31,957,PAYMENT,4,Standard Class,Africa,West Africa,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.059999999,299.980011,1
+56472,2017-04-04 08:18,191,CASH,4,Standard Class,LATAM,Central America,Cardio Equipment,Footwear,Consumer,1,99.98999786,0.159999996,99.98999786,0
+15472,2015-08-14 20:10,403,CASH,4,Standard Class,Europe,Western Europe,Men's Footwear,Apparel,Corporate,1,129.9900055,0.180000007,129.9900055,0
+10734,2015-06-06 16:14,1004,TRANSFER,4,Standard Class,Europe,Western Europe,Fishing,Fan Shop,Consumer,1,399.980011,0.01,399.980011,1
+32255,2016-04-15 20:00,403,CASH,4,Standard Class,USCA,West of USA ,Men's Footwear,Apparel,Consumer,1,129.9900055,0.159999996,129.9900055,1
+51487,2017-01-21 13:50,1073,PAYMENT,2,Second Class,LATAM,Central America,Water Sports,Fan Shop,Consumer,1,199.9900055,0.01,199.9900055,1
+31672,2016-04-07 07:45,1073,TRANSFER,4,Standard Class,USCA,West of USA ,Water Sports,Fan Shop,Consumer,1,199.9900055,0.029999999,199.9900055,0
+30154,2016-03-16 03:56,403,DEBIT,4,Standard Class,Pacific Asia,South Asia,Men's Footwear,Apparel,Home Office,1,129.9900055,0.150000006,129.9900055,1
+53381,2017-02-18 05:23,365,PAYMENT,4,Standard Class,LATAM,South America,Cleats,Apparel,Consumer,3,59.99000168,0.170000002,179.9700012,0
+7611,2015-04-22 02:07,1014,DEBIT,4,Standard Class,LATAM,South America,Indoor/Outdoor Games,Fan Shop,Home Office,2,49.97999954,0.170000002,99.95999908,0
+33435,2016-05-03 01:25,957,DEBIT,1,First Class,USCA,East of USA,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.150000006,299.980011,1
+15962,2015-08-21 23:50,502,PAYMENT,1,First Class,Europe,Western Europe,Women's Apparel,Golf,Home Office,5,50.0,0.150000006,250.0,1
+67002,2017-09-05 01:26,365,DEBIT,2,Second Class,Europe,Western Europe,Cleats,Apparel,Consumer,1,59.99000168,0.029999999,59.99000168,1
+70375,2017-10-24 07:08,1350,TRANSFER,2,Second Class,Europe,Western Europe,Children's Clothing,Apparel,Consumer,1,357.1000061,0.050000001,357.1000061,1
+20171,2015-10-22 10:26,403,CASH,4,Standard Class,Europe,Western Europe,Men's Footwear,Apparel,Consumer,1,129.9900055,0.01,129.9900055,0
+50503,2017-01-07 05:06,957,PAYMENT,1,First Class,Pacific Asia,West Asia,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.100000001,299.980011,1
+55132,2017-03-15 18:50,1004,PAYMENT,4,Standard Class,LATAM,South America,Fishing,Fan Shop,Home Office,1,399.980011,0.01,399.980011,0
+48233,2016-12-05 01:49,403,PAYMENT,4,Standard Class,Pacific Asia,West Asia,Men's Footwear,Apparel,Consumer,1,129.9900055,0.180000007,129.9900055,0
+58092,2017-04-27 23:51,403,DEBIT,4,Standard Class,LATAM,Central America,Men's Footwear,Apparel,Home Office,1,129.9900055,0.170000002,129.9900055,0
+22889,2015-12-01 02:41,627,PAYMENT,2,Second Class,Pacific Asia,Oceania,Shop By Sport,Golf,Consumer,5,39.99000168,0.090000004,199.9499969,1
+47707,2016-11-27 09:32,1014,DEBIT,4,Standard Class,Europe,Eastern Europe,Indoor/Outdoor Games,Fan Shop,Corporate,5,49.97999954,0.119999997,249.8999939,0
+10707,2015-06-06 06:47,365,PAYMENT,4,Standard Class,Europe,Western Europe,Cleats,Apparel,Home Office,2,59.99000168,0.0,119.9800034,0
+10131,2015-05-28 20:59,191,DEBIT,4,Standard Class,LATAM,South America,Cardio Equipment,Footwear,Consumer,5,99.98999786,0.200000003,499.9500122,0
+59327,2017-05-16 00:32,1014,TRANSFER,4,Standard Class,LATAM,Central America,Indoor/Outdoor Games,Fan Shop,Corporate,1,49.97999954,0.050000001,49.97999954,0
+20454,2015-10-26 13:35,191,DEBIT,1,First Class,Pacific Asia,South Asia,Cardio Equipment,Footwear,Consumer,2,99.98999786,0.119999997,199.9799957,1
+72034,2017-11-17 12:22,1355,DEBIT,2,Second Class,Pacific Asia,Eastern Asia,Garden,Outdoors,Consumer,1,532.5800171,0.059999999,532.5800171,1
+5374,2015-03-20 10:24,276,TRANSFER,1,First Class,LATAM,Central America,Electronics,Footwear,Consumer,1,31.98999977,0.029999999,31.98999977,1
+734,2015-01-11 16:48,1004,PAYMENT,4,Standard Class,LATAM,Central America,Fishing,Fan Shop,Consumer,1,399.980011,0.129999995,399.980011,1
+52197,2017-01-31 22:35,502,CASH,1,First Class,LATAM,Central America,Women's Apparel,Golf,Consumer,4,50.0,0.02,200.0,1
+60096,2017-05-27 05:57,1073,DEBIT,4,Standard Class,LATAM,South America,Water Sports,Fan Shop,Consumer,1,199.9900055,0.159999996,199.9900055,0
+6258,2015-04-02 08:06,365,PAYMENT,4,Standard Class,LATAM,Central America,Cleats,Apparel,Corporate,3,59.99000168,0.170000002,179.9700012,0
+48021,2016-12-01 23:32,191,DEBIT,4,Standard Class,Europe,Eastern Europe,Cardio Equipment,Footwear,Corporate,4,99.98999786,0.01,399.9599915,0
+41285,2016-08-25 15:37,957,DEBIT,4,Standard Class,USCA,South of  USA ,Camping & Hiking,Fan Shop,Corporate,1,299.980011,0.07,299.980011,1
+44303,2016-10-08 16:57,191,TRANSFER,2,Second Class,Africa,East Africa,Cardio Equipment,Footwear,Consumer,1,99.98999786,0.25,99.98999786,1
+1271,2015-01-19 12:56,1014,TRANSFER,1,First Class,LATAM,Central America,Indoor/Outdoor Games,Fan Shop,Corporate,5,49.97999954,0.159999996,249.8999939,1
+26729,2016-01-26 04:00,365,DEBIT,4,Standard Class,Pacific Asia,Southeast Asia,Cleats,Apparel,Corporate,1,59.99000168,0.0,59.99000168,1
+68460,2017-09-26 08:14,502,CASH,4,Standard Class,Europe,Western Europe,Women's Apparel,Golf,Corporate,5,50.0,0.100000001,250.0,1
+52274,2017-02-02 01:33,1004,TRANSFER,1,First Class,LATAM,Central America,Fishing,Fan Shop,Consumer,1,399.980011,0.029999999,399.980011,1
+14861,2015-08-05 22:07,502,TRANSFER,4,Standard Class,Europe,Southern Europe,Women's Apparel,Golf,Consumer,4,50.0,0.07,200.0,0
+42635,2016-09-14 08:35,403,PAYMENT,1,First Class,Pacific Asia,South Asia,Men's Footwear,Apparel,Consumer,1,129.9900055,0.159999996,129.9900055,1
+21668,2015-11-13 06:54,403,PAYMENT,4,Standard Class,Pacific Asia,Oceania,Men's Footwear,Apparel,Consumer,1,129.9900055,0.100000001,129.9900055,0
+13045,2015-07-10 09:53,502,TRANSFER,0,Same Day,Europe,Northern Europe,Women's Apparel,Golf,Consumer,4,50.0,0.180000007,200.0,0
+20712,2015-10-30 07:59,403,PAYMENT,4,Standard Class,Pacific Asia,Eastern Asia,Men's Footwear,Apparel,Home Office,1,129.9900055,0.25,129.9900055,0
+28620,2016-02-22 18:30,502,PAYMENT,4,Standard Class,Pacific Asia,Eastern Asia,Women's Apparel,Golf,Consumer,4,50.0,0.170000002,200.0,1
+58802,2017-05-08 08:36,647,TRANSFER,4,Standard Class,LATAM,Central America,Men's Golf Clubs,Outdoors,Consumer,1,134.9900055,0.01,134.9900055,0
+65309,2017-08-11 08:18,957,DEBIT,1,First Class,Europe,Southern Europe,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.180000007,299.980011,1
+36692,2016-06-19 14:29,642,PAYMENT,2,Second Class,USCA,West of USA ,Shop By Sport,Golf,Corporate,3,30.0,0.090000004,90.0,1
+26113,2016-01-17 04:11,365,DEBIT,2,Second Class,Pacific Asia,South Asia,Cleats,Apparel,Corporate,3,59.99000168,0.100000001,179.9700012,1
+32553,2016-04-20 04:24,1073,PAYMENT,2,Second Class,USCA,East of USA,Water Sports,Fan Shop,Consumer,1,199.9900055,0.059999999,199.9900055,1
+7003,2015-04-13 05:06,627,PAYMENT,2,Second Class,LATAM,Central America,Shop By Sport,Golf,Corporate,1,39.99000168,0.129999995,39.99000168,1
+17721,2015-09-16 16:06,1004,CASH,4,Standard Class,Europe,Southern Europe,Fishing,Fan Shop,Corporate,1,399.980011,0.090000004,399.980011,0
+40907,2016-08-20 03:11,627,TRANSFER,2,Second Class,USCA,West of USA ,Shop By Sport,Golf,Home Office,1,39.99000168,0.129999995,39.99000168,1
+32031,2016-04-12 13:32,502,TRANSFER,1,First Class,USCA,West of USA ,Women's Apparel,Golf,Consumer,1,50.0,0.25,50.0,1
+39265,2016-07-27 03:55,1014,PAYMENT,4,Standard Class,USCA,West of USA ,Indoor/Outdoor Games,Fan Shop,Consumer,5,49.97999954,0.07,249.8999939,1
+62176,2017-06-26 14:40,403,PAYMENT,4,Standard Class,Europe,Western Europe,Men's Footwear,Apparel,Corporate,1,129.9900055,0.02,129.9900055,0
+34296,2016-05-15 15:03,1004,DEBIT,1,First Class,USCA,East of USA,Fishing,Fan Shop,Home Office,1,399.980011,0.059999999,399.980011,1
+65090,2017-08-08 03:34,403,PAYMENT,1,First Class,Europe,Western Europe,Men's Footwear,Apparel,Consumer,1,129.9900055,0.039999999,129.9900055,1
+39995,2016-08-06 19:40,957,PAYMENT,4,Standard Class,USCA,South of  USA ,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.07,299.980011,1
+28709,2016-02-24 01:41,1014,DEBIT,4,Standard Class,Pacific Asia,South Asia,Indoor/Outdoor Games,Fan Shop,Corporate,1,49.97999954,0.25,49.97999954,1
+33175,2016-04-29 06:19,502,DEBIT,4,Standard Class,USCA,West of USA ,Women's Apparel,Golf,Consumer,2,50.0,0.090000004,100.0,1
+69266,2017-10-08 02:36,1347,CASH,0,Same Day,Europe,Western Europe,Baby ,Apparel,Consumer,1,59.08000183,0.180000007,59.08000183,0
+21153,2015-11-05 18:29,365,TRANSFER,2,Second Class,Pacific Asia,Oceania,Cleats,Apparel,Consumer,2,59.99000168,0.07,119.9800034,1
+75711,2018-01-10 04:35,1359,PAYMENT,2,Second Class,Pacific Asia,Eastern Asia,Pet Supplies,Pet Shop,Corporate,1,84.40000153,0.050000001,84.40000153,0
+18607,2015-09-29 14:30,502,TRANSFER,4,Standard Class,Europe,Northern Europe,Women's Apparel,Golf,Consumer,3,50.0,0.129999995,150.0,0
+45746,2016-10-29 18:30,502,PAYMENT,2,Second Class,Europe,Eastern Europe,Women's Apparel,Golf,Home Office,4,50.0,0.050000001,200.0,0
+23489,2015-12-09 20:53,627,CASH,1,First Class,Pacific Asia,Eastern Asia,Shop By Sport,Golf,Consumer,1,39.99000168,0.25,39.99000168,1
+60870,2017-06-07 13:07,957,TRANSFER,4,Standard Class,LATAM,Central America,Camping & Hiking,Fan Shop,Corporate,1,299.980011,0.159999996,299.980011,1
+22416,2015-11-24 04:58,403,TRANSFER,4,Standard Class,Pacific Asia,Oceania,Men's Footwear,Apparel,Consumer,1,129.9900055,0.100000001,129.9900055,0
+72807,2017-11-28 19:11,1358,TRANSFER,4,Standard Class,Pacific Asia,Eastern Asia,Music,Discs Shop,Corporate,1,260.6499939,0.090000004,260.6499939,0
+47085,2016-11-18 07:37,1004,DEBIT,4,Standard Class,Africa,West Africa,Fishing,Fan Shop,Consumer,1,399.980011,0.0,399.980011,1
+54108,2017-02-28 20:05,365,TRANSFER,4,Standard Class,LATAM,Central America,Cleats,Apparel,Corporate,4,59.99000168,0.150000006,239.9600067,0
+45223,2016-10-22 03:16,957,TRANSFER,4,Standard Class,Africa,North Africa,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.090000004,299.980011,0
+48706,2016-12-11 23:31,627,DEBIT,4,Standard Class,Pacific Asia,West Asia,Shop By Sport,Golf,Corporate,1,39.99000168,0.150000006,39.99000168,0
+54570,2017-03-07 13:57,502,TRANSFER,4,Standard Class,LATAM,Central America,Women's Apparel,Golf,Consumer,4,50.0,0.029999999,200.0,1
+30947,2016-03-27 17:45,1073,DEBIT,2,Second Class,Pacific Asia,Oceania,Water Sports,Fan Shop,Home Office,1,199.9900055,0.180000007,199.9900055,1
+40073,2016-08-07 23:00,365,DEBIT,2,Second Class,USCA,US Center ,Cleats,Apparel,Consumer,4,59.99000168,0.200000003,239.9600067,1
+68412,2017-09-25 15:25,845,TRANSFER,2,Second Class,Europe,Western Europe,Kids' Golf Clubs,Outdoors,Consumer,1,299.9899902,0.170000002,299.9899902,0
+35290,2016-05-30 03:18,403,CASH,2,Second Class,USCA,South of  USA ,Men's Footwear,Apparel,Home Office,1,129.9900055,0.07,129.9900055,1
+28523,2016-02-21 08:31,365,TRANSFER,0,Same Day,Pacific Asia,Southeast Asia,Cleats,Apparel,Consumer,4,59.99000168,0.180000007,239.9600067,0
+48245,2016-12-05 06:01,365,DEBIT,2,Second Class,Africa,North Africa,Cleats,Apparel,Home Office,3,59.99000168,0.25,179.9700012,1
+49333,2016-12-21 03:11,1014,DEBIT,4,Standard Class,Europe,Southern Europe,Indoor/Outdoor Games,Fan Shop,Consumer,3,49.97999954,0.129999995,149.9400024,0
+14827,2015-08-05 10:12,403,PAYMENT,2,Second Class,Europe,Western Europe,Men's Footwear,Apparel,Consumer,1,129.9900055,0.059999999,129.9900055,1
+34259,2016-05-15 02:06,365,DEBIT,2,Second Class,USCA,West of USA ,Cleats,Apparel,Corporate,2,59.99000168,0.170000002,119.9800034,1
+36178,2016-06-12 02:24,1014,DEBIT,4,Standard Class,USCA,South of  USA ,Indoor/Outdoor Games,Fan Shop,Consumer,1,49.97999954,0.119999997,49.97999954,0
+40337,2016-08-11 19:29,924,DEBIT,4,Standard Class,USCA,West of USA ,Trade-In,Outdoors,Corporate,3,15.98999977,0.100000001,47.97000122,0
+25515,2016-01-08 10:41,1004,DEBIT,1,First Class,Pacific Asia,Southeast Asia,Fishing,Fan Shop,Home Office,1,399.980011,0.170000002,399.980011,1
+38458,2016-07-15 09:12,403,TRANSFER,4,Standard Class,USCA,South of  USA ,Men's Footwear,Apparel,Consumer,1,129.9900055,0.159999996,129.9900055,0
+18818,2015-10-02 16:26,1073,PAYMENT,4,Standard Class,Europe,Southern Europe,Water Sports,Fan Shop,Corporate,1,199.9900055,0.02,199.9900055,0
+23208,2015-12-05 18:26,502,CASH,4,Standard Class,Pacific Asia,Oceania,Women's Apparel,Golf,Consumer,1,50.0,0.039999999,50.0,0
+43613,2016-09-28 15:13,627,DEBIT,4,Standard Class,Pacific Asia,South Asia,Shop By Sport,Golf,Corporate,4,39.99000168,0.100000001,159.9600067,0
+50605,2017-01-08 16:50,1073,TRANSFER,4,Standard Class,Africa,North Africa,Water Sports,Fan Shop,Home Office,1,199.9900055,0.119999997,199.9900055,0
+37026,2016-06-24 11:30,403,DEBIT,4,Standard Class,USCA,US Center ,Men's Footwear,Apparel,Corporate,1,129.9900055,0.0,129.9900055,0
+75255,2018-01-03 12:49,1356,DEBIT,1,First Class,Pacific Asia,Eastern Asia,Health and Beauty,Health and Beauty ,Consumer,1,293.0400085,0.02,293.0400085,1
+48378,2016-12-07 04:37,502,TRANSFER,2,Second Class,Africa,North Africa,Women's Apparel,Golf,Consumer,2,50.0,0.07,100.0,1
+49361,2016-12-21 13:00,1073,TRANSFER,2,Second Class,Europe,Eastern Europe,Water Sports,Fan Shop,Consumer,1,199.9900055,0.100000001,199.9900055,0
+56140,2017-03-30 11:59,403,CASH,4,Standard Class,LATAM,Central America,Men's Footwear,Apparel,Corporate,1,129.9900055,0.01,129.9900055,1
+21701,2015-11-13 18:28,191,CASH,1,First Class,Pacific Asia,Southeast Asia,Cardio Equipment,Footwear,Corporate,2,99.98999786,0.090000004,199.9799957,1
+12996,2015-07-09 16:43,191,DEBIT,4,Standard Class,Europe,Southern Europe,Cardio Equipment,Footwear,Home Office,2,99.98999786,0.100000001,199.9799957,0
+30553,2016-03-21 23:43,957,CASH,4,Standard Class,Pacific Asia,Oceania,Camping & Hiking,Fan Shop,Corporate,1,299.980011,0.170000002,299.980011,0
+61839,2017-06-21 16:36,403,TRANSFER,4,Standard Class,Europe,Western Europe,Men's Footwear,Apparel,Corporate,1,129.9900055,0.200000003,129.9900055,0
+16597,2015-08-31 06:19,502,TRANSFER,2,Second Class,Europe,Northern Europe,Women's Apparel,Golf,Consumer,2,50.0,0.029999999,100.0,1
+70012,2017-10-18 23:58,1350,TRANSFER,4,Standard Class,Europe,Western Europe,Children's Clothing,Apparel,Consumer,1,357.1000061,0.090000004,357.1000061,0
+52619,2017-02-07 02:25,365,TRANSFER,4,Standard Class,LATAM,Central America,Cleats,Apparel,Consumer,3,59.99000168,0.170000002,179.9700012,0
+14857,2015-08-05 20:43,502,PAYMENT,4,Standard Class,Europe,Western Europe,Women's Apparel,Golf,Consumer,4,50.0,0.100000001,200.0,0
+48112,2016-12-03 07:25,365,DEBIT,4,Standard Class,Pacific Asia,West Asia,Cleats,Apparel,Corporate,1,59.99000168,0.090000004,59.99000168,0
+568,2015-01-09 06:38,1073,TRANSFER,4,Standard Class,LATAM,Central America,Water Sports,Fan Shop,Corporate,1,199.9900055,0.050000001,199.9900055,0
+55879,2017-03-26 16:33,1004,TRANSFER,0,Same Day,LATAM,Caribbean,Fishing,Fan Shop,Consumer,1,399.980011,0.119999997,399.980011,0
+13182,2015-07-12 09:53,1004,PAYMENT,2,Second Class,Europe,Northern Europe,Fishing,Fan Shop,Consumer,1,399.980011,0.119999997,399.980011,1
+1007,2015-01-15 16:26,1014,PAYMENT,4,Standard Class,LATAM,Central America,Indoor/Outdoor Games,Fan Shop,Corporate,1,49.97999954,0.029999999,49.97999954,0
+65780,2017-08-18 05:18,1014,CASH,1,First Class,Europe,Southern Europe,Indoor/Outdoor Games,Fan Shop,Consumer,2,49.97999954,0.029999999,99.95999908,1
+39480,2016-07-30 07:15,1014,DEBIT,1,First Class,USCA,US Center ,Indoor/Outdoor Games,Fan Shop,Corporate,3,49.97999954,0.0,149.9400024,1
+42782,2016-09-16 12:05,1073,TRANSFER,4,Standard Class,Europe,Eastern Europe,Water Sports,Fan Shop,Home Office,1,199.9900055,0.050000001,199.9900055,0
+19594,2015-10-14 00:18,1004,TRANSFER,4,Standard Class,Europe,Western Europe,Fishing,Fan Shop,Corporate,1,399.980011,0.02,399.980011,0
+4516,2015-03-07 21:48,116,CASH,2,Second Class,LATAM,South America,Tennis & Racquet,Fitness,Home Office,4,44.99000168,0.100000001,179.9600067,0
+31219,2016-03-31 17:03,1073,TRANSFER,4,Standard Class,Pacific Asia,Oceania,Water Sports,Fan Shop,Corporate,1,199.9900055,0.090000004,199.9900055,1
+65955,2017-08-20 18:37,1004,DEBIT,2,Second Class,Europe,Northern Europe,Fishing,Fan Shop,Consumer,1,399.980011,0.029999999,399.980011,1
+60902,2017-06-08 00:19,1073,TRANSFER,2,Second Class,LATAM,South America,Water Sports,Fan Shop,Consumer,1,199.9900055,0.029999999,199.9900055,1
+26749,2016-01-26 11:00,1073,TRANSFER,2,Second Class,Pacific Asia,Eastern Asia,Water Sports,Fan Shop,Corporate,1,199.9900055,0.150000006,199.9900055,1
+12825,2015-07-07 04:49,1004,DEBIT,2,Second Class,Europe,Western Europe,Fishing,Fan Shop,Consumer,1,399.980011,0.25,399.980011,1
+47743,2016-11-27 22:08,775,TRANSFER,4,Standard Class,Pacific Asia,West Asia,Golf Gloves,Outdoors,Corporate,4,9.989999771,0.090000004,39.95999908,0
+12051,2015-06-25 21:39,502,DEBIT,4,Standard Class,Europe,Northern Europe,Women's Apparel,Golf,Consumer,1,50.0,0.090000004,50.0,0
+22247,2015-11-21 17:45,1073,DEBIT,1,First Class,Pacific Asia,Eastern Asia,Water Sports,Fan Shop,Consumer,1,199.9900055,0.029999999,199.9900055,1
+40655,2016-08-16 10:54,403,DEBIT,4,Standard Class,USCA,East of USA,Men's Footwear,Apparel,Consumer,1,129.9900055,0.0,129.9900055,1
+5713,2015-03-25 09:10,134,PAYMENT,4,Standard Class,LATAM,Central America,Hockey,Fitness,Corporate,4,25.0,0.059999999,100.0,0
+43119,2016-09-21 10:09,1004,TRANSFER,2,Second Class,Europe,Eastern Europe,Fishing,Fan Shop,Consumer,1,399.980011,0.170000002,399.980011,1
+69075,2017-10-05 07:41,1346,TRANSFER,4,Standard Class,Europe,Southern Europe,Books ,Book Shop,Home Office,1,31.07999992,0.039999999,31.07999992,1
+65120,2017-08-08 14:05,1014,CASH,4,Standard Class,Europe,Northern Europe,Indoor/Outdoor Games,Fan Shop,Consumer,5,49.97999954,0.100000001,249.8999939,1
+66551,2017-08-29 11:25,403,DEBIT,2,Second Class,Europe,Western Europe,Men's Footwear,Apparel,Consumer,1,129.9900055,0.180000007,129.9900055,0
+16071,2015-08-23 14:02,1073,TRANSFER,1,First Class,Europe,Northern Europe,Water Sports,Fan Shop,Consumer,1,199.9900055,0.090000004,199.9900055,1
+42491,2016-09-12 06:08,957,TRANSFER,4,Standard Class,Europe,Eastern Europe,Camping & Hiking,Fan Shop,Home Office,1,299.980011,0.119999997,299.980011,0
+25559,2016-01-09 02:06,403,DEBIT,1,First Class,Pacific Asia,Eastern Asia,Men's Footwear,Apparel,Corporate,1,129.9900055,0.150000006,129.9900055,1
+38677,2016-07-18 13:55,1004,TRANSFER,4,Standard Class,USCA,US Center ,Fishing,Fan Shop,Consumer,1,399.980011,0.0,399.980011,0
+11781,2015-06-21 23:03,957,TRANSFER,4,Standard Class,Europe,Western Europe,Camping & Hiking,Fan Shop,Home Office,1,299.980011,0.180000007,299.980011,0
+62951,2017-07-07 22:11,627,CASH,1,First Class,Europe,Western Europe,Shop By Sport,Golf,Consumer,3,39.99000168,0.050000001,119.9700012,1
+7767,2015-04-24 08:46,191,TRANSFER,4,Standard Class,LATAM,Central America,Cardio Equipment,Footwear,Consumer,2,99.98999786,0.170000002,199.9799957,0
+24484,2015-12-24 09:29,365,DEBIT,4,Standard Class,Pacific Asia,Eastern Asia,Cleats,Apparel,Home Office,5,59.99000168,0.059999999,299.9500122,1
+30523,2016-03-21 13:12,403,DEBIT,2,Second Class,Pacific Asia,Oceania,Men's Footwear,Apparel,Consumer,1,129.9900055,0.100000001,129.9900055,1
+64850,2017-08-04 15:29,646,DEBIT,4,Standard Class,Europe,Southern Europe,Men's Golf Clubs,Outdoors,Consumer,2,99.98999786,0.07,199.9799957,1
+47411,2016-11-23 01:50,1004,DEBIT,4,Standard Class,Africa,Central Africa,Fishing,Fan Shop,Corporate,1,399.980011,0.119999997,399.980011,0
+42178,2016-09-07 16:28,1073,DEBIT,4,Standard Class,Pacific Asia,West Asia,Water Sports,Fan Shop,Corporate,1,199.9900055,0.100000001,199.9900055,0
+44201,2016-10-07 05:13,1004,DEBIT,1,First Class,Africa,Central Africa,Fishing,Fan Shop,Corporate,1,399.980011,0.170000002,399.980011,1
+12021,2015-06-25 11:08,957,CASH,2,Second Class,Europe,Western Europe,Camping & Hiking,Fan Shop,Home Office,1,299.980011,0.059999999,299.980011,0
+7576,2015-04-21 13:51,1073,PAYMENT,0,Same Day,LATAM,South America,Water Sports,Fan Shop,Consumer,1,199.9900055,0.059999999,199.9900055,1
+64842,2017-08-04 12:41,502,TRANSFER,2,Second Class,Europe,Western Europe,Women's Apparel,Golf,Consumer,1,50.0,0.029999999,50.0,1
+14624,2015-08-02 11:05,1004,PAYMENT,4,Standard Class,Europe,Western Europe,Fishing,Fan Shop,Home Office,1,399.980011,0.050000001,399.980011,1
+16096,2015-08-23 22:47,191,CASH,4,Standard Class,Europe,Southern Europe,Cardio Equipment,Footwear,Corporate,2,99.98999786,0.150000006,199.9799957,0
+25316,2016-01-05 12:58,502,PAYMENT,4,Standard Class,Pacific Asia,Eastern Asia,Women's Apparel,Golf,Home Office,3,50.0,0.029999999,150.0,0
+16076,2015-08-23 15:47,1004,TRANSFER,4,Standard Class,Europe,Western Europe,Fishing,Fan Shop,Corporate,1,399.980011,0.119999997,399.980011,0
+66390,2017-08-27 03:01,365,PAYMENT,4,Standard Class,Europe,Southern Europe,Cleats,Apparel,Consumer,3,59.99000168,0.02,179.9700012,1
+76943,2018-01-28 04:12,1363,CASH,1,First Class,Pacific Asia,Oceania,Women's Clothing,Apparel,Home Office,1,215.8200073,0.039999999,215.8200073,1
+42360,2016-09-10 08:14,502,CASH,4,Standard Class,Africa,Central Africa,Women's Apparel,Golf,Home Office,4,50.0,0.0,200.0,1
+36965,2016-06-23 14:08,1014,DEBIT,1,First Class,USCA,West of USA ,Indoor/Outdoor Games,Fan Shop,Home Office,2,49.97999954,0.01,99.95999908,1
+32515,2016-04-19 15:06,957,DEBIT,2,Second Class,USCA,East of USA,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.02,299.980011,1
+24369,2015-12-22 17:11,191,DEBIT,2,Second Class,Pacific Asia,South Asia,Cardio Equipment,Footwear,Consumer,3,99.98999786,0.07,299.9700012,1
+22162,2015-11-20 11:59,365,TRANSFER,1,First Class,Pacific Asia,Southeast Asia,Cleats,Apparel,Consumer,4,59.99000168,0.159999996,239.9600067,1
+35255,2016-05-29 15:02,957,DEBIT,4,Standard Class,USCA,South of  USA ,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.100000001,299.980011,1
+29287,2016-03-03 12:11,365,PAYMENT,4,Standard Class,Pacific Asia,Southeast Asia,Cleats,Apparel,Consumer,1,59.99000168,0.039999999,59.99000168,0
+50440,2017-01-06 07:01,1073,DEBIT,1,First Class,Pacific Asia,Central Asia,Water Sports,Fan Shop,Corporate,1,199.9900055,0.0,199.9900055,1
+3643,2015-02-23 03:57,1073,TRANSFER,4,Standard Class,LATAM,Caribbean,Water Sports,Fan Shop,Home Office,1,199.9900055,0.129999995,199.9900055,0
+13287,2015-07-13 22:40,1014,CASH,2,Second Class,Europe,Western Europe,Indoor/Outdoor Games,Fan Shop,Consumer,3,49.97999954,0.029999999,149.9400024,1
+6674,2015-04-08 09:50,191,DEBIT,2,Second Class,LATAM,Central America,Cardio Equipment,Footwear,Consumer,5,99.98999786,0.100000001,499.9500122,1
+16910,2015-09-04 19:58,403,DEBIT,4,Standard Class,Europe,Western Europe,Men's Footwear,Apparel,Home Office,1,129.9900055,0.0,129.9900055,1
+5728,2015-03-25 14:25,191,CASH,0,Same Day,LATAM,Caribbean,Cardio Equipment,Footwear,Consumer,3,99.98999786,0.07,299.9700012,1
+34893,2016-05-24 08:13,191,DEBIT,2,Second Class,USCA,East of USA,Cardio Equipment,Footwear,Home Office,5,99.98999786,0.0,499.9500122,1
+61804,2017-06-21 04:20,957,DEBIT,1,First Class,Europe,Western Europe,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.07,299.980011,1
+47826,2016-11-29 03:13,502,TRANSFER,4,Standard Class,Pacific Asia,West Asia,Women's Apparel,Golf,Home Office,1,50.0,0.150000006,50.0,0
+61530,2017-06-17 04:20,1014,DEBIT,4,Standard Class,LATAM,South America,Indoor/Outdoor Games,Fan Shop,Consumer,1,49.97999954,0.029999999,49.97999954,1
+42086,2016-09-06 08:15,627,CASH,2,Second Class,Africa,East Africa,Shop By Sport,Golf,Home Office,4,39.99000168,0.25,159.9600067,0
+45280,2016-10-22 23:15,1004,TRANSFER,4,Standard Class,Europe,Eastern Europe,Fishing,Fan Shop,Corporate,1,399.980011,0.07,399.980011,1
+36323,2016-06-14 05:12,1073,TRANSFER,4,Standard Class,USCA,US Center ,Water Sports,Fan Shop,Home Office,1,199.9900055,0.050000001,199.9900055,0
+25243,2016-01-04 11:23,365,DEBIT,2,Second Class,Pacific Asia,South Asia,Cleats,Apparel,Home Office,1,59.99000168,0.01,59.99000168,1
+12487,2015-07-02 06:24,1004,DEBIT,4,Standard Class,Europe,Southern Europe,Fishing,Fan Shop,Consumer,1,399.980011,0.090000004,399.980011,0
+64159,2017-07-25 13:24,403,CASH,4,Standard Class,Europe,Western Europe,Men's Footwear,Apparel,Home Office,1,129.9900055,0.090000004,129.9900055,1
+57369,2017-04-17 10:33,191,CASH,4,Standard Class,LATAM,South America,Cardio Equipment,Footwear,Home Office,4,99.98999786,0.100000001,399.9599915,1
+32680,2016-04-22 00:54,191,PAYMENT,4,Standard Class,USCA,South of  USA ,Cardio Equipment,Footwear,Consumer,4,99.98999786,0.029999999,399.9599915,1
+46071,2016-11-03 12:22,191,PAYMENT,2,Second Class,Pacific Asia,South Asia,Cardio Equipment,Footwear,Consumer,4,99.98999786,0.119999997,399.9599915,0
+27367,2016-02-04 11:31,502,DEBIT,4,Standard Class,Pacific Asia,South Asia,Women's Apparel,Golf,Home Office,3,50.0,0.059999999,150.0,0
+12278,2015-06-29 05:10,1073,TRANSFER,4,Standard Class,Europe,Northern Europe,Water Sports,Fan Shop,Consumer,1,199.9900055,0.07,199.9900055,0
+54638,2017-03-08 13:46,37,PAYMENT,4,Standard Class,LATAM,Central America,Baseball & Softball,Fitness,Corporate,2,34.99000168,0.050000001,69.98000336,0
+31998,2016-04-12 01:58,1014,PAYMENT,0,Same Day,USCA,East of USA,Indoor/Outdoor Games,Fan Shop,Corporate,5,49.97999954,0.039999999,249.8999939,0
+18901,2015-10-03 21:30,572,PAYMENT,4,Standard Class,Europe,Western Europe,Girls' Apparel,Golf,Home Office,5,39.99000168,0.180000007,199.9499969,0
+18545,2015-09-28 16:47,1004,TRANSFER,4,Standard Class,Europe,Western Europe,Fishing,Fan Shop,Consumer,1,399.980011,0.100000001,399.980011,1
+47260,2016-11-20 20:55,627,DEBIT,4,Standard Class,Pacific Asia,South Asia,Shop By Sport,Golf,Home Office,1,39.99000168,0.150000006,39.99000168,1
+66422,2017-08-27 14:14,1004,TRANSFER,0,Same Day,Europe,Southern Europe,Fishing,Fan Shop,Consumer,1,399.980011,0.059999999,399.980011,1
+25409,2016-01-06 21:33,627,PAYMENT,2,Second Class,Pacific Asia,Southeast Asia,Shop By Sport,Golf,Corporate,4,39.99000168,0.129999995,159.9600067,1
+63450,2017-07-15 05:00,957,PAYMENT,4,Standard Class,Europe,Northern Europe,Camping & Hiking,Fan Shop,Corporate,1,299.980011,0.200000003,299.980011,1
+65120,2017-08-08 14:05,365,CASH,4,Standard Class,Europe,Northern Europe,Cleats,Apparel,Consumer,5,59.99000168,0.059999999,299.9500122,1
+10869,2015-06-08 15:32,1014,TRANSFER,4,Standard Class,Europe,Northern Europe,Indoor/Outdoor Games,Fan Shop,Consumer,4,49.97999954,0.180000007,199.9199982,1
+2505,2015-02-06 13:15,1014,TRANSFER,4,Standard Class,LATAM,South America,Indoor/Outdoor Games,Fan Shop,Corporate,2,49.97999954,0.059999999,99.95999908,1
+7456,2015-04-19 19:49,502,TRANSFER,4,Standard Class,LATAM,Central America,Women's Apparel,Golf,Corporate,5,50.0,0.0,250.0,0
+30194,2016-03-16 17:57,957,DEBIT,4,Standard Class,Pacific Asia,Eastern Asia,Camping & Hiking,Fan Shop,Home Office,1,299.980011,0.059999999,299.980011,1
+7629,2015-04-22 08:25,403,DEBIT,4,Standard Class,LATAM,Central America,Men's Footwear,Apparel,Consumer,1,129.9900055,0.050000001,129.9900055,1
+24624,2015-12-26 10:32,403,PAYMENT,1,First Class,Pacific Asia,Oceania,Men's Footwear,Apparel,Consumer,1,129.9900055,0.029999999,129.9900055,1
+28896,2016-02-26 19:12,1014,PAYMENT,1,First Class,Pacific Asia,Eastern Asia,Indoor/Outdoor Games,Fan Shop,Corporate,4,49.97999954,0.170000002,199.9199982,1
+12980,2015-07-09 11:07,565,CASH,1,First Class,Europe,Western Europe,Girls' Apparel,Golf,Consumer,1,70.0,0.02,70.0,1
+19814,2015-10-17 05:22,1014,PAYMENT,2,Second Class,Europe,Southern Europe,Indoor/Outdoor Games,Fan Shop,Home Office,2,49.97999954,0.180000007,99.95999908,1
+48569,2016-12-09 23:32,825,PAYMENT,4,Standard Class,Pacific Asia,South Asia,Electronics,Outdoors,Consumer,5,31.98999977,0.039999999,159.9499969,1
+5635,2015-03-24 05:50,627,PAYMENT,4,Standard Class,LATAM,Central America,Shop By Sport,Golf,Home Office,3,39.99000168,0.050000001,119.9700012,1
+34113,2016-05-12 22:57,403,PAYMENT,4,Standard Class,USCA,East of USA,Men's Footwear,Apparel,Consumer,1,129.9900055,0.050000001,129.9900055,0
+18514,2015-09-28 05:55,365,DEBIT,4,Standard Class,Europe,Western Europe,Cleats,Apparel,Home Office,1,59.99000168,0.02,59.99000168,1
+34336,2016-05-16 05:04,1004,TRANSFER,4,Standard Class,USCA,West of USA ,Fishing,Fan Shop,Consumer,1,399.980011,0.159999996,399.980011,0
+10849,2015-06-08 08:32,627,DEBIT,2,Second Class,Europe,Southern Europe,Shop By Sport,Golf,Corporate,1,39.99000168,0.159999996,39.99000168,1
+52984,2017-02-12 10:18,365,DEBIT,4,Standard Class,LATAM,Central America,Cleats,Apparel,Consumer,4,59.99000168,0.01,239.9600067,1
+17126,2015-09-07 23:39,365,TRANSFER,1,First Class,Europe,Western Europe,Cleats,Apparel,Consumer,3,59.99000168,0.170000002,179.9700012,1
+944,2015-01-14 18:22,957,DEBIT,4,Standard Class,LATAM,Central America,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.129999995,299.980011,1
+27547,2016-02-07 02:35,957,DEBIT,4,Standard Class,Pacific Asia,South Asia,Camping & Hiking,Fan Shop,Home Office,1,299.980011,0.100000001,299.980011,0
+49893,2016-12-29 07:23,957,DEBIT,1,First Class,Pacific Asia,Central Asia,Camping & Hiking,Fan Shop,Corporate,1,299.980011,0.170000002,299.980011,1
+70690,2017-10-28 21:30,1351,DEBIT,4,Standard Class,Europe,Southern Europe,Computers,Technology,Consumer,1,1500.0,0.170000002,1500.0,1
+4365,2015-03-05 16:54,365,DEBIT,4,Standard Class,LATAM,Caribbean,Cleats,Apparel,Corporate,4,59.99000168,0.180000007,239.9600067,1
+23347,2015-12-07 19:08,627,DEBIT,2,Second Class,Pacific Asia,Oceania,Shop By Sport,Golf,Consumer,1,39.99000168,0.039999999,39.99000168,1
+2120,2015-01-31 22:22,191,TRANSFER,2,Second Class,LATAM,South America,Cardio Equipment,Footwear,Corporate,5,99.98999786,0.02,499.9500122,1
+67616,2017-09-14 00:32,1014,PAYMENT,1,First Class,Europe,Western Europe,Indoor/Outdoor Games,Fan Shop,Home Office,2,49.97999954,0.07,99.95999908,1
+18649,2015-09-30 05:13,365,CASH,4,Standard Class,Europe,Northern Europe,Cleats,Apparel,Corporate,3,59.99000168,0.150000006,179.9700012,1
+66018,2017-08-21 16:41,1073,PAYMENT,4,Standard Class,Europe,Western Europe,Water Sports,Fan Shop,Corporate,1,199.9900055,0.200000003,199.9900055,0
+10175,2015-05-29 12:24,627,PAYMENT,4,Standard Class,LATAM,South America,Shop By Sport,Golf,Consumer,1,39.99000168,0.02,39.99000168,1
+16877,2015-09-04 08:24,403,TRANSFER,4,Standard Class,Europe,Western Europe,Men's Footwear,Apparel,Consumer,1,129.9900055,0.159999996,129.9900055,0
+12537,2015-07-02 23:55,957,DEBIT,4,Standard Class,Europe,Southern Europe,Camping & Hiking,Fan Shop,Home Office,1,299.980011,0.029999999,299.980011,0
+3936,2015-02-27 10:36,642,CASH,4,Standard Class,LATAM,Central America,Shop By Sport,Golf,Consumer,2,30.0,0.170000002,60.0,0
+20015,2015-10-20 03:47,502,CASH,2,Second Class,Europe,Western Europe,Women's Apparel,Golf,Corporate,5,50.0,0.02,250.0,1
+49673,2016-12-26 02:18,1014,DEBIT,4,Standard Class,Europe,Eastern Europe,Indoor/Outdoor Games,Fan Shop,Consumer,3,49.97999954,0.180000007,149.9400024,0
+69979,2017-10-18 12:24,1349,DEBIT,1,First Class,Europe,Southern Europe,Cameras ,Technology,Consumer,1,452.0400085,0.159999996,452.0400085,1
+11433,2015-06-16 21:08,957,DEBIT,4,Standard Class,Europe,Northern Europe,Camping & Hiking,Fan Shop,Corporate,1,299.980011,0.100000001,299.980011,0
+55640,2017-03-23 04:49,365,DEBIT,4,Standard Class,LATAM,Central America,Cleats,Apparel,Corporate,1,59.99000168,0.200000003,59.99000168,1
+3087,2015-02-15 01:09,403,TRANSFER,4,Standard Class,LATAM,South America,Men's Footwear,Apparel,Corporate,1,129.9900055,0.01,129.9900055,0
+27753,2016-02-10 02:45,1014,DEBIT,4,Standard Class,Pacific Asia,Southeast Asia,Indoor/Outdoor Games,Fan Shop,Consumer,4,49.97999954,0.029999999,199.9199982,0
+34026,2016-05-11 16:28,502,PAYMENT,1,First Class,USCA,West of USA ,Women's Apparel,Golf,Consumer,1,50.0,0.01,50.0,1
+455,2015-01-07 15:03,1073,TRANSFER,4,Standard Class,LATAM,Central America,Water Sports,Fan Shop,Consumer,1,199.9900055,0.129999995,199.9900055,1
+40732,2016-08-17 13:53,502,TRANSFER,1,First Class,USCA,West of USA ,Women's Apparel,Golf,Home Office,1,50.0,0.029999999,50.0,0
+7584,2015-04-21 16:39,1014,PAYMENT,4,Standard Class,LATAM,South America,Indoor/Outdoor Games,Fan Shop,Consumer,4,49.97999954,0.050000001,199.9199982,1
+38801,2016-07-20 09:22,403,CASH,4,Standard Class,USCA,East of USA,Men's Footwear,Apparel,Corporate,1,129.9900055,0.029999999,129.9900055,0
+22588,2015-11-26 17:13,1073,DEBIT,4,Standard Class,Pacific Asia,Southeast Asia,Water Sports,Fan Shop,Consumer,1,199.9900055,0.02,199.9900055,0
+38235,2016-07-12 03:04,365,DEBIT,4,Standard Class,USCA,West of USA ,Cleats,Apparel,Home Office,5,59.99000168,0.039999999,299.9500122,1
+9864,2015-05-24 23:26,1014,DEBIT,4,Standard Class,LATAM,Central America,Indoor/Outdoor Games,Fan Shop,Consumer,4,49.97999954,0.029999999,199.9199982,1
+18975,2015-10-04 23:26,627,PAYMENT,4,Standard Class,Europe,Western Europe,Shop By Sport,Golf,Corporate,5,39.99000168,0.129999995,199.9499969,1
+25718,2016-01-11 09:48,1073,TRANSFER,0,Same Day,Pacific Asia,Eastern Asia,Water Sports,Fan Shop,Consumer,1,199.9900055,0.039999999,199.9900055,0
+19800,2015-10-17 00:28,728,TRANSFER,4,Standard Class,Europe,Western Europe,Golf Shoes,Outdoors,Consumer,1,65.0,0.119999997,65.0,1
+9468,2015-05-19 04:42,1073,CASH,4,Standard Class,LATAM,Central America,Water Sports,Fan Shop,Consumer,1,199.9900055,0.25,199.9900055,0
+54518,2017-03-06 19:44,502,DEBIT,4,Standard Class,LATAM,Central America,Women's Apparel,Golf,Consumer,3,50.0,0.07,150.0,0
+24446,2015-12-23 20:10,1073,TRANSFER,2,Second Class,Pacific Asia,Oceania,Water Sports,Fan Shop,Consumer,1,199.9900055,0.02,199.9900055,0
+5161,2015-03-17 07:46,1014,TRANSFER,4,Standard Class,LATAM,South America,Indoor/Outdoor Games,Fan Shop,Consumer,4,49.97999954,0.0,199.9199982,0
+10856,2015-06-08 10:59,1004,TRANSFER,4,Standard Class,Europe,Northern Europe,Fishing,Fan Shop,Consumer,1,399.980011,0.059999999,399.980011,0
+57995,2017-04-26 13:52,1014,PAYMENT,4,Standard Class,LATAM,Central America,Indoor/Outdoor Games,Fan Shop,Corporate,4,49.97999954,0.059999999,199.9199982,1
+256,2015-01-04 17:20,957,CASH,4,Standard Class,LATAM,Central America,Camping & Hiking,Fan Shop,Corporate,1,299.980011,0.100000001,299.980011,0
+7658,2015-04-22 18:35,365,PAYMENT,4,Standard Class,LATAM,South America,Cleats,Apparel,Consumer,1,59.99000168,0.180000007,59.99000168,0
+58274,2017-04-30 15:37,403,DEBIT,2,Second Class,LATAM,South America,Men's Footwear,Apparel,Consumer,1,129.9900055,0.050000001,129.9900055,1
+68200,2017-09-22 13:08,502,DEBIT,4,Standard Class,Europe,Western Europe,Women's Apparel,Golf,Corporate,2,50.0,0.129999995,100.0,1
+49608,2016-12-25 03:32,403,PAYMENT,4,Standard Class,Africa,Southern Africa,Men's Footwear,Apparel,Corporate,1,129.9900055,0.0,129.9900055,0
+29665,2016-03-09 00:37,502,TRANSFER,2,Second Class,Pacific Asia,Southeast Asia,Women's Apparel,Golf,Consumer,5,50.0,0.039999999,250.0,1
+25819,2016-01-12 21:11,403,DEBIT,1,First Class,Pacific Asia,South Asia,Men's Footwear,Apparel,Corporate,1,129.9900055,0.090000004,129.9900055,1
+66661,2017-08-31 01:58,365,TRANSFER,4,Standard Class,Europe,Western Europe,Cleats,Apparel,Corporate,4,59.99000168,0.01,239.9600067,0
+66034,2017-08-21 22:18,403,PAYMENT,4,Standard Class,Europe,Northern Europe,Men's Footwear,Apparel,Consumer,1,129.9900055,0.200000003,129.9900055,1
+33448,2016-05-03 05:58,957,TRANSFER,4,Standard Class,USCA,US Center ,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.129999995,299.980011,0
+25702,2016-01-11 04:12,825,PAYMENT,4,Standard Class,Pacific Asia,South Asia,Electronics,Outdoors,Home Office,3,31.98999977,0.07,95.97000122,0
+23364,2015-12-08 01:05,1073,DEBIT,4,Standard Class,Pacific Asia,Oceania,Water Sports,Fan Shop,Corporate,1,199.9900055,0.150000006,199.9900055,1
+21929,2015-11-17 02:21,365,TRANSFER,2,Second Class,Pacific Asia,South Asia,Cleats,Apparel,Consumer,3,59.99000168,0.01,179.9700012,1
+65923,2017-08-20 07:24,365,DEBIT,2,Second Class,Europe,Western Europe,Cleats,Apparel,Consumer,5,59.99000168,0.059999999,299.9500122,1
+50124,2017-01-01 16:19,957,DEBIT,2,Second Class,Africa,West Africa,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.090000004,299.980011,1
+43773,2016-09-30 23:16,191,DEBIT,4,Standard Class,Europe,Eastern Europe,Cardio Equipment,Footwear,Home Office,1,99.98999786,0.039999999,99.98999786,0
+47255,2016-11-20 19:10,1004,DEBIT,0,Same Day,Africa,North Africa,Fishing,Fan Shop,Home Office,1,399.980011,0.07,399.980011,1
+15085,2015-08-09 04:35,957,CASH,4,Standard Class,Europe,Western Europe,Camping & Hiking,Fan Shop,Home Office,1,299.980011,0.200000003,299.980011,1
+29169,2016-03-01 18:50,365,DEBIT,1,First Class,Pacific Asia,South Asia,Cleats,Apparel,Corporate,4,59.99000168,0.07,239.9600067,1
+36983,2016-06-23 20:26,191,DEBIT,2,Second Class,USCA,South of  USA ,Cardio Equipment,Footwear,Consumer,1,99.98999786,0.059999999,99.98999786,1
+64246,2017-07-26 19:53,365,PAYMENT,4,Standard Class,Europe,Southern Europe,Cleats,Apparel,Corporate,2,59.99000168,0.01,119.9800034,0
+37948,2016-07-07 22:31,403,DEBIT,2,Second Class,USCA,US Center ,Men's Footwear,Apparel,Consumer,1,129.9900055,0.25,129.9900055,1
+16687,2015-09-01 13:50,627,PAYMENT,4,Standard Class,Europe,Western Europe,Shop By Sport,Golf,Home Office,2,39.99000168,0.159999996,79.98000336,0
+46706,2016-11-12 18:50,1004,TRANSFER,2,Second Class,Africa,East Africa,Fishing,Fan Shop,Home Office,1,399.980011,0.090000004,399.980011,0
+37529,2016-07-01 19:43,1014,TRANSFER,1,First Class,USCA,West of USA ,Indoor/Outdoor Games,Fan Shop,Consumer,2,49.97999954,0.159999996,99.95999908,0
+51946,2017-01-28 06:38,1073,DEBIT,4,Standard Class,LATAM,South America,Water Sports,Fan Shop,Home Office,1,199.9900055,0.159999996,199.9900055,0
+2945,2015-02-12 23:24,1014,TRANSFER,2,Second Class,LATAM,Central America,Indoor/Outdoor Games,Fan Shop,Corporate,1,49.97999954,0.150000006,49.97999954,0
+47968,2016-12-01 04:58,502,TRANSFER,4,Standard Class,USCA,Canada,Women's Apparel,Golf,Home Office,1,50.0,0.029999999,50.0,0
+9901,2015-05-25 12:24,627,TRANSFER,4,Standard Class,LATAM,South America,Shop By Sport,Golf,Home Office,4,39.99000168,0.050000001,159.9600067,0
+45414,2016-10-24 22:11,502,DEBIT,4,Standard Class,Pacific Asia,Central Asia,Women's Apparel,Golf,Corporate,1,50.0,0.02,50.0,1
+75500,2018-01-07 02:39,1359,PAYMENT,4,Standard Class,Pacific Asia,Eastern Asia,Pet Supplies,Pet Shop,Corporate,1,84.40000153,0.0,84.40000153,1
+2550,2015-02-07 05:01,502,TRANSFER,4,Standard Class,LATAM,Central America,Women's Apparel,Golf,Consumer,4,50.0,0.170000002,200.0,0
+55907,2017-03-27 02:21,1014,DEBIT,4,Standard Class,LATAM,Central America,Indoor/Outdoor Games,Fan Shop,Corporate,3,49.97999954,0.200000003,149.9400024,0
+47195,2016-11-19 22:09,403,TRANSFER,4,Standard Class,Africa,West Africa,Men's Footwear,Apparel,Consumer,1,129.9900055,0.01,129.9900055,1
+11920,2015-06-23 23:45,1014,PAYMENT,4,Standard Class,Europe,Western Europe,Indoor/Outdoor Games,Fan Shop,Consumer,2,49.97999954,0.119999997,99.95999908,1
+57571,2017-04-20 09:20,502,PAYMENT,2,Second Class,LATAM,Central America,Women's Apparel,Golf,Consumer,4,50.0,0.059999999,200.0,0
+44771,2016-10-15 12:55,365,PAYMENT,2,Second Class,Africa,Southern Africa,Cleats,Apparel,Home Office,2,59.99000168,0.01,119.9800034,0
+373,2015-01-06 10:19,1004,TRANSFER,2,Second Class,LATAM,Central America,Fishing,Fan Shop,Corporate,1,399.980011,0.01,399.980011,1
+13863,2015-07-22 08:28,1014,TRANSFER,4,Standard Class,Europe,Western Europe,Indoor/Outdoor Games,Fan Shop,Consumer,1,49.97999954,0.100000001,49.97999954,0
+8232,2015-05-01 03:41,502,TRANSFER,4,Standard Class,LATAM,Central America,Women's Apparel,Golf,Consumer,2,50.0,0.180000007,100.0,0
+40347,2016-08-11 23:00,403,PAYMENT,4,Standard Class,USCA,West of USA ,Men's Footwear,Apparel,Home Office,1,129.9900055,0.119999997,129.9900055,0
+62710,2017-07-04 09:45,365,DEBIT,4,Standard Class,Europe,Northern Europe,Cleats,Apparel,Corporate,2,59.99000168,0.059999999,119.9800034,1
+62614,2017-07-03 00:07,1004,TRANSFER,4,Standard Class,Europe,Western Europe,Fishing,Fan Shop,Consumer,1,399.980011,0.01,399.980011,1
+50809,2017-01-11 16:18,1004,PAYMENT,2,Second Class,Europe,Eastern Europe,Fishing,Fan Shop,Home Office,1,399.980011,0.180000007,399.980011,1
+35800,2016-06-06 13:59,403,TRANSFER,1,First Class,USCA,West of USA ,Men's Footwear,Apparel,Consumer,1,129.9900055,0.200000003,129.9900055,0
+4831,2015-03-12 12:09,1004,PAYMENT,4,Standard Class,LATAM,South America,Fishing,Fan Shop,Corporate,1,399.980011,0.200000003,399.980011,0
+67370,2017-09-10 10:21,365,CASH,4,Standard Class,Europe,Western Europe,Cleats,Apparel,Home Office,5,59.99000168,0.029999999,299.9500122,1
+33548,2016-05-04 17:00,403,DEBIT,1,First Class,USCA,West of USA ,Men's Footwear,Apparel,Corporate,1,129.9900055,0.07,129.9900055,1
+61973,2017-06-23 15:33,1014,TRANSFER,4,Standard Class,Europe,Western Europe,Indoor/Outdoor Games,Fan Shop,Consumer,3,49.97999954,0.200000003,149.9400024,0
+34203,2016-05-14 06:29,957,CASH,4,Standard Class,USCA,US Center ,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.090000004,299.980011,0
+10470,2015-06-02 19:45,1014,DEBIT,4,Standard Class,Europe,Western Europe,Indoor/Outdoor Games,Fan Shop,Consumer,2,49.97999954,0.119999997,99.95999908,1
+35718,2016-06-05 09:15,502,TRANSFER,4,Standard Class,USCA,South of  USA ,Women's Apparel,Golf,Consumer,4,50.0,0.180000007,200.0,0
+16887,2015-09-04 11:55,1014,CASH,4,Standard Class,Europe,Western Europe,Indoor/Outdoor Games,Fan Shop,Corporate,5,49.97999954,0.059999999,249.8999939,0
+65330,2017-08-11 15:39,403,PAYMENT,4,Standard Class,Europe,Northern Europe,Men's Footwear,Apparel,Consumer,1,129.9900055,0.02,129.9900055,1
+28711,2016-02-24 02:23,403,DEBIT,4,Standard Class,Pacific Asia,Eastern Asia,Men's Footwear,Apparel,Consumer,1,129.9900055,0.02,129.9900055,0
+39457,2016-07-29 23:11,502,PAYMENT,1,First Class,USCA,East of USA,Women's Apparel,Golf,Home Office,1,50.0,0.180000007,50.0,1
+66920,2017-09-03 20:42,502,TRANSFER,2,Second Class,Europe,Western Europe,Women's Apparel,Golf,Consumer,5,50.0,0.25,250.0,1
+37712,2016-07-04 11:50,1014,TRANSFER,4,Standard Class,USCA,West of USA ,Indoor/Outdoor Games,Fan Shop,Consumer,4,49.97999954,0.050000001,199.9199982,0
+11511,2015-06-18 00:27,403,CASH,2,Second Class,Europe,Western Europe,Men's Footwear,Apparel,Consumer,1,129.9900055,0.25,129.9900055,0
+43170,2016-09-22 04:01,926,DEBIT,4,Standard Class,Africa,North Africa,Trade-In,Outdoors,Corporate,2,15.98999977,0.150000006,31.97999954,1
+54128,2017-03-01 03:05,502,PAYMENT,2,Second Class,LATAM,South America,Women's Apparel,Golf,Home Office,5,50.0,0.129999995,250.0,1
+67948,2017-09-18 20:51,191,CASH,2,Second Class,Europe,Western Europe,Cardio Equipment,Footwear,Corporate,2,99.98999786,0.200000003,199.9799957,1
+47146,2016-11-19 04:59,1004,DEBIT,2,Second Class,Pacific Asia,South Asia,Fishing,Fan Shop,Consumer,1,399.980011,0.01,399.980011,0
+22396,2015-11-23 21:57,502,CASH,1,First Class,Pacific Asia,Eastern Asia,Women's Apparel,Golf,Corporate,3,50.0,0.07,150.0,1
+46998,2016-11-17 01:08,1004,DEBIT,1,First Class,Africa,North Africa,Fishing,Fan Shop,Corporate,1,399.980011,0.0,399.980011,1
+25471,2016-01-07 19:16,1014,DEBIT,2,Second Class,Pacific Asia,South Asia,Indoor/Outdoor Games,Fan Shop,Consumer,2,49.97999954,0.180000007,99.95999908,0
+47623,2016-11-26 04:06,403,DEBIT,0,Same Day,Europe,Southern Europe,Men's Footwear,Apparel,Consumer,1,129.9900055,0.039999999,129.9900055,0
+10470,2015-06-02 19:45,627,DEBIT,4,Standard Class,Europe,Western Europe,Shop By Sport,Golf,Consumer,2,39.99000168,0.059999999,79.98000336,1
+11146,2015-06-12 16:35,191,PAYMENT,4,Standard Class,Europe,Southern Europe,Cardio Equipment,Footwear,Corporate,4,99.98999786,0.090000004,399.9599915,0
+31086,2016-03-29 18:27,502,TRANSFER,0,Same Day,Pacific Asia,Oceania,Women's Apparel,Golf,Consumer,1,50.0,0.129999995,50.0,1
+36251,2016-06-13 03:59,957,CASH,4,Standard Class,USCA,West of USA ,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.200000003,299.980011,0
+54902,2017-03-12 10:15,403,CASH,0,Same Day,LATAM,South America,Men's Footwear,Apparel,Home Office,1,129.9900055,0.0,129.9900055,0
+46562,2016-11-10 16:23,1014,DEBIT,2,Second Class,Pacific Asia,Central Asia,Indoor/Outdoor Games,Fan Shop,Corporate,2,49.97999954,0.059999999,99.95999908,1
+76822,2018-01-26 09:49,1362,DEBIT,2,Second Class,Pacific Asia,Oceania,Video Games,Discs Shop,Consumer,1,39.75,0.150000006,39.75,1
+68821,2017-10-01 14:42,365,DEBIT,2,Second Class,Europe,Western Europe,Cleats,Apparel,Corporate,5,59.99000168,0.02,299.9500122,0
+41535,2016-08-29 07:12,1073,DEBIT,2,Second Class,Pacific Asia,Central Asia,Water Sports,Fan Shop,Consumer,1,199.9900055,0.200000003,199.9900055,1
+53118,2017-02-14 09:15,957,DEBIT,4,Standard Class,LATAM,Central America,Camping & Hiking,Fan Shop,Home Office,1,299.980011,0.170000002,299.980011,0
+67060,2017-09-05 21:45,666,PAYMENT,4,Standard Class,Europe,Southern Europe,Men's Golf Clubs,Outdoors,Corporate,1,109.9899979,0.07,109.9899979,1
+41019,2016-08-21 18:25,1014,DEBIT,2,Second Class,USCA,East of USA,Indoor/Outdoor Games,Fan Shop,Corporate,2,49.97999954,0.0,99.95999908,1
+23805,2015-12-14 11:36,926,DEBIT,4,Standard Class,Pacific Asia,Oceania,Trade-In,Outdoors,Consumer,1,15.98999977,0.0,15.98999977,1
+67521,2017-09-12 15:15,61,DEBIT,4,Standard Class,Europe,Western Europe,Basketball,Fitness,Home Office,1,299.9899902,0.0,299.9899902,0
+50809,2017-01-11 16:18,365,PAYMENT,2,Second Class,Europe,Eastern Europe,Cleats,Apparel,Home Office,2,59.99000168,0.01,119.9800034,1
+31746,2016-04-08 09:41,1004,DEBIT,4,Standard Class,USCA,East of USA,Fishing,Fan Shop,Corporate,1,399.980011,0.100000001,399.980011,0
+55196,2017-03-16 17:16,1014,PAYMENT,4,Standard Class,LATAM,South America,Indoor/Outdoor Games,Fan Shop,Home Office,4,49.97999954,0.129999995,199.9199982,0
+60053,2017-05-26 14:53,627,PAYMENT,1,First Class,LATAM,Central America,Shop By Sport,Golf,Consumer,1,39.99000168,0.059999999,39.99000168,1
+38959,2016-07-22 16:43,365,CASH,4,Standard Class,USCA,West of USA ,Cleats,Apparel,Home Office,2,59.99000168,0.07,119.9800034,1
+72507,2017-11-24 10:04,1357,TRANSFER,4,Standard Class,Pacific Asia,Southeast Asia,Men's Clothing,Apparel,Corporate,1,210.8500061,0.200000003,210.8500061,0
+6615,2015-04-07 13:10,926,PAYMENT,4,Standard Class,LATAM,Central America,Trade-In,Outdoors,Home Office,5,15.98999977,0.100000001,79.94999695,1
+40908,2016-08-20 03:32,403,DEBIT,0,Same Day,USCA,South of  USA ,Men's Footwear,Apparel,Consumer,1,129.9900055,0.180000007,129.9900055,0
+7813,2015-04-25 00:53,282,PAYMENT,2,Second Class,LATAM,Caribbean,Electronics,Footwear,Corporate,2,31.98999977,0.050000001,63.97999954,1
+54969,2017-03-13 09:44,1004,PAYMENT,4,Standard Class,LATAM,Central America,Fishing,Fan Shop,Corporate,1,399.980011,0.180000007,399.980011,1
+48569,2016-12-09 23:32,1014,PAYMENT,4,Standard Class,Pacific Asia,South Asia,Indoor/Outdoor Games,Fan Shop,Consumer,3,49.97999954,0.090000004,149.9400024,1
+48302,2016-12-06 01:59,1014,CASH,4,Standard Class,Africa,Southern Africa,Indoor/Outdoor Games,Fan Shop,Corporate,1,49.97999954,0.059999999,49.97999954,0
+1901,2015-01-28 17:39,1073,DEBIT,2,Second Class,LATAM,Central America,Water Sports,Fan Shop,Home Office,1,199.9900055,0.050000001,199.9900055,0
+4213,2015-03-03 11:39,273,PAYMENT,1,First Class,LATAM,South America,Electronics,Footwear,Consumer,4,27.98999977,0.039999999,111.9599991,1
+19781,2015-10-16 17:48,1073,DEBIT,4,Standard Class,Europe,Western Europe,Water Sports,Fan Shop,Home Office,1,199.9900055,0.150000006,199.9900055,0
+64256,2017-07-26 23:23,1014,DEBIT,2,Second Class,Europe,Northern Europe,Indoor/Outdoor Games,Fan Shop,Consumer,4,49.97999954,0.02,199.9199982,0
+43272,2016-09-23 15:45,365,DEBIT,4,Standard Class,Africa,Southern Africa,Cleats,Apparel,Corporate,1,59.99000168,0.07,59.99000168,0
+44866,2016-10-16 22:12,502,DEBIT,4,Standard Class,Africa,Central Africa,Women's Apparel,Golf,Corporate,4,50.0,0.180000007,200.0,0
+2984,2015-02-13 13:04,1014,TRANSFER,2,Second Class,LATAM,Central America,Indoor/Outdoor Games,Fan Shop,Consumer,3,49.97999954,0.170000002,149.9400024,0
+74060,2017-12-17 02:09,1346,TRANSFER,4,Standard Class,Pacific Asia,Southeast Asia,Books ,Book Shop,Home Office,1,31.07999992,0.0,31.07999992,1
+26532,2016-01-23 06:59,823,DEBIT,2,Second Class,Pacific Asia,Eastern Asia,Electronics,Outdoors,Corporate,5,51.99000168,0.150000006,259.9500122,1
+67829,2017-09-17 03:10,1004,CASH,4,Standard Class,Europe,Western Europe,Fishing,Fan Shop,Consumer,1,399.980011,0.02,399.980011,1
+62687,2017-07-04 01:41,403,TRANSFER,4,Standard Class,Europe,Northern Europe,Men's Footwear,Apparel,Corporate,1,129.9900055,0.02,129.9900055,0
+46746,2016-11-13 08:51,191,DEBIT,4,Standard Class,Pacific Asia,West Asia,Cardio Equipment,Footwear,Home Office,3,99.98999786,0.039999999,299.9700012,0
+39643,2016-08-01 16:21,403,DEBIT,4,Standard Class,USCA,East of USA,Men's Footwear,Apparel,Consumer,1,129.9900055,0.150000006,129.9900055,0
+38795,2016-07-20 07:15,502,DEBIT,4,Standard Class,USCA,West of USA ,Women's Apparel,Golf,Consumer,1,50.0,0.07,50.0,1
+759,2015-01-12 01:33,1073,DEBIT,1,First Class,LATAM,Caribbean,Water Sports,Fan Shop,Consumer,1,199.9900055,0.02,199.9900055,1
+12724,2015-07-05 17:26,1004,DEBIT,4,Standard Class,Europe,Western Europe,Fishing,Fan Shop,Home Office,1,399.980011,0.07,399.980011,1
+66986,2017-09-04 19:49,365,TRANSFER,1,First Class,Europe,Northern Europe,Cleats,Apparel,Corporate,5,59.99000168,0.100000001,299.9500122,0
+4103,2015-03-01 21:06,1014,TRANSFER,4,Standard Class,LATAM,South America,Indoor/Outdoor Games,Fan Shop,Consumer,1,49.97999954,0.150000006,49.97999954,0
+10233,2015-05-30 08:43,627,DEBIT,4,Standard Class,LATAM,South America,Shop By Sport,Golf,Consumer,5,39.99000168,0.059999999,199.9499969,0
+64677,2017-08-02 02:53,365,DEBIT,4,Standard Class,Europe,Southern Europe,Cleats,Apparel,Consumer,5,59.99000168,0.02,299.9500122,0
+11257,2015-06-14 07:28,502,CASH,2,Second Class,Europe,Northern Europe,Women's Apparel,Golf,Consumer,2,50.0,0.050000001,100.0,1
+34733,2016-05-22 00:10,957,PAYMENT,0,Same Day,USCA,US Center ,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.090000004,299.980011,0
+64105,2017-07-24 18:29,1073,TRANSFER,4,Standard Class,Europe,Western Europe,Water Sports,Fan Shop,Home Office,1,199.9900055,0.200000003,199.9900055,1
+25916,2016-01-14 07:10,191,DEBIT,4,Standard Class,Pacific Asia,South Asia,Cardio Equipment,Footwear,Consumer,5,99.98999786,0.159999996,499.9500122,0
+38858,2016-07-21 05:20,1004,PAYMENT,4,Standard Class,USCA,East of USA,Fishing,Fan Shop,Consumer,1,399.980011,0.059999999,399.980011,0
+53750,2017-02-23 14:40,365,PAYMENT,4,Standard Class,LATAM,Central America,Cleats,Apparel,Consumer,3,59.99000168,0.029999999,179.9700012,1
+32462,2016-04-18 20:32,502,TRANSFER,4,Standard Class,USCA,US Center ,Women's Apparel,Golf,Consumer,5,50.0,0.200000003,250.0,0
+47588,2016-11-25 15:50,502,DEBIT,4,Standard Class,Europe,Western Europe,Women's Apparel,Golf,Corporate,2,50.0,0.01,100.0,0
+38753,2016-07-19 16:33,502,TRANSFER,1,First Class,USCA,South of  USA ,Women's Apparel,Golf,Consumer,5,50.0,0.039999999,250.0,1
+1336,2015-01-20 11:42,1004,TRANSFER,1,First Class,LATAM,South America,Fishing,Fan Shop,Consumer,1,399.980011,0.07,399.980011,0
+48154,2016-12-03 22:08,957,TRANSFER,4,Standard Class,Pacific Asia,West Asia,Camping & Hiking,Fan Shop,Home Office,1,299.980011,0.059999999,299.980011,0
+5526,2015-03-22 15:39,403,TRANSFER,4,Standard Class,LATAM,Central America,Men's Footwear,Apparel,Consumer,1,129.9900055,0.01,129.9900055,0
+35778,2016-06-06 06:16,502,DEBIT,2,Second Class,USCA,West of USA ,Women's Apparel,Golf,Corporate,3,50.0,0.25,150.0,1
+40848,2016-08-19 06:31,627,DEBIT,4,Standard Class,USCA,East of USA,Shop By Sport,Golf,Consumer,1,39.99000168,0.159999996,39.99000168,0
+48466,2016-12-08 11:26,365,DEBIT,4,Standard Class,Pacific Asia,West Asia,Cleats,Apparel,Home Office,4,59.99000168,0.07,239.9600067,0
+64117,2017-07-24 22:41,607,TRANSFER,1,First Class,Europe,Western Europe,Trade-In,Outdoors,Home Office,1,249.9900055,0.07,249.9900055,1
+67887,2017-09-17 23:29,403,PAYMENT,4,Standard Class,Europe,Northern Europe,Men's Footwear,Apparel,Consumer,1,129.9900055,0.170000002,129.9900055,0
+25169,2016-01-03 09:28,191,TRANSFER,2,Second Class,Pacific Asia,Southeast Asia,Cardio Equipment,Footwear,Home Office,2,99.98999786,0.07,199.9799957,1
+68270,2017-09-23 13:40,403,PAYMENT,4,Standard Class,Europe,Southern Europe,Men's Footwear,Apparel,Corporate,1,129.9900055,0.050000001,129.9900055,1
+11990,2015-06-25 00:16,1004,TRANSFER,1,First Class,Europe,Western Europe,Fishing,Fan Shop,Consumer,1,399.980011,0.0,399.980011,1
+11146,2015-06-12 16:35,1004,PAYMENT,4,Standard Class,Europe,Southern Europe,Fishing,Fan Shop,Corporate,1,399.980011,0.119999997,399.980011,0
+17378,2015-09-11 15:56,1004,TRANSFER,0,Same Day,Europe,Western Europe,Fishing,Fan Shop,Home Office,1,399.980011,0.170000002,399.980011,1
+11861,2015-06-23 03:05,1004,PAYMENT,4,Standard Class,Europe,Southern Europe,Fishing,Fan Shop,Corporate,1,399.980011,0.0,399.980011,0
+40712,2016-08-17 06:52,403,TRANSFER,4,Standard Class,USCA,West of USA ,Men's Footwear,Apparel,Corporate,1,129.9900055,0.0,129.9900055,0
+23264,2015-12-06 14:03,1004,DEBIT,1,First Class,Pacific Asia,Southeast Asia,Fishing,Fan Shop,Consumer,1,399.980011,0.129999995,399.980011,1
+63702,2017-07-18 21:17,502,PAYMENT,4,Standard Class,Europe,Northern Europe,Women's Apparel,Golf,Home Office,5,50.0,0.129999995,250.0,0
+41298,2016-08-25 20:10,403,TRANSFER,4,Standard Class,Europe,Eastern Europe,Men's Footwear,Apparel,Consumer,1,129.9900055,0.170000002,129.9900055,0
+22008,2015-11-18 06:01,627,TRANSFER,2,Second Class,Pacific Asia,South Asia,Shop By Sport,Golf,Home Office,2,39.99000168,0.129999995,79.98000336,1
+51450,2017-01-21 00:52,1004,PAYMENT,2,Second Class,LATAM,Caribbean,Fishing,Fan Shop,Corporate,1,399.980011,0.170000002,399.980011,1
+24594,2015-12-26 00:01,627,TRANSFER,4,Standard Class,Pacific Asia,Oceania,Shop By Sport,Golf,Consumer,5,39.99000168,0.170000002,199.9499969,1
+37570,2016-07-02 10:05,1004,TRANSFER,2,Second Class,USCA,West of USA ,Fishing,Fan Shop,Consumer,1,399.980011,0.07,399.980011,1
+11108,2015-06-12 03:16,1073,DEBIT,2,Second Class,Europe,Western Europe,Water Sports,Fan Shop,Consumer,1,199.9900055,0.200000003,199.9900055,1
+61235,2017-06-12 20:59,403,TRANSFER,1,First Class,LATAM,Central America,Men's Footwear,Apparel,Home Office,1,129.9900055,0.02,129.9900055,1
+42749,2016-09-16 00:31,1014,DEBIT,4,Standard Class,Africa,East Africa,Indoor/Outdoor Games,Fan Shop,Corporate,4,49.97999954,0.059999999,199.9199982,1
+2926,2015-02-12 16:45,627,TRANSFER,1,First Class,LATAM,Central America,Shop By Sport,Golf,Consumer,4,39.99000168,0.02,159.9600067,1
+44439,2016-10-10 16:36,828,DEBIT,4,Standard Class,Europe,Eastern Europe,Electronics,Outdoors,Corporate,4,31.98999977,0.100000001,127.9599991,1
+1263,2015-01-19 10:08,403,TRANSFER,2,Second Class,LATAM,Caribbean,Men's Footwear,Apparel,Consumer,1,129.9900055,0.0,129.9900055,1
+21907,2015-11-16 18:38,1073,DEBIT,4,Standard Class,Pacific Asia,Eastern Asia,Water Sports,Fan Shop,Corporate,1,199.9900055,0.200000003,199.9900055,0
+2791,2015-02-10 17:27,1004,DEBIT,1,First Class,LATAM,Caribbean,Fishing,Fan Shop,Consumer,1,399.980011,0.159999996,399.980011,1
+10286,2015-05-31 03:17,1073,TRANSFER,4,Standard Class,LATAM,South America,Water Sports,Fan Shop,Consumer,1,199.9900055,0.090000004,199.9900055,0
+52023,2017-01-29 09:37,1004,CASH,4,Standard Class,LATAM,Central America,Fishing,Fan Shop,Home Office,1,399.980011,0.25,399.980011,0
+67527,2017-09-12 17:21,1073,TRANSFER,1,First Class,Europe,Western Europe,Water Sports,Fan Shop,Consumer,1,199.9900055,0.01,199.9900055,1
+17531,2015-09-13 21:32,1014,TRANSFER,4,Standard Class,Europe,Western Europe,Indoor/Outdoor Games,Fan Shop,Home Office,3,49.97999954,0.25,149.9400024,0
+16255,2015-08-26 06:30,502,PAYMENT,1,First Class,Europe,Western Europe,Women's Apparel,Golf,Corporate,2,50.0,0.02,100.0,1
+43022,2016-09-20 00:10,191,DEBIT,0,Same Day,Africa,West Africa,Cardio Equipment,Footwear,Corporate,2,99.98999786,0.25,199.9799957,0
+1083,2015-01-16 19:04,627,TRANSFER,4,Standard Class,LATAM,Central America,Shop By Sport,Golf,Corporate,4,39.99000168,0.170000002,159.9600067,0
+11247,2015-06-14 03:58,926,DEBIT,0,Same Day,Europe,Western Europe,Trade-In,Outdoors,Corporate,2,15.98999977,0.02,31.97999954,0
+61237,2017-06-12 21:41,1073,TRANSFER,4,Standard Class,LATAM,Central America,Water Sports,Fan Shop,Consumer,1,199.9900055,0.150000006,199.9900055,0
+18249,2015-09-24 09:05,365,DEBIT,4,Standard Class,Europe,Western Europe,Cleats,Apparel,Corporate,2,59.99000168,0.25,119.9800034,1
+16398,2015-08-28 08:35,365,TRANSFER,2,Second Class,Europe,Western Europe,Cleats,Apparel,Consumer,3,59.99000168,0.07,179.9700012,1
+75339,2018-01-04 18:15,1358,PAYMENT,1,First Class,Pacific Asia,Eastern Asia,Music,Discs Shop,Consumer,1,260.6499939,0.02,260.6499939,1
+44424,2016-10-10 11:21,627,PAYMENT,1,First Class,Africa,North Africa,Shop By Sport,Golf,Home Office,3,39.99000168,0.200000003,119.9700012,1
+30231,2016-03-17 06:54,1014,DEBIT,2,Second Class,Pacific Asia,Eastern Asia,Indoor/Outdoor Games,Fan Shop,Corporate,5,49.97999954,0.029999999,249.8999939,0
+54506,2017-03-06 15:31,957,DEBIT,4,Standard Class,LATAM,Caribbean,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.25,299.980011,0
+29448,2016-03-05 20:35,793,DEBIT,0,Same Day,Pacific Asia,South Asia,Golf Balls,Outdoors,Consumer,2,14.98999977,0.25,29.97999954,1
+22789,2015-11-29 15:39,502,TRANSFER,4,Standard Class,Pacific Asia,South Asia,Women's Apparel,Golf,Consumer,3,50.0,0.039999999,150.0,1
+38107,2016-07-10 06:13,627,DEBIT,4,Standard Class,USCA,East of USA,Shop By Sport,Golf,Consumer,3,39.99000168,0.200000003,119.9700012,0
+13878,2015-07-22 13:43,627,PAYMENT,4,Standard Class,Europe,Western Europe,Shop By Sport,Golf,Corporate,2,39.99000168,0.180000007,79.98000336,0
+69761,2017-10-15 08:02,1349,DEBIT,1,First Class,Europe,Southern Europe,Cameras ,Technology,Consumer,1,452.0400085,0.180000007,452.0400085,1
+47127,2016-11-18 22:20,1014,PAYMENT,4,Standard Class,Africa,East Africa,Indoor/Outdoor Games,Fan Shop,Home Office,4,49.97999954,0.050000001,199.9199982,0
+34339,2016-05-16 06:07,1014,DEBIT,4,Standard Class,USCA,West of USA ,Indoor/Outdoor Games,Fan Shop,Consumer,2,49.97999954,0.200000003,99.95999908,1
+2158,2015-02-01 11:41,1014,PAYMENT,4,Standard Class,LATAM,South America,Indoor/Outdoor Games,Fan Shop,Corporate,1,49.97999954,0.090000004,49.97999954,0
+33160,2016-04-29 01:04,1073,PAYMENT,4,Standard Class,USCA,West of USA ,Water Sports,Fan Shop,Consumer,1,199.9900055,0.129999995,199.9900055,1
+14861,2015-08-05 22:07,403,TRANSFER,4,Standard Class,Europe,Southern Europe,Men's Footwear,Apparel,Consumer,1,129.9900055,0.129999995,129.9900055,0
+38464,2016-07-15 11:18,502,TRANSFER,4,Standard Class,USCA,West of USA ,Women's Apparel,Golf,Corporate,2,50.0,0.02,100.0,1
+30285,2016-03-18 01:50,1073,DEBIT,4,Standard Class,Pacific Asia,South Asia,Water Sports,Fan Shop,Home Office,1,199.9900055,0.01,199.9900055,1
+54977,2017-03-13 12:32,886,DEBIT,4,Standard Class,LATAM,Central America,Accessories,Outdoors,Home Office,2,24.98999977,0.090000004,49.97999954,0
+40431,2016-08-13 04:25,627,TRANSFER,4,Standard Class,USCA,South of  USA ,Shop By Sport,Golf,Consumer,2,39.99000168,0.01,79.98000336,0
+43145,2016-09-21 19:15,1004,PAYMENT,1,First Class,Africa,North Africa,Fishing,Fan Shop,Home Office,1,399.980011,0.119999997,399.980011,1
+54214,2017-03-02 09:13,957,TRANSFER,4,Standard Class,LATAM,Central America,Camping & Hiking,Fan Shop,Corporate,1,299.980011,0.0,299.980011,1
+35433,2016-06-01 05:24,1004,DEBIT,4,Standard Class,USCA,West of USA ,Fishing,Fan Shop,Home Office,1,399.980011,0.180000007,399.980011,0
+42081,2016-09-06 06:29,502,PAYMENT,0,Same Day,Africa,North Africa,Women's Apparel,Golf,Consumer,3,50.0,0.01,150.0,0
+49172,2016-12-18 18:47,365,PAYMENT,4,Standard Class,Africa,North Africa,Cleats,Apparel,Home Office,4,59.99000168,0.170000002,239.9600067,0
+8484,2015-05-04 19:58,1073,PAYMENT,2,Second Class,LATAM,Central America,Water Sports,Fan Shop,Consumer,1,199.9900055,0.129999995,199.9900055,1
+42099,2016-09-06 12:48,403,TRANSFER,4,Standard Class,Africa,North Africa,Men's Footwear,Apparel,Consumer,1,129.9900055,0.050000001,129.9900055,1
+5656,2015-03-24 13:11,365,DEBIT,1,First Class,LATAM,South America,Cleats,Apparel,Corporate,3,59.99000168,0.170000002,179.9700012,1
+6233,2015-04-01 23:20,502,TRANSFER,2,Second Class,LATAM,Central America,Women's Apparel,Golf,Home Office,1,50.0,0.119999997,50.0,1
+50357,2017-01-05 01:56,191,PAYMENT,4,Standard Class,Europe,Southern Europe,Cardio Equipment,Footwear,Consumer,5,99.98999786,0.129999995,499.9500122,0
+47605,2016-11-25 21:48,627,CASH,4,Standard Class,Africa,Southern Africa,Shop By Sport,Golf,Home Office,3,39.99000168,0.100000001,119.9700012,1
+6257,2015-04-02 07:45,1004,DEBIT,4,Standard Class,LATAM,Central America,Fishing,Fan Shop,Consumer,1,399.980011,0.039999999,399.980011,0
+46363,2016-11-07 18:40,365,DEBIT,2,Second Class,Pacific Asia,South Asia,Cleats,Apparel,Consumer,4,59.99000168,0.029999999,239.9600067,1
+61482,2017-06-16 11:31,1014,DEBIT,2,Second Class,LATAM,South America,Indoor/Outdoor Games,Fan Shop,Corporate,1,49.97999954,0.07,49.97999954,1
+25869,2016-01-13 14:42,282,CASH,2,Second Class,Pacific Asia,Eastern Asia,Electronics,Footwear,Consumer,5,31.98999977,0.01,159.9499969,1
+14543,2015-08-01 06:42,191,PAYMENT,4,Standard Class,Europe,Southern Europe,Cardio Equipment,Footwear,Consumer,2,99.98999786,0.180000007,199.9799957,0
+17575,2015-09-14 12:57,502,CASH,4,Standard Class,Europe,Western Europe,Women's Apparel,Golf,Home Office,4,50.0,0.200000003,200.0,1
+25072,2016-01-01 23:29,365,PAYMENT,4,Standard Class,Pacific Asia,Oceania,Cleats,Apparel,Consumer,2,59.99000168,0.090000004,119.9800034,0
+24186,2015-12-20 01:04,502,DEBIT,0,Same Day,Pacific Asia,Southeast Asia,Women's Apparel,Golf,Consumer,2,50.0,0.01,100.0,0
+4497,2015-03-07 15:08,627,TRANSFER,4,Standard Class,LATAM,Caribbean,Shop By Sport,Golf,Corporate,4,39.99000168,0.159999996,159.9600067,0
+36323,2016-06-14 05:12,810,TRANSFER,4,Standard Class,USCA,US Center ,Golf Balls,Outdoors,Home Office,1,19.98999977,0.039999999,19.98999977,0
+37377,2016-06-29 14:28,957,CASH,4,Standard Class,USCA,US Center ,Camping & Hiking,Fan Shop,Corporate,1,299.980011,0.039999999,299.980011,0
+49224,2016-12-19 13:00,1004,PAYMENT,4,Standard Class,Pacific Asia,South Asia,Fishing,Fan Shop,Consumer,1,399.980011,0.059999999,399.980011,1
+76290,2018-01-18 15:26,1362,TRANSFER,4,Standard Class,Pacific Asia,Oceania,Video Games,Discs Shop,Corporate,1,39.75,0.039999999,39.75,1
+42807,2016-09-16 20:50,365,PAYMENT,2,Second Class,Pacific Asia,West Asia,Cleats,Apparel,Consumer,2,59.99000168,0.25,119.9800034,1
+61831,2017-06-21 13:48,191,DEBIT,4,Standard Class,Europe,Western Europe,Cardio Equipment,Footwear,Consumer,4,99.98999786,0.090000004,399.9599915,0
+36819,2016-06-21 10:59,502,DEBIT,2,Second Class,USCA,West of USA ,Women's Apparel,Golf,Corporate,5,50.0,0.25,250.0,1
+22779,2015-11-29 12:08,365,DEBIT,1,First Class,Pacific Asia,Southeast Asia,Cleats,Apparel,Corporate,3,59.99000168,0.170000002,179.9700012,1
+33923,2016-05-10 04:23,365,DEBIT,0,Same Day,USCA,East of USA,Cleats,Apparel,Consumer,2,59.99000168,0.050000001,119.9800034,0
+34316,2016-05-15 22:04,1004,CASH,4,Standard Class,USCA,West of USA ,Fishing,Fan Shop,Corporate,1,399.980011,0.02,399.980011,0
+14743,2015-08-04 04:46,365,PAYMENT,4,Standard Class,Europe,Northern Europe,Cleats,Apparel,Consumer,4,59.99000168,0.25,239.9600067,0
+12917,2015-07-08 13:03,502,PAYMENT,4,Standard Class,Europe,Western Europe,Women's Apparel,Golf,Corporate,1,50.0,0.090000004,50.0,0
+61089,2017-06-10 17:50,403,PAYMENT,4,Standard Class,LATAM,Central America,Men's Footwear,Apparel,Consumer,1,129.9900055,0.159999996,129.9900055,1
+10074,2015-05-28 01:01,191,TRANSFER,1,First Class,LATAM,South America,Cardio Equipment,Footwear,Corporate,2,99.98999786,0.100000001,199.9799957,0
+25991,2016-01-15 09:27,1014,CASH,4,Standard Class,Pacific Asia,South Asia,Indoor/Outdoor Games,Fan Shop,Corporate,1,49.97999954,0.029999999,49.97999954,0
+76831,2018-01-26 12:58,1363,DEBIT,4,Standard Class,Pacific Asia,South Asia,Women's Clothing,Apparel,Home Office,1,215.8200073,0.090000004,215.8200073,0
+27376,2016-02-04 14:40,1004,DEBIT,4,Standard Class,Pacific Asia,Eastern Asia,Fishing,Fan Shop,Home Office,1,399.980011,0.01,399.980011,0
+63815,2017-07-20 12:53,1014,DEBIT,4,Standard Class,Europe,Western Europe,Indoor/Outdoor Games,Fan Shop,Consumer,2,49.97999954,0.059999999,99.95999908,1
+12948,2015-07-08 23:54,403,DEBIT,1,First Class,Europe,Northern Europe,Men's Footwear,Apparel,Consumer,1,129.9900055,0.029999999,129.9900055,1
+14077,2015-07-25 11:26,403,DEBIT,0,Same Day,Europe,Western Europe,Men's Footwear,Apparel,Home Office,1,129.9900055,0.039999999,129.9900055,0
+8640,2015-05-07 02:37,1004,CASH,2,Second Class,LATAM,Central America,Fishing,Fan Shop,Consumer,1,399.980011,0.170000002,399.980011,1
+20069,2015-10-20 22:42,627,DEBIT,4,Standard Class,Europe,Southern Europe,Shop By Sport,Golf,Corporate,4,39.99000168,0.180000007,159.9600067,1
+12186,2015-06-27 20:56,957,PAYMENT,0,Same Day,Europe,Western Europe,Camping & Hiking,Fan Shop,Home Office,1,299.980011,0.100000001,299.980011,1
+3239,2015-02-17 06:24,502,TRANSFER,4,Standard Class,LATAM,Caribbean,Women's Apparel,Golf,Home Office,5,50.0,0.07,250.0,1
+47054,2016-11-17 20:45,1014,DEBIT,2,Second Class,Africa,West Africa,Indoor/Outdoor Games,Fan Shop,Corporate,4,49.97999954,0.100000001,199.9199982,1
+264,2015-01-04 20:08,365,DEBIT,4,Standard Class,LATAM,South America,Cleats,Apparel,Consumer,5,59.99000168,0.0,299.9500122,1
+4323,2015-03-05 02:11,1004,CASH,4,Standard Class,LATAM,South America,Fishing,Fan Shop,Corporate,1,399.980011,0.159999996,399.980011,0
+75926,2018-01-13 07:54,1360,TRANSFER,1,First Class,Pacific Asia,South Asia,Sporting Goods,Fitness,Corporate,1,327.75,0.0,327.75,1
+1773,2015-01-26 20:48,365,DEBIT,4,Standard Class,LATAM,Caribbean,Cleats,Apparel,Corporate,5,59.99000168,0.01,299.9500122,0
+49718,2016-12-26 18:04,403,TRANSFER,4,Standard Class,Europe,Eastern Europe,Men's Footwear,Apparel,Consumer,1,129.9900055,0.029999999,129.9900055,0
+49045,2016-12-16 22:17,365,TRANSFER,0,Same Day,Africa,North Africa,Cleats,Apparel,Home Office,2,59.99000168,0.200000003,119.9800034,1
+54592,2017-03-07 21:39,191,PAYMENT,4,Standard Class,LATAM,Central America,Cardio Equipment,Footwear,Consumer,4,99.98999786,0.150000006,399.9599915,0
+42974,2016-09-19 07:21,1004,PAYMENT,1,First Class,Africa,North Africa,Fishing,Fan Shop,Corporate,1,399.980011,0.129999995,399.980011,1
+46037,2016-11-03 00:27,502,TRANSFER,4,Standard Class,Europe,Eastern Europe,Women's Apparel,Golf,Home Office,3,50.0,0.0,150.0,0
+35120,2016-05-27 15:45,365,TRANSFER,4,Standard Class,USCA,East of USA,Cleats,Apparel,Corporate,2,59.99000168,0.090000004,119.9800034,1
+24969,2015-12-31 11:24,957,PAYMENT,4,Standard Class,Pacific Asia,Oceania,Camping & Hiking,Fan Shop,Corporate,1,299.980011,0.039999999,299.980011,1
+29248,2016-03-02 22:31,191,DEBIT,4,Standard Class,Pacific Asia,Oceania,Cardio Equipment,Footwear,Consumer,4,99.98999786,0.159999996,399.9599915,0
+9409,2015-05-18 08:02,249,CASH,4,Standard Class,LATAM,Central America,Boxing & MMA,Footwear,Consumer,3,54.97000122,0.059999999,164.9100037,1
+18104,2015-09-22 06:17,502,DEBIT,1,First Class,Europe,Western Europe,Women's Apparel,Golf,Corporate,2,50.0,0.100000001,100.0,1
+28798,2016-02-25 08:52,1014,PAYMENT,2,Second Class,Pacific Asia,Eastern Asia,Indoor/Outdoor Games,Fan Shop,Consumer,2,49.97999954,0.159999996,99.95999908,1
+72393,2017-11-22 18:08,1357,TRANSFER,1,First Class,Pacific Asia,Southeast Asia,Men's Clothing,Apparel,Corporate,1,210.8500061,0.039999999,210.8500061,1
+22931,2015-12-01 17:24,403,DEBIT,4,Standard Class,Pacific Asia,Oceania,Men's Footwear,Apparel,Corporate,1,129.9900055,0.200000003,129.9900055,0
+49958,2016-12-30 06:09,502,TRANSFER,2,Second Class,Africa,North Africa,Women's Apparel,Golf,Consumer,5,50.0,0.25,250.0,1
+67424,2017-09-11 05:16,203,DEBIT,4,Standard Class,Europe,Western Europe,Strength Training,Footwear,Home Office,1,399.9899902,0.119999997,399.9899902,1
+8957,2015-05-11 17:41,365,DEBIT,1,First Class,LATAM,Central America,Cleats,Apparel,Consumer,2,59.99000168,0.150000006,119.9800034,1
+28409,2016-02-19 16:35,502,DEBIT,1,First Class,Pacific Asia,Southeast Asia,Women's Apparel,Golf,Consumer,2,50.0,0.039999999,100.0,1
+64476,2017-07-30 04:27,403,DEBIT,4,Standard Class,Europe,Western Europe,Men's Footwear,Apparel,Corporate,1,129.9900055,0.039999999,129.9900055,0
+48508,2016-12-09 02:09,906,DEBIT,0,Same Day,Africa,Central Africa,Accessories,Outdoors,Home Office,2,24.98999977,0.129999995,49.97999954,0
+61191,2017-06-12 05:34,1004,DEBIT,4,Standard Class,LATAM,South America,Fishing,Fan Shop,Corporate,1,399.980011,0.150000006,399.980011,0
+45374,2016-10-24 08:10,403,TRANSFER,4,Standard Class,Pacific Asia,South Asia,Men's Footwear,Apparel,Corporate,1,129.9900055,0.170000002,129.9900055,1
+65012,2017-08-07 00:14,403,TRANSFER,4,Standard Class,Europe,Northern Europe,Men's Footwear,Apparel,Consumer,1,129.9900055,0.059999999,129.9900055,0
+67343,2017-09-10 00:54,365,PAYMENT,4,Standard Class,Europe,Western Europe,Cleats,Apparel,Home Office,5,59.99000168,0.050000001,299.9500122,0
+14197,2015-07-27 05:29,627,TRANSFER,4,Standard Class,Europe,Western Europe,Shop By Sport,Golf,Consumer,2,39.99000168,0.150000006,79.98000336,0
+508,2015-01-08 09:37,957,DEBIT,4,Standard Class,LATAM,Central America,Camping & Hiking,Fan Shop,Corporate,1,299.980011,0.150000006,299.980011,0
+119,2015-01-02 17:20,821,PAYMENT,4,Standard Class,LATAM,South America,Electronics,Outdoors,Consumer,3,51.99000168,0.039999999,155.9700012,1
+12724,2015-07-05 17:26,1004,DEBIT,4,Standard Class,Europe,Western Europe,Fishing,Fan Shop,Home Office,1,399.980011,0.090000004,399.980011,1
+13413,2015-07-15 18:49,502,DEBIT,4,Standard Class,Europe,Western Europe,Women's Apparel,Golf,Consumer,5,50.0,0.170000002,250.0,0
+55829,2017-03-25 23:02,1004,TRANSFER,4,Standard Class,LATAM,Caribbean,Fishing,Fan Shop,Consumer,1,399.980011,0.01,399.980011,1
+37493,2016-07-01 07:07,403,TRANSFER,4,Standard Class,USCA,East of USA,Men's Footwear,Apparel,Consumer,1,129.9900055,0.029999999,129.9900055,0
+59291,2017-05-15 11:55,403,TRANSFER,2,Second Class,LATAM,Central America,Men's Footwear,Apparel,Consumer,1,129.9900055,0.07,129.9900055,0
+67060,2017-09-05 21:45,1014,PAYMENT,4,Standard Class,Europe,Southern Europe,Indoor/Outdoor Games,Fan Shop,Corporate,3,49.97999954,0.07,149.9400024,1
+43347,2016-09-24 18:02,365,DEBIT,2,Second Class,Africa,West Africa,Cleats,Apparel,Corporate,4,59.99000168,0.150000006,239.9600067,1
+45035,2016-10-19 09:24,403,DEBIT,4,Standard Class,Pacific Asia,West Asia,Men's Footwear,Apparel,Consumer,1,129.9900055,0.25,129.9900055,1
+51566,2017-01-22 17:30,1004,PAYMENT,4,Standard Class,LATAM,Caribbean,Fishing,Fan Shop,Home Office,1,399.980011,0.129999995,399.980011,0
+46646,2016-11-11 21:49,627,DEBIT,4,Standard Class,Africa,West Africa,Shop By Sport,Golf,Corporate,4,39.99000168,0.02,159.9600067,0
+24388,2015-12-22 23:51,365,TRANSFER,2,Second Class,Pacific Asia,Southeast Asia,Cleats,Apparel,Consumer,3,59.99000168,0.050000001,179.9700012,1
+41675,2016-08-31 08:15,1014,TRANSFER,1,First Class,Pacific Asia,South Asia,Indoor/Outdoor Games,Fan Shop,Corporate,5,49.97999954,0.07,249.8999939,1
+11502,2015-06-17 21:18,403,DEBIT,1,First Class,Europe,Northern Europe,Men's Footwear,Apparel,Consumer,1,129.9900055,0.02,129.9900055,1
+28524,2016-02-21 08:52,191,PAYMENT,0,Same Day,Pacific Asia,Oceania,Cardio Equipment,Footwear,Corporate,5,99.98999786,0.059999999,499.9500122,0
+32388,2016-04-17 18:36,1004,PAYMENT,1,First Class,USCA,West of USA ,Fishing,Fan Shop,Corporate,1,399.980011,0.039999999,399.980011,1
+60456,2017-06-01 12:04,1004,TRANSFER,2,Second Class,LATAM,Caribbean,Fishing,Fan Shop,Corporate,1,399.980011,0.0,399.980011,0
+48736,2016-12-12 10:02,365,PAYMENT,4,Standard Class,Africa,Central Africa,Cleats,Apparel,Consumer,5,59.99000168,0.159999996,299.9500122,0
+18536,2015-09-28 13:38,191,TRANSFER,2,Second Class,Europe,Northern Europe,Cardio Equipment,Footwear,Corporate,5,99.98999786,0.029999999,499.9500122,0
+39259,2016-07-27 01:49,957,PAYMENT,4,Standard Class,USCA,South of  USA ,Camping & Hiking,Fan Shop,Consumer,1,299.980011,0.029999999,299.980011,1
+24852,2015-12-29 18:24,502,DEBIT,4,Standard Class,Pacific Asia,South Asia,Women's Apparel,Golf,Consumer,1,50.0,0.129999995,50.0,0
+50484,2017-01-06 22:26,502,TRANSFER,1,First Class,Pacific Asia,West Asia,Women's Apparel,Golf,Consumer,4,50.0,0.07,200.0,0
+26236,2016-01-18 23:17,191,DEBIT,2,Second Class,Pacific Asia,Southeast Asia,Cardio Equipment,Footwear,Corporate,5,99.98999786,0.029999999,499.9500122,0
+29363,2016-03-04 14:48,191,TRANSFER,4,Standard Class,Pacific Asia,Eastern Asia,Cardio Equipment,Footwear,Consumer,2,99.98999786,0.0,199.9799957,0
+45153,2016-10-21 02:45,1073,TRANSFER,4,Standard Class,Pacific Asia,South Asia,Water Sports,Fan Shop,Home Office,1,199.9900055,0.159999996,199.9900055,0
+27292,2016-02-03 09:15,191,PAYMENT,1,First Class,Pacific Asia,South Asia,Cardio Equipment,Footwear,Corporate,1,99.98999786,0.200000003,99.98999786,1
+1948,2015-01-29 10:07,1073,TRANSFER,4,Standard Class,LATAM,South America,Water Sports,Fan Shop,Consumer,1,199.9900055,0.090000004,199.9900055,0
+9827,2015-05-24 10:29,278,DEBIT,1,First Class,LATAM,Central America,Electronics,Footwear,Consumer,5,44.99000168,0.25,224.9499969,1
+36457,2016-06-16 04:09,502,DEBIT,4,Standard Class,USCA,West of USA ,Women's Apparel,Golf,Corporate,2,50.0,0.159999996,100.0,0
+28337,2016-02-18 15:21,627,PAYMENT,2,Second Class,Pacific Asia,South Asia,Shop By Sport,Golf,Corporate,4,39.99000168,0.02,159.9600067,1
+9652,2015-05-21 21:10,957,DEBIT,4,Standard Class,LATAM,South America,Camping & Hiking,Fan Shop,Corporate,1,299.980011,0.01,299.980011,0
+9602,2015-05-21 03:39,502,PAYMENT,1,First Class,LATAM,South America,Women's Apparel,Golf,Consumer,2,50.0,0.25,100.0,1
+61378,2017-06-14 23:05,403,DEBIT,4,Standard Class,LATAM,South America,Men's Footwear,Apparel,Corporate,1,129.9900055,0.25,129.9900055,0
+57900,2017-04-25 04:35,1014,DEBIT,4,Standard Class,LATAM,South America,Indoor/Outdoor Games,Fan Shop,Home Office,5,49.97999954,0.029999999,249.8999939,1
+46965,2016-11-16 13:34,365,DEBIT,1,First Class,Africa,North Africa,Cleats,Apparel,Corporate,2,59.99000168,0.100000001,119.9800034,1
+12448,2015-07-01 16:44,365,DEBIT,4,Standard Class,Europe,Northern Europe,Cleats,Apparel,Corporate,4,59.99000168,0.25,239.9600067,0
+12723,2015-07-05 17:05,1073,PAYMENT,4,Standard Class,Europe,Western Europe,Water Sports,Fan Shop,Consumer,1,199.9900055,0.119999997,199.9900055,0
+63982,2017-07-22 23:23,365,DEBIT,0,Same Day,Europe,Southern Europe,Cleats,Apparel,Consumer,5,59.99000168,0.180000007,299.9500122,1
+9452,2015-05-18 23:06,502,DEBIT,2,Second Class,LATAM,South America,Women's Apparel,Golf,Consumer,3,50.0,0.039999999,150.0,1
+54076,2017-02-28 08:52,191,DEBIT,4,Standard Class,LATAM,Central America,Cardio Equipment,Footwear,Consumer,3,99.98999786,0.129999995,299.9700012,0
+60837,2017-06-07 01:33,365,DEBIT,4,Standard Class,LATAM,South America,Cleats,Apparel,Corporate,2,59.99000168,0.02,119.9800034,0
+20472,2015-10-26 19:54,1073,PAYMENT,2,Second Class,Pacific Asia,Southeast Asia,Water Sports,Fan Shop,Consumer,1,199.9900055,0.090000004,199.9900055,1
+75286,2018-01-03 23:41,1356,DEBIT,4,Standard Class,Pacific Asia,Oceania,Health and Beauty,Health and Beauty ,Consumer,1,293.0400085,0.07,293.0400085,0
+28133,2016-02-15 15:53,282,PAYMENT,4,Standard Class,Pacific Asia,Southeast Asia,Electronics,Footwear,Consumer,4,31.98999977,0.119999997,127.9599991,0
+65143,2017-08-08 22:08,715,PAYMENT,1,First Class,Europe,Southern Europe,Golf Apparel,Outdoors,Consumer,1,129.9900055,0.07,129.9900055,1
+1040,2015-01-16 04:00,403,DEBIT,0,Same Day,LATAM,Central America,Men's Footwear,Apparel,Home Office,1,129.9900055,0.159999996,129.9900055,0
+3385,2015-02-19 09:33,365,DEBIT,4,Standard Class,LATAM,Central America,Cleats,Apparel,Corporate,1,59.99000168,0.02,59.99000168,1
+32248,2016-04-15 17:33,502,PAYMENT,2,Second Class,USCA,East of USA,Women's Apparel,Golf,Home Office,1,50.0,0.07,50.0,1
+17380,2015-09-11 16:38,502,PAYMENT,4,Standard Class,Europe,Western Europe,Women's Apparel,Golf,Consumer,3,50.0,0.25,150.0,1
+37137,2016-06-26 02:23,403,TRANSFER,4,Standard Class,USCA,South of  USA ,Men's Footwear,Apparel,Consumer,1,129.9900055,0.059999999,129.9900055,0
+37230,2016-06-27 10:58,191,DEBIT,0,Same Day,USCA,East of USA,Cardio Equipment,Footwear,Consumer,2,99.98999786,0.039999999,199.9799957,0
+44754,2016-10-15 06:58,191,CASH,4,Standard Class,Africa,West Africa,Cardio Equipment,Footwear,Consumer,4,99.98999786,0.0,399.9599915,1
+8312,2015-05-02 07:42,822,PAYMENT,4,Standard Class,LATAM,Central America,Electronics,Outdoors,Consumer,5,47.99000168,0.090000004,239.9499969,0
+55365,2017-03-19 04:28,893,TRANSFER,1,First Class,LATAM,South America,Accessories,Outdoors,Corporate,1,24.98999977,0.200000003,24.98999977,1
+25868,2016-01-13 14:21,191,PAYMENT,1,First Class,Pacific Asia,Eastern Asia,Cardio Equipment,Footwear,Corporate,5,99.98999786,0.0,499.9500122,1
+27280,2016-02-03 05:02,365,PAYMENT,2,Second Class,Pacific Asia,Oceania,Cleats,Apparel,Consumer,2,59.99000168,0.100000001,119.9800034,1
+20373,2015-10-25 09:13,828,DEBIT,2,Second Class,Pacific Asia,Oceania,Electronics,Outdoors,Consumer,5,31.98999977,0.129999995,159.9499969,1
+11736,2015-06-21 07:17,502,DEBIT,4,Standard Class,Europe,Northern Europe,Women's Apparel,Golf,Home Office,1,50.0,0.100000001,50.0,0

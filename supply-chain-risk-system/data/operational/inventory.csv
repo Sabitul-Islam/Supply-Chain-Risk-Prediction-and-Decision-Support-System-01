@@ -1,0 +1,61 @@
+product_id,product_name,category,warehouse,available_stock,reserved_stock,reorder_level,safety_stock,lead_time_days,avg_daily_demand
+365,Perfect Fitness Perfect Rip Deck,Cleats,East Warehouse,299,2,714,82,9,70.15
+502,Nike Men's Dri-FIT Victory Golf Polo,Women's Apparel,West Warehouse,799,63,424,64,6,59.87
+1014,O'Brien Men's Neoprene Life Vest,Indoor/Outdoor Games,West Warehouse,812,119,802,87,13,55.0
+191,Nike Men's Free 5.0+ Running Shoe,Cardio Equipment,East Warehouse,1183,369,411,62,10,34.87
+627,Under Armour Girls' Toddler Spine Surge Runni,Shop By Sport,Central DC,200,30,190,39,5,30.2
+403,Nike Men's CJ Elite 2 TD Football Cleat,Men's Footwear,Central DC,219,73,193,23,8,21.14
+1004,Field & Stream Sportsman 16 Gun Fire Safe,Fishing,West Warehouse,108,18,62,12,3,16.5
+1073,Pelican Sunstream 100 Kayak,Water Sports,West Warehouse,380,125,200,23,12,14.75
+957,Diamondback Women's Serene Classic Comfort Bi,Camping & Hiking,West Warehouse,81,3,207,23,14,13.08
+977,ENO Atlas Hammock Straps,Hunting & Shooting,West Warehouse,18,2,28,13,13,1.15
+116,Nike Men's Comfort 2 Slide,Tennis & Racquet,Central DC,50,1,28,13,13,1.14
+885,Team Golf St. Louis Cardinals Putter Grip,Accessories,East Warehouse,45,2,25,12,11,1.11
+44,adidas Men's F10 Messi TRX FG Soccer Cleat,Baseball & Softball,East Warehouse,35,4,21,11,9,1.09
+565,adidas Youth Germany Black/Red Away Match Soc,Girls' Apparel,East Warehouse,28,1,20,10,9,1.08
+728,LIJA Women's Eyelet Sleeveless Golf Polo,Golf Shoes,East Warehouse,11,2,23,11,11,1.08
+804,Glove It Women's Imperial Golf Glove,Golf Balls,Central DC,44,13,25,12,12,1.07
+917,Glove It Women's Mod Oval 3-Zip Carry All Gol,Trade-In,Central DC,7,1,14,8,5,1.06
+642,Columbia Men's PFG Anchor Tough T-Shirt,Shop By Sport,East Warehouse,27,1,14,8,5,1.06
+835,Bridgestone e6 Straight Distance NFL Carolina,Electronics,Central DC,57,9,22,11,10,1.06
+926,Glove It Imperial Golf Towel,Trade-In,East Warehouse,64,17,26,12,13,1.04
+823,Titleist Pro V1x High Numbers Personalized Go,Electronics,West Warehouse,14,1,12,7,4,1.04
+893,Team Golf Pittsburgh Steelers Putter Grip,Accessories,Central DC,16,3,12,7,4,1.05
+828,Bridgestone e6 Straight Distance NFL San Dieg,Electronics,East Warehouse,67,19,25,12,12,1.04
+906,Team Golf Tennessee Volunteers Putter Grip,Accessories,East Warehouse,15,3,23,11,11,1.05
+276,Under Armour Women's Ignite Slide,Electronics,West Warehouse,67,16,25,12,12,1.03
+703,Top Flite Women's 2014 XL Hybrid,Golf Apparel,East Warehouse,46,11,18,9,8,1.03
+172,Nike Women's Tempo Shorts,Cardio Equipment,East Warehouse,24,3,17,9,7,1.02
+797,Hirzl Women's Soffft Flex Golf Glove,Golf Balls,East Warehouse,72,16,27,12,14,1.02
+564,Nike Men's Deutschland Weltmeister Winners Bl,Girls' Apparel,West Warehouse,46,9,28,13,14,1.01
+818,Titleist Pro V1x Golf Balls,Electronics,West Warehouse,46,4,21,11,9,1.02
+135,Nike Dri-FIT Crew Sock 6 Pack,Hockey,West Warehouse,14,3,15,8,6,1.01
+905,Team Golf Texas Longhorns Putter Grip,Accessories,East Warehouse,22,8,21,10,10,1.01
+775,Clicgear 8.0 Shoe Brush,Golf Gloves,West Warehouse,16,4,15,8,6,1.01
+572,TYR Boys' Team Digi Jammer,Girls' Apparel,West Warehouse,24,8,19,10,9,1.0
+793,Hirzl Women's Hybrid Golf Glove,Golf Balls,West Warehouse,24,6,24,12,12,1.0
+924,Glove It Urban Brick Golf Towel,Trade-In,Central DC,14,4,16,9,7,0.99
+771,Clicgear Rovic Cooler Bag,Golf Gloves,West Warehouse,38,4,23,11,12,0.98
+792,Hirzl Men's Hybrid Golf Glove,Golf Balls,Central DC,34,8,22,11,11,0.98
+886,Team Golf San Francisco Giants Putter Grip,Accessories,West Warehouse,26,8,11,7,4,0.98
+821,Titleist Pro V1 High Numbers Personalized Gol,Electronics,West Warehouse,32,11,22,11,11,0.97
+567,adidas Men's Germany Black Crest Away Tee,Girls' Apparel,East Warehouse,29,7,19,10,9,0.99
+235,Under Armour Hustle Storm Medium Duffle Bag,Fitness Accessories,West Warehouse,22,4,12,7,5,0.97
+282,Under Armour Women's Ignite PIP VI Slide,Electronics,West Warehouse,20,4,12,7,5,0.97
+778,Bag Boy Beverage Holder,Golf Gloves,West Warehouse,72,16,25,12,13,0.96
+249,Under Armour Women's Micro G Skulpt Running S,Boxing & MMA,East Warehouse,16,1,23,11,12,0.96
+1362,Fighting video games,Video Games,Central DC,113,34,347,156,13,14.62
+93,Under Armour Men's Tech II T-Shirt,Lacrosse,Central DC,11,2,15,8,7,0.95
+897,Team Golf New England Patriots Putter Grip,Accessories,East Warehouse,4,0,9,6,3,0.93
+822,Titleist Pro V1x High Numbers Golf Balls,Electronics,West Warehouse,33,11,17,9,8,0.93
+278,Under Armour Men's Compression EV SL Slide,Electronics,Central DC,52,3,21,10,11,0.92
+134,Nike Women's Legend V-Neck T-Shirt,Hockey,East Warehouse,57,3,23,11,13,0.91
+825,Bridgestone e6 Straight Distance NFL Tennesse,Electronics,Central DC,45,8,22,11,11,0.92
+273,Under Armour Kids' Mercenary Slide,Electronics,East Warehouse,35,10,16,9,7,0.91
+810,Glove It Women's Mod Oval Golf Glove,Golf Balls,East Warehouse,53,18,21,10,12,0.88
+37,adidas Kids' F5 Messi FG Soccer Cleat,Baseball & Softball,West Warehouse,16,1,12,7,5,0.88
+1363,Summer dresses,Women's Clothing,West Warehouse,182,51,153,92,5,12.13
+1350,Children's heaters,Children's Clothing,Central DC,171,26,222,119,11,9.28
+1349,Web Camera,Cameras ,East Warehouse,121,41,233,125,14,7.7
+1361,Toys,Toys,Central DC,64,6,104,69,4,8.59
+1359,Adult dog supplies,Pet Supplies,Central DC,323,90,178,101,7,10.98
