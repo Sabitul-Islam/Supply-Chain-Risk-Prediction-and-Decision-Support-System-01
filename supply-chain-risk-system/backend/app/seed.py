@@ -6,7 +6,7 @@ from sqlalchemy.orm import Session
 
 from .config import OPERATIONAL_DIR
 from .ml.predictor import ModelNotAvailable, predict_machines, predict_shipments
-from .models import InventoryItem, Machine, Product, Shipment, Supplier
+from .models import Customer, InventoryItem, Machine, Product, Shipment, Supplier
 from .services.risk import supplier_risk
 
 log = logging.getLogger("seed")
@@ -74,8 +74,27 @@ def seed_database(db: Session):
                                 product_price=float(r["product_price"]), discount_rate=float(r["discount_rate"]),
                                 sales=float(r["sales"]), late_probability=p["probability"], predicted_late=p["prediction"],
                                 risk_level=p["risk_level"], recommendation=p["recommendation"],
-                                actual_late=bool(r["actual_late"])))
+                                actual_late=bool(r["actual_late"]), source="dataco"))
             db.commit()
             log.info("Seeded %d shipments with model predictions", len(rows))
     except ModelNotAvailable as e:
         log.warning("Machines/shipments not seeded: %s", e)
+
+    if db.query(Customer).count() == 0:
+        # Fictional sample customers (clearly marked). Market / region / segment use DataCo values so that orders
+        # can be scored by the late-delivery model. Replace or extend them on the Orders page.
+        for code, name, seg, market, region in SAMPLE_CUSTOMERS:
+            db.add(Customer(customer_code=code, name=name, segment=seg, market=market, order_region=region,
+                            is_sample=True))
+        db.commit()
+        log.info("Seeded %d sample customers", len(SAMPLE_CUSTOMERS))
+
+
+SAMPLE_CUSTOMERS = [
+    ("CUS-S01", "Sample Customer - Sports Retail (Europe)", "Corporate", "Europe", "Western Europe"),
+    ("CUS-S02", "Sample Customer - Online Store (USA)", "Consumer", "USCA", "East of USA"),
+    ("CUS-S03", "Sample Customer - Fitness Club (LATAM)", "Corporate", "LATAM", "South America"),
+    ("CUS-S04", "Sample Customer - Home Office (Asia)", "Home Office", "Pacific Asia", "Southeast Asia"),
+    ("CUS-S05", "Sample Customer - Outdoor Shop (Canada)", "Consumer", "USCA", "Canada"),
+    ("CUS-S06", "Sample Customer - Distributor (Africa)", "Corporate", "Africa", "North Africa"),
+]

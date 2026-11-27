@@ -62,3 +62,8 @@ export function uploadCsv(path, file) {
 
 export const fmtPct = (p) => (p == null ? '-' : `${(p * 100).toFixed(1)}%`)
 export const fmtNum = (n, d = 0) => (n == null ? '-' : Number(n).toLocaleString(undefined, { maximumFractionDigits: d, minimumFractionDigits: d }))
+export const fmtMoney = (n) => (n == null ? '-' : '$' + Number(n).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }))
+// Date-only strings (YYYY-MM-DD) are shown as local calendar dates, not shifted by the time zone.
+export const fmtDate = (d) => (d ? new Date(d.length === 10 ? d + 'T00:00:00' : d).toLocaleDateString() : '-')
+export const fmtDateTime = (d) => (d ? new Date(d).toLocaleString() : '-')
+export const todayISO = () => { const d = new Date(); d.setMinutes(d.getMinutes() - d.getTimezoneOffset()); return d.toISOString().slice(0, 10) }

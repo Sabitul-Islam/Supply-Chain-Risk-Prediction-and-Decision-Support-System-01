@@ -19,6 +19,11 @@ const paths = {
   refresh: 'M4 4v6h6M20 20v-6h-6M5.5 15a7 7 0 0012.1 2.5M18.5 9A7 7 0 006.4 6.5',
   alert: 'M12 9v4M12 17h.01M10.3 3.9L1.8 18a2 2 0 001.7 3h17a2 2 0 001.7-3L13.7 3.9a2 2 0 00-3.4 0z',
   send: 'M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z',
+  orders: 'M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2M9 12h6M9 16h4',
+  purchase: 'M3 3h2l2.4 12.2a2 2 0 002 1.8h8.2a2 2 0 002-1.6L21 8H6M9 21h.01M18 21h.01',
+  returns: 'M9 14L4 9l5-5M4 9h11a5 5 0 010 10h-3',
+  decision: 'M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4zM9 12l2 2 4-4',
+  arrow: 'M5 12h14M13 6l6 6-6 6',
 }
 
 export default function Icon({ name, className = 'h-5 w-5' }) {

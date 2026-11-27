@@ -65,7 +65,9 @@ def test_login_and_protected_routes(client, auth):
     assert client.get("/api/dashboard/summary", headers={"Authorization": "Bearer invalid.token"}).status_code == 401
     me = client.get("/api/auth/me", headers=auth).json()
     assert me["email"] == "tester@example.com" and "password_hash" not in me
-    assert client.post("/api/auth/logout", headers=auth).status_code == 200
+    # logout uses its own token so the shared `auth` token stays valid for the other tests
+    other = client.post("/api/auth/login", json={"email": "tester@example.com", "password": PW}).json()["access_token"]
+    assert client.post("/api/auth/logout", headers={"Authorization": f"Bearer {other}"}).status_code == 200
 
 
 # ---------------- Rule-based calculations ----------------
@@ -179,3 +181,44 @@ def test_demand_and_assistant(client, auth):
     assert doc["type"] == "documentation" and "Supplier risk calculation" in doc["sources"]
     m = client.post("/api/assistant/ask", json={"question": "What is the model accuracy?"}, headers=auth).json()
     assert "Random forest" in m["answer"] or "random forest" in m["answer"]
+
+
+# ---------------- Demand forecasting ----------------
+def test_demand_forecast(client, auth):
+    assert client.get("/api/demand/forecast").status_code == 401  # protected
+    f = client.get("/api/demand/forecast?horizon=4", headers=auth).json()
+    assert f["available"] and len(f["forecast"]) == 4 and f["forecast"][0]["month"] == "2017-10"
+    for row in f["forecast"]:
+        assert 0 <= row["lower"] <= row["forecast"] <= row["upper"]
+    assert f["backtest"]["mae"] >= 0 and "beats_baseline" in f["backtest"]
+    # product with enough history, product with too little, unknown product, bad horizon
+    products = client.get("/api/demand/products", headers=auth).json()
+    pf = client.get(f"/api/demand/forecast/{products[0]['product_id']}", headers=auth).json()
+    assert pf["available"] and len(pf["forecast"]) == 3
+    short = next(p for p in products if p["active_months"] < 8)
+    assert client.get(f"/api/demand/forecast/{short['product_id']}", headers=auth).json()["available"] is False
+    assert client.get("/api/demand/forecast/99999999", headers=auth).status_code == 404
+    assert client.get("/api/demand/forecast?horizon=99", headers=auth).status_code == 422
+
+
+def test_forecast_follows_data():
+    """The forecast must react to the input (not be a static value): a rising series forecasts higher."""
+    import pandas as pd
+    from app.services.demand import forecast
+    months = pd.period_range("2016-01", periods=12, freq="M").astype(str)
+    low = forecast(pd.DataFrame({"month": months, "quantity": [100] * 12}), 2)
+    high = forecast(pd.DataFrame({"month": months, "quantity": [100] * 6 + [500] * 6}), 2)
+    assert low["forecast"][0]["forecast"] == 100
+    assert high["forecast"][0]["forecast"] > 300
+
+
+def test_logout_revokes_token(client):
+    """After logout the same token must no longer work (server-side revocation), but a new login does."""
+    body = {"full_name": "Logout User", "email": "logout@example.com", "password": PW, "confirm_password": PW}
+    tok = client.post("/api/auth/register", json=body).json()["access_token"]
+    h = {"Authorization": f"Bearer {tok}"}
+    assert client.get("/api/auth/me", headers=h).status_code == 200
+    assert client.post("/api/auth/logout", headers=h).status_code == 200
+    assert client.get("/api/auth/me", headers=h).status_code == 401
+    new = client.post("/api/auth/login", json={"email": "logout@example.com", "password": PW}).json()["access_token"]
+    assert client.get("/api/auth/me", headers={"Authorization": f"Bearer {new}"}).status_code == 200

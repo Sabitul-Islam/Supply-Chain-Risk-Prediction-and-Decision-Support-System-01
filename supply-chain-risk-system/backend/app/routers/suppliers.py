@@ -4,10 +4,12 @@ from sqlalchemy.orm import Session
 
 from ..auth import get_current_user
 from ..database import get_db
-from ..models import Supplier
+from ..models import InventoryItem, Product, PurchaseOrder, Supplier
 from ..schemas import SupplierIn
 from ..services.csv_utils import read_csv_upload, validate_rows
-from ..services.risk import SUPPLIER_THRESHOLDS, SUPPLIER_WEIGHTS, supplier_risk
+from ..services.planning import rank_suppliers
+from ..services.purchasing import inbound_state, serialize_po
+from ..services.risk import SUPPLIER_THRESHOLDS, SUPPLIER_WEIGHTS, inventory_risk, supplier_risk
 
 router = APIRouter(prefix="/api/suppliers", tags=["procurement"], dependencies=[Depends(get_current_user)])
 COLUMNS = list(SupplierIn.model_fields)
@@ -75,6 +77,8 @@ def delete(supplier_id: int, db: Session = Depends(get_db)):
     s = db.get(Supplier, supplier_id)
     if not s:
         raise HTTPException(404, "Supplier not found.")
+    if db.query(PurchaseOrder).filter(PurchaseOrder.supplier_id == s.id).count():
+        raise HTTPException(409, "This supplier has purchase orders and cannot be deleted (keeps the audit trail).")
     db.delete(s)
     db.commit()
     return {"detail": "Supplier deleted"}
@@ -96,3 +100,35 @@ async def upload(file: UploadFile = File(...), db: Session = Depends(get_db)):
         apply(s, data)
     db.commit()
     return {"created": created, "updated": updated, "rejected": len(errors), "errors": errors[:25]}
+
+
+@router.get("/recommend/{product_id}")
+def recommend(product_id: int, db: Session = Depends(get_db)):
+    """Suppliers able to supply a product (same department), ranked by the documented selection score."""
+    p = db.get(Product, product_id)
+    if not p:
+        raise HTTPException(404, "Product not found.")
+    return {"product_id": p.id, "product_name": p.name, "department": p.department,
+            "candidates": rank_suppliers(db, p)}
+
+
+@router.get("/{supplier_id}")
+def detail(supplier_id: int, db: Session = Depends(get_db)):
+    """Supplier profile: risk breakdown, associated products with stock position, purchase orders and the
+    OBSERVED inbound on-time rate from received purchase orders in this system."""
+    s = db.get(Supplier, supplier_id)
+    if not s:
+        raise HTTPException(404, "Supplier not found.")
+    products = []
+    for p in db.query(Product).filter(Product.supplier_id == s.id).order_by(Product.name).all():
+        stock = [{"warehouse": i.warehouse, "net_stock": i.available_stock - i.reserved_stock,
+                  "stockout_risk": inventory_risk(i.available_stock, i.reserved_stock, i.reorder_level, i.safety_stock,
+                                                  i.lead_time_days, i.avg_daily_demand)["stockout_risk"]}
+                 for i in db.query(InventoryItem).filter(InventoryItem.product_id == p.id).all()]
+        products.append({"id": p.id, "name": p.name, "category": p.category, "price": p.price, "stock": stock})
+    pos = db.query(PurchaseOrder).filter(PurchaseOrder.supplier_id == s.id).order_by(PurchaseOrder.id.desc()).all()
+    received = [po for po in pos if po.status == "Received" and po.expected_arrival_date]
+    on_time = sum(1 for po in received if not inbound_state(po)["is_delayed"])
+    return {**serialize(s), "products": products, "purchase_orders": [serialize_po(po) for po in pos],
+            "observed_inbound": {"received_orders": len(received), "on_time": on_time,
+                                 "on_time_rate": round(on_time / len(received) * 100, 1) if received else None}}

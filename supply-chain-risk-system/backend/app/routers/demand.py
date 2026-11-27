@@ -5,6 +5,7 @@ from ..services import demand
 
 router = APIRouter(prefix="/api/demand", tags=["demand"], dependencies=[Depends(get_current_user)])
 Period = Query("consistent", pattern="^(consistent|all)$")
+Horizon = Query(3, ge=1, le=6, description="Months to forecast (1-6)")
 
 
 def _guard(fn, *args):
@@ -27,6 +28,21 @@ def products(period: str = Period):
 @router.get("/products/{product_id}")
 def product(product_id: int, period: str = Period):
     res = _guard(demand.product_detail, product_id, period)
+    if res is None:
+        raise HTTPException(404, "Product not found in demand data.")
+    return res
+
+
+@router.get("/forecast")
+def forecast_total(horizon: int = Horizon):
+    """Forecast of total monthly demand (all products). Always uses the consistent period."""
+    return _guard(demand.total_forecast, horizon)
+
+
+@router.get("/forecast/{product_id}")
+def forecast_product(product_id: int, horizon: int = Horizon):
+    """Forecast of monthly demand for one product."""
+    res = _guard(demand.product_forecast, product_id, horizon)
     if res is None:
         raise HTTPException(404, "Product not found in demand data.")
     return res

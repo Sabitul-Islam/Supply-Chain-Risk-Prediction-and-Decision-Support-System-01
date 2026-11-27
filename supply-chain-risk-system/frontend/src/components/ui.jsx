@@ -220,3 +220,61 @@ export function ProbabilityBar({ value }) {
     </div>
   )
 }
+
+// Workflow status badge (orders, purchase orders, shipments, returns). Neutral palette, text always visible.
+const STATUS_TONE = {
+  Pending: 'bg-gray-50 text-gray-700 border-gray-200', Draft: 'bg-gray-50 text-gray-700 border-gray-200',
+  Requested: 'bg-gray-50 text-gray-700 border-gray-200', Planned: 'bg-gray-50 text-gray-700 border-gray-200',
+  Confirmed: 'bg-blue-50 text-blue-800 border-blue-200', Approved: 'bg-blue-50 text-blue-800 border-blue-200',
+  Processing: 'bg-indigo-50 text-indigo-800 border-indigo-200', 'Ready for Shipment': 'bg-indigo-50 text-indigo-800 border-indigo-200',
+  Received: 'bg-indigo-50 text-indigo-800 border-indigo-200', Inspected: 'bg-indigo-50 text-indigo-800 border-indigo-200',
+  Shipped: 'bg-sky-50 text-sky-800 border-sky-200', Ordered: 'bg-sky-50 text-sky-800 border-sky-200', 'In Transit': 'bg-sky-50 text-sky-800 border-sky-200',
+  Delivered: 'bg-green-50 text-green-800 border-green-200', Restocked: 'bg-green-50 text-green-800 border-green-200',
+  Cancelled: 'bg-gray-100 text-gray-500 border-gray-200', Rejected: 'bg-gray-100 text-gray-500 border-gray-200',
+}
+export function StatusBadge({ status }) {
+  if (!status) return <span className="text-xs text-gray-400">-</span>
+  return <span className={`inline-flex whitespace-nowrap rounded-md border px-2 py-0.5 text-xs font-medium ${STATUS_TONE[status] || STATUS_TONE.Pending}`}>{status}</span>
+}
+
+// Labels the kind of evidence behind a number: ML prediction, rule-based, forecast, observed, sample data.
+const BASIS_TONE = {
+  ml: 'bg-violet-50 text-violet-800 border-violet-200', rule: 'bg-amber-50 text-amber-900 border-amber-200',
+  forecast: 'bg-cyan-50 text-cyan-900 border-cyan-200', observed: 'bg-emerald-50 text-emerald-900 border-emerald-200',
+  sample: 'bg-gray-50 text-gray-700 border-gray-300 border-dashed',
+}
+export function BasisTag({ kind, children }) {
+  return <span className={`inline-flex whitespace-nowrap rounded border px-1.5 py-0.5 text-[11px] font-medium ${BASIS_TONE[kind] || BASIS_TONE.sample}`}>{children}</span>
+}
+export const basisKind = (text = '') => {
+  const t = text.toLowerCase()
+  if (t.includes('ml prediction') || t.includes('random forest')) return 'ml'
+  if (t.includes('forecast')) return 'forecast'
+  if (t.includes('observed')) return 'observed'
+  if (t.includes('rule')) return 'rule'
+  return 'sample'
+}
+
+export function Tabs({ tabs, value, onChange }) {
+  return (
+    <div className="mb-4 flex flex-wrap gap-1 border-b border-gray-200" role="tablist">
+      {tabs.map((t) => (
+        <button key={t.value} role="tab" aria-selected={value === t.value} onClick={() => onChange(t.value)}
+          className={`-mb-px border-b-2 px-3 py-2 text-sm font-medium ${value === t.value ? 'border-accent text-accent-dark' : 'border-transparent text-gray-500 hover:text-gray-800'}`}>
+          {t.label}{t.count != null && <span className="ml-1.5 rounded-full bg-gray-100 px-1.5 text-xs text-gray-600">{t.count}</span>}
+        </button>
+      ))}
+    </div>
+  )
+}
+
+// Read-only label / value grid used in detail dialogs
+export function DetailList({ items }) {
+  return (
+    <dl className="grid grid-cols-2 gap-x-6 gap-y-2 text-sm sm:grid-cols-3">
+      {items.filter(Boolean).map(([k, v]) => (
+        <div key={k}><dt className="text-xs text-gray-500">{k}</dt><dd className="font-medium text-gray-900">{v ?? '-'}</dd></div>
+      ))}
+    </dl>
+  )
+}

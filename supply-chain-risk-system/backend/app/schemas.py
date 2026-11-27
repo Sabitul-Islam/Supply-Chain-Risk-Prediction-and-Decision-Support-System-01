@@ -1,6 +1,6 @@
 """Pydantic request/response schemas with validation."""
 import re
-from datetime import datetime
+from datetime import date, datetime
 from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, EmailStr, Field, field_validator, model_validator
@@ -121,3 +121,109 @@ class ShipmentIn(BaseModel):
 
 class AskIn(BaseModel):
     question: str = Field(min_length=2, max_length=500)
+
+
+# ---------------- v2: operational workflows ----------------
+def _strip(v):
+    return v.strip() if isinstance(v, str) else v
+
+
+class CustomerIn(BaseModel):
+    customer_code: str | None = Field(default=None, max_length=20, description="Generated when empty")
+    name: str = Field(min_length=2, max_length=150)
+    email: EmailStr | None = None
+    segment: str = Field(min_length=1, max_length=50)
+    market: str = Field(min_length=1, max_length=50)
+    order_region: str = Field(min_length=1, max_length=80)
+
+    _s = field_validator("customer_code", "name", "segment", "market", "order_region", mode="before")(_strip)
+
+
+class OrderItemIn(BaseModel):
+    product_id: int = Field(gt=0)
+    quantity: int = Field(ge=1, le=10000)
+
+
+class OrderCreate(BaseModel):
+    customer_id: int = Field(gt=0)
+    payment_type: str = Field(min_length=1, max_length=30)
+    shipping_mode: str = Field(min_length=1, max_length=30)
+    discount_rate: float = Field(default=0, ge=0, le=0.9)
+    order_date: datetime | None = None
+    notes: str | None = Field(default=None, max_length=500)
+    items: list[OrderItemIn] = Field(min_length=1, max_length=50)
+
+
+ORDER_STATUSES = Literal["Pending", "Confirmed", "Processing", "Ready for Shipment", "Shipped", "Delivered", "Cancelled"]
+
+
+class OrderStatusIn(BaseModel):
+    status: ORDER_STATUSES
+    note: str | None = Field(default=None, max_length=300)
+    delivery_date: date | None = None
+
+
+class ShippingModeIn(BaseModel):
+    shipping_mode: str = Field(min_length=1, max_length=30)
+
+
+class POItemIn(BaseModel):
+    product_id: int = Field(gt=0)
+    quantity: int = Field(ge=1, le=1_000_000)
+    unit_cost: float | None = Field(default=None, ge=0)
+
+
+class POCreate(BaseModel):
+    supplier_id: int = Field(gt=0)
+    warehouse: str = Field(min_length=1, max_length=80)
+    expected_arrival_date: date | None = None
+    notes: str | None = Field(default=None, max_length=1000)
+    items: list[POItemIn] = Field(min_length=1, max_length=50)
+
+
+class POStatusIn(BaseModel):
+    status: Literal["Approved", "Ordered", "Cancelled"]
+    expected_arrival_date: date | None = None
+
+
+class POReceiveLine(BaseModel):
+    item_id: int
+    received_quantity: int = Field(ge=0)
+
+
+class POReceiveIn(BaseModel):
+    actual_arrival_date: date | None = None
+    items: list[POReceiveLine] | None = None
+
+
+class POGenerateIn(BaseModel):
+    inventory_ids: list[int] | None = None
+
+
+class ReturnItemIn(BaseModel):
+    order_item_id: int = Field(gt=0)
+    quantity: int = Field(ge=1, le=10000)
+
+
+class ReturnCreate(BaseModel):
+    sales_order_id: int = Field(gt=0)
+    reason: str = Field(min_length=3, max_length=300)
+    items: list[ReturnItemIn] = Field(min_length=1, max_length=50)
+
+
+class ReturnStatusIn(BaseModel):
+    status: Literal["Approved", "Received", "Inspected", "Restocked", "Rejected"]
+    inspection_outcome: str | None = Field(default=None, max_length=40)
+    notes: str | None = Field(default=None, max_length=500)
+
+
+class StockAdjustIn(BaseModel):
+    quantity_change: int = Field(ge=-1_000_000, le=1_000_000)
+    reason: str = Field(min_length=3, max_length=200)
+
+    @field_validator("quantity_change")
+    @classmethod
+    def non_zero(cls, v):
+        if v == 0:
+            raise ValueError("Adjustment must not be zero")
+        return v

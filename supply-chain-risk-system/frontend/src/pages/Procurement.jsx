@@ -2,8 +2,10 @@ import { useMemo, useState } from 'react'
 import { Bar, BarChart, CartesianGrid, LabelList, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
 import CsvUpload from '../components/CsvUpload.jsx'
 import { ChartTooltip, RiskBarChart, SERIES, axisProps } from '../components/charts.jsx'
-import { Button, Card, ErrorBanner, Field, Input, Loading, Modal, PageHeader, RiskBadge, Select, SuccessBanner, Table } from '../components/ui.jsx'
-import { api } from '../services/api.js'
+import { Link } from 'react-router-dom'
+import { useConfirm } from '../components/feedback.jsx'
+import { BasisTag, Button, Card, ErrorBanner, Field, Input, Loading, Modal, PageHeader, RiskBadge, Select, StatusBadge, SuccessBanner, Table } from '../components/ui.jsx'
+import { api, fmtDate, fmtNum } from '../services/api.js'
 import { useApi } from '../services/useApi.js'
 
 const EMPTY = { supplier_code: '', name: '', country: '', category: '', on_time_delivery_rate: '', defect_rate: '',
@@ -54,10 +56,39 @@ function SupplierForm({ initial, onSaved, onCancel }) {
   )
 }
 
+function SupplierLinks({ id }) {
+  const d = useApi(`/api/suppliers/${id}`)
+  if (d.loading) return <Loading />
+  if (d.error) return <ErrorBanner message={d.error} />
+  const o = d.data.observed_inbound
+  return (
+    <div className="space-y-4">
+      <div>
+        <p className="mb-2 font-medium text-gray-700">Associated products ({d.data.products.length})</p>
+        <Table rows={d.data.products} maxHeight={220} empty="No products are linked to this supplier." columns={[
+          { key: 'name', label: 'Product', render: (p) => <span className="block max-w-64 truncate">{p.name}</span> },
+          { key: 'category', label: 'Category' },
+          { key: 'stock', label: 'Stock (net) / risk', render: (p) => p.stock.length ? p.stock.map((x) => <span key={x.warehouse} className="mr-2 inline-flex items-center gap-1">{x.warehouse}: {fmtNum(x.net_stock)} <RiskBadge level={x.stockout_risk} /></span>) : <span className="text-gray-400">not stocked</span> },
+        ]} />
+      </div>
+      <div>
+        <p className="mb-2 font-medium text-gray-700">Purchase orders ({d.data.purchase_orders.length}) <span className="ml-2 font-normal text-gray-500">Observed inbound on-time rate: {o.on_time_rate == null ? 'no received POs yet' : `${o.on_time_rate}% of ${o.received_orders} received`}</span> <BasisTag kind="observed">Observed</BasisTag></p>
+        <Table rows={d.data.purchase_orders} maxHeight={200} empty="No purchase orders with this supplier." columns={[
+          { key: 'po_number', label: 'PO' }, { key: 'status', label: 'Status', render: (p) => <StatusBadge status={p.status} /> },
+          { key: 'units', label: 'Units', align: 'right' }, { key: 'expected_arrival_date', label: 'Expected', render: (p) => fmtDate(p.expected_arrival_date) },
+          { key: 'actual_arrival_date', label: 'Arrived', render: (p) => fmtDate(p.actual_arrival_date) },
+          { key: 'is_delayed', label: 'Delay', render: (p) => (p.is_delayed ? <span className="text-risk-high">{p.days_late} d</span> : '-') },
+        ]} />
+      </div>
+    </div>
+  )
+}
+
 function SupplierDetail({ s }) {
   const data = Object.entries(s.breakdown).map(([k, v]) => ({ factor: FACTOR_LABELS[k], score: v }))
   return (
     <div className="space-y-4 text-sm">
+      <BasisTag kind="rule">Rule-based assessment - not a trained ML model</BasisTag>
       <div className="flex flex-wrap items-center gap-3">
         <span className="text-3xl font-semibold tabular-nums text-gray-900">{s.risk_score}</span>
         <span className="text-gray-500">/ 100 risk score</span><RiskBadge level={s.risk_level} />
@@ -84,6 +115,7 @@ function SupplierDetail({ s }) {
         <dt>Financial stability</dt><dd className="text-right font-medium text-gray-900">{s.financial_stability} / 5</dd>
         <dt>Linked products</dt><dd className="text-right font-medium text-gray-900">{s.product_count}</dd>
       </dl>
+      <SupplierLinks id={s.id} />
     </div>
   )
 }
@@ -96,13 +128,14 @@ export default function Procurement() {
   const [msg, setMsg] = useState('')
   const [actionError, setActionError] = useState('')
   const [deleting, setDeleting] = useState(null)
+  const confirm = useConfirm()
 
   const rows = useMemo(() => (data || []).filter((s) => (!filter || s.risk_level === filter) &&
     (!search || `${s.name} ${s.supplier_code} ${s.country} ${s.category}`.toLowerCase().includes(search.toLowerCase()))), [data, filter, search])
   const dist = ['Low', 'Medium', 'High'].map((level) => ({ level, count: (data || []).filter((s) => s.risk_level === level).length }))
 
   const remove = async (s) => {
-    if (!window.confirm(`Delete supplier ${s.name}?`)) return
+    if (!(await confirm({ title: 'Delete supplier', message: `Delete supplier ${s.name}? Linked products keep their records but lose this supplier. Suppliers with purchase orders cannot be deleted.`, danger: true, confirmLabel: 'Delete' }))) return
     setDeleting(s.id); setActionError('')
     try { await api(`/api/suppliers/${s.id}`, { method: 'DELETE' }); setMsg(`Supplier ${s.name} deleted.`); reload() } catch (e) { setActionError(e.message) } finally { setDeleting(null) }
   }
@@ -128,8 +161,8 @@ export default function Procurement() {
 
   return (
     <div>
-      <PageHeader title="Procurement" description="Supplier records, performance and rule-based supplier risk scoring."
-        actions={<Button icon="plus" onClick={() => setModal({ mode: 'add' })}>Add supplier</Button>} />
+      <PageHeader title="Procurement - Suppliers" description="Supplier records, performance indicators, rule-based supplier risk scoring, associated products and purchase-order history."
+        actions={<><Link to="/purchase-orders"><Button variant="secondary" icon="purchase">Purchase orders & recommendations</Button></Link><Button icon="plus" onClick={() => setModal({ mode: 'add' })}>Add supplier</Button></>} />
       <SuccessBanner message={msg} onClose={() => setMsg('')} />
       <ErrorBanner message={actionError || error} onRetry={error ? reload : undefined} />
 
@@ -166,7 +199,7 @@ export default function Procurement() {
           onDone={() => reload()} />
       </Card>
 
-      <Modal open={!!modal} onClose={() => setModal(null)} wide={modal?.mode !== 'view'}
+      <Modal open={!!modal} onClose={() => setModal(null)} wide
         title={modal?.mode === 'add' ? 'Add supplier' : modal?.mode === 'edit' ? `Edit ${modal.supplier.name}` : modal?.supplier?.name}>
         {modal?.mode === 'view' ? <SupplierDetail s={modal.supplier} /> : modal && (
           <SupplierForm initial={modal.supplier} onCancel={() => setModal(null)}

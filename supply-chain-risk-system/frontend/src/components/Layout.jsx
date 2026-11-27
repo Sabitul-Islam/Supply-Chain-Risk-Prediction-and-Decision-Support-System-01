@@ -3,15 +3,28 @@ import { NavLink, Outlet, useNavigate } from 'react-router-dom'
 import { useAuth } from '../services/auth.jsx'
 import Icon from './icons.jsx'
 
+// Navigation grouped by supply chain stage (plan -> source -> make -> deliver -> return).
 const NAV = [
-  { to: '/', label: 'Overview', icon: 'overview' },
-  { to: '/procurement', label: 'Procurement', icon: 'procurement' },
-  { to: '/production', label: 'Production', icon: 'production' },
-  { to: '/inventory', label: 'Inventory', icon: 'inventory' },
-  { to: '/transportation', label: 'Transportation', icon: 'transportation' },
-  { to: '/demand', label: 'Demand Analysis', icon: 'demand' },
-  { to: '/assistant', label: 'AI Assistant', icon: 'assistant' },
-  { to: '/history', label: 'Prediction History', icon: 'history' },
+  { section: 'Control tower', items: [
+    { to: '/', label: 'Overview', icon: 'overview' },
+    { to: '/decision', label: 'Decision Support', icon: 'decision' },
+  ] },
+  { section: 'Plan', items: [{ to: '/demand', label: 'Demand Forecasting', icon: 'demand' }] },
+  { section: 'Source', items: [
+    { to: '/procurement', label: 'Suppliers', icon: 'procurement' },
+    { to: '/purchase-orders', label: 'Purchase Orders', icon: 'purchase' },
+  ] },
+  { section: 'Make', items: [{ to: '/production', label: 'Production', icon: 'production' }] },
+  { section: 'Deliver', items: [
+    { to: '/orders', label: 'Orders', icon: 'orders' },
+    { to: '/inventory', label: 'Inventory', icon: 'inventory' },
+    { to: '/transportation', label: 'Transportation', icon: 'transportation' },
+  ] },
+  { section: 'Return', items: [{ to: '/returns', label: 'Returns', icon: 'returns' }] },
+  { section: 'Insights', items: [
+    { to: '/assistant', label: 'AI Assistant', icon: 'assistant' },
+    { to: '/history', label: 'Prediction History', icon: 'history' },
+  ] },
 ]
 
 export default function Layout() {
@@ -35,16 +48,23 @@ export default function Layout() {
           <p className="text-xs text-gray-500">Decision Support</p>
         </div>
       </div>
-      <ul className="flex-1 space-y-0.5 px-3">
-        {NAV.map((n) => (
-          <li key={n.to}>
-            <NavLink to={n.to} end={n.to === '/'} onClick={() => setOpen(false)}
-              className={({ isActive }) => `flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium transition-colors ${isActive ? 'bg-accent-light text-accent-dark' : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'}`}>
-              <Icon name={n.icon} className="h-[18px] w-[18px]" />{n.label}
-            </NavLink>
-          </li>
+      <div className="flex-1 overflow-y-auto px-3 pb-3">
+        {NAV.map((g) => (
+          <div key={g.section} className="mb-2">
+            <p className="px-3 pb-1 pt-2 text-[11px] font-semibold uppercase tracking-wider text-gray-400">{g.section}</p>
+            <ul className="space-y-0.5">
+              {g.items.map((n) => (
+                <li key={n.to}>
+                  <NavLink to={n.to} end={n.to === '/'} onClick={() => setOpen(false)}
+                    className={({ isActive }) => `flex items-center gap-3 rounded-lg px-3 py-1.5 text-sm font-medium transition-colors ${isActive ? 'bg-accent-light text-accent-dark' : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'}`}>
+                    <Icon name={n.icon} className="h-[18px] w-[18px]" />{n.label}
+                  </NavLink>
+                </li>
+              ))}
+            </ul>
+          </div>
         ))}
-      </ul>
+      </div>
       <div className="border-t border-gray-200 p-3">
         <div className="mb-2 px-3 text-xs text-gray-500">
           <p className="truncate font-medium text-gray-800">{user?.full_name}</p>

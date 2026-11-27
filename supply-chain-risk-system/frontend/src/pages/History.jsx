@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { useConfirm } from '../components/feedback.jsx'
 import { Button, Card, ErrorBanner, Loading, Modal, PageHeader, Pagination, ProbabilityBar, RiskBadge, Select, SuccessBanner, Table } from '../components/ui.jsx'
 import { api } from '../services/api.js'
 import { useApi } from '../services/useApi.js'
@@ -6,6 +7,7 @@ import { useApi } from '../services/useApi.js'
 const MODEL_LABEL = { machine_failure: 'Machine failure', late_delivery: 'Late delivery' }
 
 export default function History() {
+  const confirm = useConfirm()
   const [model, setModel] = useState('')
   const [page, setPage] = useState(1)
   const { data, loading, error, reload } = useApi(`/api/history?page=${page}&page_size=20${model ? `&model=${model}` : ''}`)
@@ -20,7 +22,7 @@ export default function History() {
     try { await api(`/api/history/${id}`, { method: 'DELETE' }); setMsg('Entry deleted.'); reload() } catch (e) { setErr(e.message) } finally { setBusy(null) }
   }
   const clearAll = async () => {
-    if (!window.confirm('Delete your entire prediction history?')) return
+    if (!(await confirm({ title: 'Clear prediction history', message: 'Delete your entire prediction history? This cannot be undone.', danger: true, confirmLabel: 'Delete all' }))) return
     setBusy('all')
     try { const r = await api('/api/history', { method: 'DELETE' }); setMsg(r.detail); setPage(1); reload() } catch (e) { setErr(e.message) } finally { setBusy(null) }
   }

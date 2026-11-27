@@ -1,9 +1,13 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
-from ..auth import create_access_token, get_current_user, hash_password, verify_password
+from datetime import datetime, timezone
+
+from fastapi.security import HTTPAuthorizationCredentials
+
+from ..auth import bearer, create_access_token, decode_token, get_current_user, hash_password, verify_password
 from ..database import get_db
-from ..models import User
+from ..models import RevokedToken, User
 from ..schemas import LoginIn, RegisterIn, TokenOut, UserOut
 
 router = APIRouter(prefix="/api/auth", tags=["auth"])
@@ -35,6 +39,10 @@ def me(user: User = Depends(get_current_user)):
 
 
 @router.post("/logout")
-def logout(user: User = Depends(get_current_user)):
-    # JWTs are stateless: the client discards the token. Endpoint exists so logout is an explicit, verified action.
+def logout(user: User = Depends(get_current_user), creds: HTTPAuthorizationCredentials = Depends(bearer),
+           db: Session = Depends(get_db)):
+    """Revoke the current token: its jti is stored, and get_current_user rejects it from now on."""
+    payload = decode_token(creds.credentials)
+    db.merge(RevokedToken(jti=payload["jti"], expires_at=datetime.fromtimestamp(payload["exp"], tz=timezone.utc)))
+    db.commit()
     return {"detail": "Logged out"}

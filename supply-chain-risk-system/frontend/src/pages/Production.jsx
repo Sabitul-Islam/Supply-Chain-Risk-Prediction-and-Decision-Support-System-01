@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { useConfirm } from '../components/feedback.jsx'
 import CsvUpload from '../components/CsvUpload.jsx'
 import ModelMetrics from '../components/ModelMetrics.jsx'
 import PredictionResult from '../components/PredictionResult.jsx'
@@ -18,6 +19,7 @@ const NUM_FIELDS = [
 ]
 
 export default function Production() {
+  const confirm = useConfirm()
   const machines = useApi('/api/machines')
   const [form, setForm] = useState(DEFAULTS)
   const [result, setResult] = useState(null)
@@ -44,7 +46,7 @@ export default function Production() {
   }
 
   const rowAction = async (m, action) => {
-    if (action === 'delete' && !window.confirm(`Delete machine ${m.machine_code}?`)) return
+    if (action === 'delete' && !(await confirm({ title: 'Delete machine', message: `Delete machine ${m.machine_code}?`, danger: true, confirmLabel: 'Delete' }))) return
     setRowBusy(`${action}-${m.id}`)
     try {
       if (action === 'delete') { await api(`/api/machines/${m.id}`, { method: 'DELETE' }); setMsg(`Machine ${m.machine_code} deleted.`) }

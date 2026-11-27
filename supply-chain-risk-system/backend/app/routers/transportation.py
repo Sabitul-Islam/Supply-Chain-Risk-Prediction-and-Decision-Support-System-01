@@ -10,6 +10,7 @@ from ..models import Product, Shipment, User
 from ..schemas import ShipmentIn
 from ..services.csv_utils import read_csv_upload, validate_rows
 from ..services.history import record
+from ..services.orders import serialize_shipment
 
 router = APIRouter(prefix="/api/shipments", tags=["transportation"])
 FEATURES = ["order_date", "payment_type", "shipping_mode", "scheduled_shipping_days", "market", "order_region",
@@ -47,7 +48,7 @@ def _predict(rows):
 
 def _save(db, d, res):
     product_id = d.get("product_id") if d.get("product_id") and db.get(Product, d["product_id"]) else None
-    s = Shipment(order_id=d.get("order_id") or f"NEW-{db.query(Shipment).count() + 1:05d}",
+    s = Shipment(order_id=d.get("order_id") or f"NEW-{db.query(Shipment).count() + 1:05d}", source="manual",
                  order_date=d["order_date"], product_id=product_id,
                  **{k: d[k] for k in FEATURES if k != "order_date"}, sales=d["sales"],
                  late_probability=res["probability"], predicted_late=res["prediction"],
@@ -66,14 +67,37 @@ def options(user: User = Depends(get_current_user)):
 
 @router.get("")
 def list_shipments(risk: str | None = Query(None, pattern="^(Low|Medium|High)$"), page: int = Query(1, ge=1),
-                   page_size: int = Query(25, ge=1, le=200), db: Session = Depends(get_db),
-                   user: User = Depends(get_current_user)):
+                   page_size: int = Query(25, ge=1, le=200),
+                   source: str | None = Query(None, pattern="^(dataco|manual|order)$"),
+                   db: Session = Depends(get_db), user: User = Depends(get_current_user)):
     q = db.query(Shipment)
     if risk:
         q = q.filter(Shipment.risk_level == risk)
+    if source:
+        q = q.filter(Shipment.source == source)
     total = q.count()
     items = q.order_by(Shipment.late_probability.desc()).offset((page - 1) * page_size).limit(page_size).all()
     return {"total": total, "page": page, "page_size": page_size, "items": [serialize(s) for s in items]}
+
+
+@router.get("/outbound")
+def outbound(db: Session = Depends(get_db), user: User = Depends(get_current_user)):
+    """Outbound logistics: shipments created from customer orders, with status, dates and predicted delay risk."""
+    rows = db.query(Shipment).filter(Shipment.source == "order").order_by(Shipment.id.desc()).all()
+    out = []
+    for s in rows:
+        o = s.sales_order
+        out.append({**serialize_shipment(s), "order_id": o.id if o else None,
+                    "order_number": o.order_number if o else s.order_id,
+                    "order_status": o.status if o else None, "customer_name": o.customer.name if o else None,
+                    "market": s.market, "order_region": s.order_region, "units": s.quantity})
+    active = [r for r in out if r["status"] in ("Planned", "In Transit")]
+    return {"items": out, "summary": {"total": len(out), "active": len(active),
+                                      "in_transit": sum(r["status"] == "In Transit" for r in out),
+                                      "delivered": sum(r["status"] == "Delivered" for r in out),
+                                      "delayed": sum(r["is_delayed"] for r in active),
+                                      "delivered_late": sum(bool(r["delivered_late"]) for r in out),
+                                      "high_risk_active": sum(r["risk_level"] == "High" for r in active)}}
 
 
 @router.get("/stats")
@@ -82,11 +106,14 @@ def stats(db: Session = Depends(get_db), user: User = Depends(get_current_user))
                        func.sum(case((Shipment.predicted_late.is_(True), 1), else_=0))) \
         .group_by(Shipment.shipping_mode).all()
     by_risk = dict(db.query(Shipment.risk_level, func.count()).group_by(Shipment.risk_level).all())
-    labelled = db.query(Shipment).filter(Shipment.actual_late.isnot(None)).all()
+    # model check only on DataCo hold-out records (their outcome is the real dataset label)
+    labelled = db.query(Shipment).filter(Shipment.actual_late.isnot(None), Shipment.source == "dataco").all()
+    by_source = dict(db.query(Shipment.source, func.count()).group_by(Shipment.source).all())
     correct = sum(1 for s in labelled if s.actual_late == s.predicted_late)
     return {"by_mode": [{"shipping_mode": m, "shipments": n, "avg_late_probability": round(p or 0, 3),
                          "predicted_late": int(pl or 0)} for m, n, p, pl in by_mode],
             "by_risk": {k: by_risk.get(k, 0) for k in ["Low", "Medium", "High"]},
+            "by_source": {k: by_source.get(k, 0) for k in ["dataco", "manual", "order"]},
             "records_with_known_outcome": len(labelled),
             "accuracy_on_records": round(correct / len(labelled), 4) if labelled else None}
 

@@ -14,3 +14,6 @@ frontend/dist/
 Thumbs.db
 .vscode/
 .idea/
+
+# Local databases anywhere
+*.db

@@ -1,5 +1,5 @@
 {
-  "trained_at": "2026-11-22T13:00:58+00:00",
+  "trained_at": "2026-11-22T12:33:52+00:00",
   "sklearn_version": "1.7.2",
   "machine_failure": {
     "dataset": "ai4i2020.csv",
@@ -46,7 +46,7 @@
           "fn": 16,
           "tp": 52
         },
-        "train_seconds": 0.9
+        "train_seconds": 1.2
       },
       "logistic_regression": {
         "accuracy": 0.8585,
@@ -171,7 +171,7 @@
           "fn": 8178,
           "tp": 11491
         },
-        "train_seconds": 6.5
+        "train_seconds": 13.8
       },
       "logistic_regression": {
         "accuracy": 0.6956,
@@ -185,7 +185,7 @@
           "fn": 8968,
           "tp": 10701
         },
-        "train_seconds": 0.8
+        "train_seconds": 0.7
       }
     },
     "selected_model": "random_forest",
